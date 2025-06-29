@@ -11,7 +11,7 @@
 <div class="main-content">
     <div class="container-fluid pt-5">
         <div class="content-box">
-            <h2 class="mb-3">Welcome, Admin 👋</h2>
+          
             <?php include '../db.php'; ?>
             <style>
                 .preview-img {
