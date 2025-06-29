@@ -1,6 +1,6 @@
 
 <?php include '../db.php'; ?>
-
+<?php
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $title = $_POST['title'];
     $category = $_POST['category'];
