@@ -11,7 +11,7 @@
 <link href="../assets/css/font-awesome.css" rel="stylesheet">
 <link href="../assets/css/style.css" rel="stylesheet">
 <?php
-include 'db.php';
+
 $id = intval($_GET['id']);
 
 // Get data

@@ -261,6 +261,8 @@
                                     <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                                         aria-expanded="false">About</a>
                                     <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#">Book List</a></li>
+                                          <li><a class="dropdown-item" href="fee-structure.php">Fee Structure</a></li>
                                         <li><a class="dropdown-item" href="#">History</a></li>
                                         <li><a class="dropdown-item" href="#">Vision & Mission</a></li>
                                         <li><a class="dropdown-item" href="#">Message From Principal</a></li>

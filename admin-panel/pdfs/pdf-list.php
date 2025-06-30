@@ -10,7 +10,7 @@
 <link href="../assets/css/style.css" rel="stylesheet">
 <div class="main-content">
   <div class="container-fluid pt-5">
-    <h2>Manage PDFs</h2>
+    <h2>Manage Docs</h2>
     <table class="table table-bordered">
       <thead>
         <tr>
@@ -39,5 +39,6 @@
         <?php } ?>
       </tbody>
     </table>
+    <a href="add-pdf.php" class="btn btn-secondary">Back</a>
 
   </div>

@@ -19,16 +19,19 @@
             <div class="mb-3">
                 <label>Category</label>
                 <select name="category" class="form-control" required>
-                    <option value="brochures">Brochures</option>
-                    <option value="reports">Reports</option>
-                    <option value="forms">Forms</option>
+                    <option value="fee-structure">Fee Structure</option>
+                    <option value="book-list">Book List</option>
+                    <option value="job-vacancy">Job Vacancy</option>
                 </select>
             </div>
             <div class="mb-3">
                 <label>Select PDF</label>
                 <input type="file" name="pdf" class="form-control" accept="application/pdf" required>
             </div>
-            <button type="submit" class="btn btn-primary">Upload</button>
+            <div class="d-flex justify-item-center">
+                <button type="submit" class="btn btn-primary ">Upload</button>
+                <a href="pdf-list.php" class="btn btn-danger ml-1">View PDF</a>
+            </div>
         </form>
     </div>
 </div>
