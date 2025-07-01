@@ -23,7 +23,7 @@
                      </div>
                        <ul class="mt-4">
                          <li><a href="#">About School</a></li>
-                         <li><a href="#">Download APP</a></li>
+                         <li><a href="gps-app.php">Download GPS APP</a></li>
                          <li><a href="#" data-toggle="modal" data-target="#exampleModal">Make A Query</a></li>
                          <!-- <li><a href="#">Services</a></li>
                          <li><a href="contact.html">Contact us</a></li> -->
