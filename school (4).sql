@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jun 30, 2025 at 08:00 AM
+-- Generation Time: Jul 01, 2025 at 10:31 AM
 -- Server version: 10.4.32-MariaDB
 -- PHP Version: 8.0.30
 
@@ -42,7 +42,8 @@ CREATE TABLE `pdfs` (
 INSERT INTO `pdfs` (`id`, `title`, `category`, `file_name`, `upload_date`) VALUES
 (12, 'Book List Jr-Wing', 'book-list', '1 (1).pdf', '2025-06-29'),
 (13, 'Book List Sr Wing', 'book-list', 'Letter e (1).pdf', '2025-06-29'),
-(14, 'Fee-Structure 2025-26', 'fee-structure', '1.pdf', '2025-06-29');
+(15, 'Book list', 'book-list', '1 (1).pdf', '2025-07-01'),
+(16, 'fee', 'fee-structure', 'School Committee 2025-26.pdf', '2025-07-01');
 
 -- --------------------------------------------------------
 
@@ -91,7 +92,7 @@ ALTER TABLE `photos`
 -- AUTO_INCREMENT for table `pdfs`
 --
 ALTER TABLE `pdfs`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=15;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=17;
 
 --
 -- AUTO_INCREMENT for table `photos`
