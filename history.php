@@ -12,7 +12,7 @@ ini_set('display_errors', 1);
     <div class="container">
         <div class="row">
             <div class="col-lg-12 text-center">
-                <h1 class="display-2 text-white">Book List</h1>
+                <h1 class="display-2 text-white">History</h1>
             </div>
         </div>
     </div>
@@ -21,27 +21,7 @@ ini_set('display_errors', 1);
     <div class="container">
         <div class="row">
             <div class="col-lg-8">
-                <?php
-                $category = 'book-list';
-                $stmt = $conn->prepare("SELECT title, file_name FROM pdfs WHERE category = ? ORDER BY id DESC");
-                $stmt->bind_param("s", $category);
-                $stmt->execute();
-                $result = $stmt->get_result();
-
-                if ($result->num_rows === 0) {
-                    echo "<p>No brochures found.</p>";
-                } else {
-                    echo "<ul class='list-group'>";
-                    while ($row = $result->fetch_assoc()) {
-                        echo "<li class='list-group-item d-flex justify-content-between align-items-center'>";
-                        echo htmlspecialchars($row['title']);
-                        echo "<span>";
-                        echo "<a class='btn btn-primary me-2' target='_blank' href='./admin-panel/pdfs/uploads/pdfs/" . $row['file_name'] . "'>Download </a>";
-                        echo "</span></li>";
-                    }
-                    echo "</ul>";
-                }
-                ?>
+                
             </div>
             <div class="col-lg-4">
                 <aside class="sidebar ps-lg-4">
