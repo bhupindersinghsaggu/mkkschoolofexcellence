@@ -37,13 +37,15 @@ ini_set('display_errors', 1);
             </div>
             <div class="col-xl-6 col-md-10 order-1 order-md-2">
                 <div class="about-txt">
-                    <h2 class="sec-title position-relative pd-50">Student  App For <span class="color">Transport</span></h2>
+                    <h2 class="sec-title position-relative pd-50">Student App For <span class="color">Transport</span></h2>
                     <p class="line-heigth">Please install the Student App to view all the information related to your ward. Use the following credentials to log in:</p>
                     <p class="line-heigth">
                     <h5>User: <span class="pur-color">Student's Admissions No. </span></h5>
+                    <p> Example: User: <span class="pur-color">2025001 </span></p>
                     </p>
                     <p class="line-heigth">
                     <h5>Password:<span class="pur-color">Student's Admissions No.</span></h5>
+                    <p> Example: Pasword: <span class="pur-color">2025001  </span></p>
                     </p>
                     <div class="d-sm-flex align-items-center mt-5">
                         <a href="/SOE.apk" class="btn btn-primary shadow">Download APP</a>
