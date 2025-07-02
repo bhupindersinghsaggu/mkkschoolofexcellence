@@ -37,7 +37,7 @@ ini_set('display_errors', 1);
             </div>
             <div class="col-xl-6 col-md-10 order-1 order-md-2">
                 <div class="about-txt">
-                    <h2 class="sec-title position-relative pd-50">Student App For <span class="color">Transport</span></h2>
+                    <h2 class="sec-title position-relative pd-50">Student App For <span class="color">School Record</span></h2>
                     <p class="line-heigth">Please install the Student App to view all the information related to your ward. Use the following credentials to log in:</p>
                     <p class="line-heigth">
                     <h5>User: <span class="pur-color"> Student's Admissions No. </span></h5>
