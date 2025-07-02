@@ -78,7 +78,7 @@ error_reporting(E_ALL);
                   <p class="line-heigth">At School of Excellence we believe that education should be engaging, future-focused, and deeply personalized.
                      Our hybrid learning model blends the best of Montessori, CBSE and experiential learning approaches, ensuring that every child develops a strong academic foundation while nurturing creativity, problem-solving and essential life skills.</p>
                   <div class="d-sm-flex align-items-center mt-5">
-                     <a href="#" class="btn btn-primary shadow">More About us</a>
+                     <a href="history.php" class="btn btn-primary shadow">More About us</a>
                      <div class="d-flex ms-sm-5 align-items-center mt-4 mt-sm-0">
                         <span class="icon-sm bg-secondary text-info rounded-circle me-3 shadow-alt"><img src="images/icons/phone.svg" alt=""></span>
                         <a href="tel:+919054252500" class="text-reset">

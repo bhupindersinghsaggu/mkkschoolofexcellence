@@ -2,28 +2,29 @@
 <html lang="zxx">
 
 <head>
-  <meta charset="utf-8">
- <meta http-equiv="x-ua-compatible" content="ie=edge">
- <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
- <meta name="description"
-     content="An ideal tempalte for online education, e-Learning, Course School, Online School, Kindergarten, Classic LMS, University, Language Academy, Coaching, Online Course, Single Course, and Course marketplace.">
- <meta name="keywords"
-     content="bootstrap 5, online course, education, creative, gulp, business, minimal, modern, course, one page, responsive, saas, e-Learning, seo, startup, html5, site template">
- <meta name="author" content="theme-village">
- <title>School of Excellence -Sector 18, Huda, Panipat</title>
- <link rel="apple-touch-icon" href="images/favicon.png">
- <link rel="shortcut icon" href="images/favicon.ico">
- <link rel="stylesheet" href="css/feather.css">
- <link rel="stylesheet" href="css/nice-select2.css">
- <link href="css/glightbox.min.css" rel="stylesheet">
- <link rel="stylesheet" href="css/swiper-bundle.min.css">
- <!-- Style css -->
- <link rel="stylesheet" href="css/style.css">
- <!-- Custom css -->
- <link rel="stylesheet" href="css/custom.css">
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description"
+        content="An ideal tempalte for online education, e-Learning, Course School, Online School, Kindergarten, Classic LMS, University, Language Academy, Coaching, Online Course, Single Course, and Course marketplace.">
+    <meta name="keywords"
+        content="bootstrap 5, online course, education, creative, gulp, business, minimal, modern, course, one page, responsive, saas, e-Learning, seo, startup, html5, site template">
+    <meta name="author" content="theme-village">
+    <title>School of Excellence -Sector 18, Huda, Panipat</title>
+    <link rel="apple-touch-icon" href="images/favicon.png">
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="css/feather.css">
+    <link rel="stylesheet" href="css/nice-select2.css">
+    <link href="css/glightbox.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+    <!-- Style css -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Custom css -->
+    <link rel="stylesheet" href="css/custom.css">
 
- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
+
 <body>
     <!-- Preloader -->
     <!-- <div id="preloader">
@@ -261,26 +262,25 @@
                                     <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                                         aria-expanded="false">About</a>
                                     <ul class="dropdown-menu">
-                                        <li><a class="dropdown-item" href="book-list.php">Book List</a></li>
-                                          <li><a class="dropdown-item" href="fee-structure.php">Fee Structure</a></li>
-                                        <li><a class="dropdown-item" href="#">History</a></li>
-                                        <li><a class="dropdown-item" href="#">Vision & Mission</a></li>
-                                        <li><a class="dropdown-item" href="#">Message From Principal</a></li>
-                                        <li><a class="dropdown-item" href="#">Message From Chairman</a></li>
+
+                                        <li><a class="dropdown-item" href="history.php">History</a></li>
+                                        <li><a class="dropdown-item" href="vision-mission.php">Vision & Mission</a></li>
+                                        <li><a class="dropdown-item" href="principal-message.php">Message From Principal</a></li>
+                                        <li><a class="dropdown-item" href="chairman-message.php">Message From Chairman</a></li>
                                     </ul>
                                 </li>
                                 <li class="nav-item dropdown">
                                     <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                                         aria-expanded="false">Infrastructure</a>
                                     <ul class="dropdown-menu">
-                                        <li><a class="dropdown-item" href="#">Labs</a></li>
-                                        <li><a class="dropdown-item" href="#">Campus</a></li>
-                                        <li><a class="dropdown-item" href="#">Playground</a></li>
-                                        <li><a class="dropdown-item" href="#">Library</a></li>
-                                        <li><a class="dropdown-item" href="#">Art And Craft</a></li>
-                                        <li><a class="dropdown-item" href="#">Music and Dance</a>
-                                        </li>
-                                        <li><a class="dropdown-item" href="#">Medical Room</a>
+                                        <li><a class="dropdown-item" href="labs.php">Labs</a>
+                                    
+                                    </li>
+                                        <li><a class="dropdown-item" href="campus.php">Campus</a></li>
+                                        <li><a class="dropdown-item" href="playground.php">Playground</a></li>
+                                        <li><a class="dropdown-item" href="library.php">Library</a></li>
+                                        <li><a class="dropdown-item" href="art-craft.php">Art And Craft</a></li>
+                                        <li><a class="dropdown-item" href="music-dance.php">Music and Dance</a>
                                         </li>
                                     </ul>
                                 </li>
@@ -288,17 +288,18 @@
                                     <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                                         aria-expanded="false">School Information</a>
                                     <ul class="dropdown-menu">
-                                        <li><a class="dropdown-item" href="#">School Uniform</a></li>
-                                        <li><a class="dropdown-item" href="#">General School Rules</a></li>
-                                        <li><a class="dropdown-item" href="#">Rules and Regulations</a></li>
-                                        <li><a class="dropdown-item" href="#">List
-                                                of Holidays 2025</a></li>
-                                        <li><a class="dropdown-item" href="#">Books List
-                                                2025-26</a></li>
+                                        <li><a class="dropdown-item" href="book-list.php">Book List</a></li>
+                                        <li><a class="dropdown-item" href="fee-structure.php">Fee Structure</a></li>
+                                        <li><a class="dropdown-item" href="school-uniform.php">School Uniform</a></li>
+                                        <li><a class="dropdown-item" href="general-rules.php">General School Rules</a></li>
+                                        <li><a class="dropdown-item" href="rules.php">Rules and Regulations</a></li>
+                                        <li><a class="dropdown-item" href="holidays.php">List
+                                                of Holidays </a></li>
                                     </ul>
                                 </li>
                                 <li class="nav-item">
-                                    <a href="#" class="nav-link">Contact</a>
+                                    <a href="contact.php
+                                    " class="nav-link">Contact</a>
                                 </li>
                             </ul>
                         </div>

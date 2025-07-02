@@ -30,28 +30,81 @@ ini_set('display_errors', 1);
                     <p class="line-heigth">
                     <h5>Password:<span class="pur-color">123456</span></h5>
                     </p>
+
+                    <p class="line-heigth">
+                    <h5>How To <span class="pur-color">Install</span></h5>
+                    </p>
+                    <div class="img-part">
+                        <style>
+                            .video-wrapper {
+                                position: relative;
+                                width: 100%;
+                                max-width: 300px;
+
+                            }
+
+                            #videoPlayer {
+                                width: 100%;
+                                height: auto;
+                                display: block;
+                            }
+
+                            .play-button {
+                                position: absolute;
+                                top: 50%;
+                                left: 50%;
+                                transform: translate(-50%, -50%);
+                                background: rgba(0, 0, 0, 0.6);
+                                border: none;
+                                border-radius: 50%;
+                                width: 60px;
+                                height: 60px;
+                                color: #fff;
+                                font-size: 24px;
+                                cursor: pointer;
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                                z-index: 10;
+                            }
+
+                            .play-button.hidden {
+                                display: none;
+                            }
+                        </style>
+
+                        <div class="video-wrapper">
+                            <video id="videoPlayer" width="100%" height="100%" muted loop>
+                                <source id="mp4Source" src="transport.mp4" type="video/mp4">
+
+                            </video>
+                            <button id="playBtn" class="play-button">▶</button>
+                        </div>
+                    </div>
                     <div class="d-sm-flex align-items-center mt-5">
                         <a href="/app-gosafe-release.apk" class="btn btn-primary shadow">Download APP</a>
                     </div>
+                    <script>
+                        const video = document.getElementById("videoPlayer");
+                        const playBtn = document.getElementById("playBtn");
+
+                        playBtn.addEventListener("click", function() {
+                            if (video.paused) {
+                                video.play();
+                                playBtn.classList.add("hidden");
+                            }
+                        });
+
+                        video.addEventListener("click", function() {
+                            if (!video.paused) {
+                                video.pause();
+                                playBtn.classList.remove("hidden");
+                            }
+                        });
+                    </script>
                 </div>
             </div>
-            <div class="col-xl-6 col-md-10 order-1 order-md-2">
-                <div class="about-txt">
-                    <h2 class="sec-title position-relative pd-50">Student App For <span class="color">School Record</span></h2>
-                    <p class="line-heigth">Please install the Student App to view all the information related to your ward. Use the following credentials to log in:</p>
-                    <p class="line-heigth">
-                    <h5>User: <span class="pur-color"> Student's Admissions No. </span></h5>
-                    <p> <b> For Example: User: </b><span class="pur-color"> 2025001 </span></p>
-                    </p>
-                    <p class="line-heigth">
-                    <h5> Password:<span class="pur-color"> Student's Admissions No.</span></h5>
-                    <p> <b>For Example: Pasword: </b><span class="pur-color"> 2025001 </span></p>
-                    </p>
-                    <div class="d-sm-flex align-items-center mt-5">
-                        <a href="/SOE.apk" class="btn btn-primary shadow">Download APP</a>
-                    </div>
-                </div>
-            </div>
+
         </div>
     </div>
 </section>
