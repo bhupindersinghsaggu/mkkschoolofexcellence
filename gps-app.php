@@ -73,18 +73,18 @@ ini_set('display_errors', 1);
                             }
                         </style>
 
-                        <div class="video-wrapper">
+                        <!-- <div class="video-wrapper">
                             <video id="videoPlayer" width="100%" height="100%" muted loop>
                                 <source id="mp4Source" src="transport.mp4" type="video/mp4">
-
                             </video>
                             <button id="playBtn" class="play-button">▶</button>
-                        </div>
+                        </div> -->
                     </div>
                     <div class="d-sm-flex align-items-center mt-5">
-                        <a href="/app-gosafe-release.apk" class="btn btn-primary shadow">Download APP</a>
+                        <a href="https://play.google.com/store/search?q=TB%20Track%20-%20Vehicle%20Tracking&c=apps&hl=en_IN" class="btn btn-primary shadow">Download From Playstore</a>
+                        <a href="https://apps.apple.com/us/app/tb-track-vehicle-tracking/id1249657981">Download From APP Store</a>
                     </div>
-                    <script>
+                    <!-- <script>
                         const video = document.getElementById("videoPlayer");
                         const playBtn = document.getElementById("playBtn");
 
@@ -101,7 +101,7 @@ ini_set('display_errors', 1);
                                 playBtn.classList.remove("hidden");
                             }
                         });
-                    </script>
+                    </script> -->
                 </div>
             </div>
 
