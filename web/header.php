@@ -4,12 +4,9 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description"
-        content="An ideal tempalte for online education, e-Learning, Course School, Online School, Kindergarten, Classic LMS, University, Language Academy, Coaching, Online Course, Single Course, and Course marketplace.">
-    <meta name="keywords"
-        content="bootstrap 5, online course, education, creative, gulp, business, minimal, modern, course, one page, responsive, saas, e-Learning, seo, startup, html5, site template">
-    <meta name="author" content="theme-village">
+    <title><?php echo isset($meta_title) ? $meta_title : "Default Title"; ?></title>
+    <meta name="description" content="<?php echo isset($meta_description) ? $meta_description : "Default description"; ?>">
+    <meta name="keywords" content="<?php echo isset($meta_keywords) ? $meta_keywords : "default, keywords"; ?>">
     <title>MKK School of Excellence | Best CBSE School in Panipat</title>
     <link rel="apple-touch-icon" href="images/favicon.png">
     <link rel="shortcut icon" href="images/favicon.ico">
@@ -274,8 +271,8 @@
                                         aria-expanded="false">Infrastructure</a>
                                     <ul class="dropdown-menu">
                                         <li><a class="dropdown-item" href="labs.php">Labs</a>
-                                    
-                                    </li>
+
+                                        </li>
                                         <li><a class="dropdown-item" href="campus.php">Campus</a></li>
                                         <li><a class="dropdown-item" href="playground.php">Playground</a></li>
                                         <li><a class="dropdown-item" href="library.php">Library</a></li>

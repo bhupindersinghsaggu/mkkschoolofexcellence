@@ -1,3 +1,12 @@
+
+<?php
+// index.php
+$meta_title = "MKK School of Excellence | Best CBSE School in Panipat";
+$meta_description = "Welcome to MKK School of Excellence – a top CBSE-affiliated school in Panipat offering academic excellence, innovation & holistic development.";
+$meta_keywords = "MKK School of Excellence, Best CBSE School Panipat, Top School in Panipat, Panipat Schools, Admissions Open, Holistic Education";
+?>
+
+
 <?php include('web/header.php'); ?>
 <?php
 ini_set('display_errors', 1);
