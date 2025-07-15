@@ -260,7 +260,7 @@
                                         aria-expanded="false">About</a>
                                     <ul class="dropdown-menu">
 
-                                        <li><a class="dropdown-item" href="history.php">History</a></li>
+                                        <li><a class="dropdown-item" href="about-us.php">About us</a></li>
                                         <li><a class="dropdown-item" href="vision-mission.php">Vision & Mission</a></li>
                                         <li><a class="dropdown-item" href="principal-message.php">Message From Principal</a></li>
                                         <li><a class="dropdown-item" href="chairman-message.php">Message From Chairman</a></li>
