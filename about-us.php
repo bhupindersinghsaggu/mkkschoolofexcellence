@@ -1,11 +1,11 @@
 <?php
-// index.php
+
 $meta_title = "About MKK School of Excellence | Vision, Mission & Values";
 $meta_description = "Learn about the mission, vision, and values that define MKK School of Excellence’s commitment to quality education in Panipat.";
 $meta_keywords = "About MKK School, School Vision Panipat, Mission Statement, Best School Values, Education Philosophy Panipat";
 ?>
 
-?php include('web/header.php'); ?>
+<?php include('web/header.php'); ?>
 
 <?php include('./admin-panel/db.php'); ?>
 
