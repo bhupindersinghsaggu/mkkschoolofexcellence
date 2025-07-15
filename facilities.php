@@ -1,8 +1,8 @@
 <?php
 
-$meta_title = "Contact MKK School of Excellence | Panipat CBSE School";
-$meta_description = "Get in touch with MKK School of Excellence, Panipat for queries, admissions, or to schedule a campus visit.";
-$meta_keywords = "Contact MKK School Panipat, School Address, CBSE School Near Me, Panipat School Enquiry, Visit MKK Campus";
+$meta_title = "Modern School Facilities | MKK School of Excellence Panipat";
+$meta_description = "Experience the advanced infrastructure at MKK School – from smart classrooms to labs, library, and sports arenas in Panipat.";
+$meta_keywords = " School Infrastructure Panipat, Smart Classrooms, School Facilities Haryana, MKK Campus Tour, Best School Labs Panipat";
 ?>
 
 <?php include('web/header.php'); ?>
@@ -19,7 +19,7 @@ ini_set('display_errors', 1);
     <div class="container">
         <div class="row">
             <div class="col-lg-12 text-center">
-                <h1 class="display-2 text-white">Contact</h1>
+                <h1 class="display-2 text-white">Facilities / Infrastructure</h1>
             </div>
         </div>
     </div>
@@ -27,8 +27,11 @@ ini_set('display_errors', 1);
 <section class="single-post sec-padding">
     <div class="container">
         <div class="row">
-            <div class="col-lg-12">
+            <div class="col-lg-8">
                 
+            </div>
+            <div class="col-lg-4">
+                <?php include ('web/infra-links.php');?>
             </div>
         </div>
     </div>
