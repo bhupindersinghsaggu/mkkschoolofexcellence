@@ -10,7 +10,7 @@
     <meta name="keywords"
         content="bootstrap 5, online course, education, creative, gulp, business, minimal, modern, course, one page, responsive, saas, e-Learning, seo, startup, html5, site template">
     <meta name="author" content="theme-village">
-    <title>School of Excellence -Sector 18, Huda, Panipat</title>
+    <title>MKK School of Excellence | Best CBSE School in Panipat</title>
     <link rel="apple-touch-icon" href="images/favicon.png">
     <link rel="shortcut icon" href="images/favicon.ico">
     <link rel="stylesheet" href="css/feather.css">
