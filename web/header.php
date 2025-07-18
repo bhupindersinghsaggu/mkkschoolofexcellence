@@ -2,15 +2,13 @@
 <html lang="zxx">
 
 <head>
-     <!-- Responsive -->
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Responsive -->
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title><?php echo isset($meta_title) ? $meta_title : "Default Title"; ?></title>
     <meta name="description" content="<?php echo isset($meta_description) ? $meta_description : "Default description"; ?>">
     <meta name="keywords" content="<?php echo isset($meta_keywords) ? $meta_keywords : "default, keywords"; ?>">
-    <title>MKK School of Excellence | Best CBSE School in Panipat</title>
     <link rel="apple-touch-icon" href="images/favicon.png">
     <link rel="shortcut icon" href="images/favicon.ico">
     <link rel="stylesheet" href="css/feather.css">
