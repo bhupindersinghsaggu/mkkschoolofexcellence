@@ -33,7 +33,7 @@ error_reporting(E_ALL);
                      <img class="img-fluid updown" src="images/icons/shape1.png" alt="">
                   </div>
                   <h1 class="banner-sec2 h1 hero-heading">
-                     A Premier School Focgdfgused on <span class="color">Excellence & Values</span>
+                     A Premier School Focused on <span class="color">Excellence & Values</span>
                   </h1>
                   <p class="lead-sm">Empowering students through a balanced blend of academics, values, and creativity for all-round development.</p>
                   <div class="about-cta mt-5 d-flex">
