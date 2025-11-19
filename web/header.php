@@ -5,7 +5,7 @@
     <!-- Responsive -->
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
     <title><?php echo isset($meta_title) ? $meta_title : "Default Title"; ?></title>
     <meta name="description" content="<?php echo isset($meta_description) ? $meta_description : "Default description"; ?>">
     <meta name="keywords" content="<?php echo isset($meta_keywords) ? $meta_keywords : "default, keywords"; ?>">
