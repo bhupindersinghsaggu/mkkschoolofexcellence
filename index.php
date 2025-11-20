@@ -391,6 +391,8 @@ error_reporting(E_ALL);
                         <li> <i class="fa-solid fa-paper-plane white-color-icon mrg20 "></i> Class III</li>
                         <li> <i class="fa-solid fa-paper-plane white-color-icon mrg20"></i> Class IV</li>
                         <li> <i class="fa-solid fa-paper-plane white-color-icon mrg20"></i> Class V </li>
+                        <li> <i class="fa-solid fa-paper-plane white-color-icon mrg20"></i> Class VI </li>
+                        <li> <i class="fa-solid fa-paper-plane white-color-icon mrg20"></i> Class VII </li>
                      </ul>
                   </div>
                   <div><a href="#" class="btn btn-info btn-sm" data-toggle="modal" data-target="#exampleModal">Apply Now</a></div>
