@@ -57,12 +57,12 @@ error_reporting(E_ALL);
       <div class="marquee" style="padding: 14px;">
          <marquee scrollamount="5" loop="2">
             <a href="#" data-toggle="modal" data-target="#exampleModal">
-               <span class="adm-text">Admissions Open for the Session 2025-26 <i class="fa-solid fa-star star-icon"></i> </span>
-               <span class="adm-text">Admissions Open for the Session 2025-26 <i class="fa-solid fa-star star-icon"></i> </span>
-               <span class="adm-text">Admissions Open for the Session 2025-26 <i class="fa-solid fa-star star-icon"></i> </span>
-               <span class="adm-text">Admissions Open for the Session 2025-26 <i class="fa-solid fa-star star-icon"></i> </span>
-               <span class="adm-text">Admissions Open for the Session 2025-26 <i class="fa-solid fa-star star-icon"></i> </span>
-               <span class="adm-text">Admissions Open for the Session 2025-26 <i class="fa-solid fa-star star-icon"></i> </span>
+               <span class="adm-text">Admissions Open for the Session 2026-27 <i class="fa-solid fa-star star-icon"></i> </span>
+               <span class="adm-text">Admissions Open for the Session 2026-27 <i class="fa-solid fa-star star-icon"></i> </span>
+               <span class="adm-text">Admissions Open for the Session 2026-27 <i class="fa-solid fa-star star-icon"></i> </span>
+               <span class="adm-text">Admissions Open for the Session 2026-27 <i class="fa-solid fa-star star-icon"></i> </span>
+               <span class="adm-text">Admissions Open for the Session 2026-27 <i class="fa-solid fa-star star-icon"></i> </span>
+               <span class="adm-text">Admissions Open for the Session 2026-27 <i class="fa-solid fa-star star-icon"></i> </span>
             </a>
          </marquee>
       </div>
