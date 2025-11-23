@@ -411,7 +411,7 @@ error_reporting(E_ALL);
                <span class="badge-lg bg-primary rounded-5">Blog &amp; News</span>
                <h2 class="sec-title mb-0">Latest <span class="color">Activities</span></h2>
             </div>
-            <a href="all-news.php" class="btn btn-primary align-self-start shadow rounded-5">View All</a>
+           
          </div>
          <div class="row">
             <?php while ($row = $result->fetch_assoc()): ?>
@@ -436,6 +436,7 @@ error_reporting(E_ALL);
                </div>
             <?php endwhile; ?>
          </div>
+          <a href="all-news.php" class="btn btn-primary align-self-start shadow rounded-5">View All</a>
       </div>
    </section>
 
