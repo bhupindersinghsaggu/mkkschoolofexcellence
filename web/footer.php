@@ -25,8 +25,8 @@
                          <li><a href="history.php">About School</a></li>
                          <li><a href="gps-app.php">Download GPS APP</a></li>
                          <li><a href="#" data-toggle="modal" data-target="#exampleModal">Make A Query</a></li>
-                         <!-- <li><a href="#">Services</a></li>
-                         <li><a href="contact.html">Contact us</a></li> -->
+                         <li><a href="https://play.google.com/store/apps/details?id=com.magnus.soe&hl=en_IN">Download Mobile APP</a></li>
+                         
                      </ul>
                  </div>
              </div>
@@ -43,7 +43,7 @@
                          </li>
                          <li class="d-flex align-items-center">
                              <span><i class="feather-icon icon-map-pin"></i></span>
-                             Sector-18,Huda, Panipat
+                             Sector-18, Huda, Panipat
                          </li>
                      </ul>
                  </div>
