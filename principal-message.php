@@ -33,7 +33,7 @@ ini_set('display_errors', 1);
                     Our dedicated educators are not only academically qualified, but also ethically grounded, committed to walking alongside each child in their unique journey of learning.
                     As you explore our school, we pray you’ll see a place where your child can grow in wisdom and stature. We invite you to partner with us in this task of education—where learning leads to transformation.</p>
                 <p> Dr Hepesh Shepherd,</p>
-                <p> Principal,</p>
+                <p> Principal</p>
                 <p> School of Excellence</p>
             </div>
         </div>
