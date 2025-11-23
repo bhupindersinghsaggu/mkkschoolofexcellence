@@ -434,10 +434,11 @@ error_reporting(E_ALL);
                   </div>
                </div>
             <?php endwhile; ?>
+            <div class="d-flex align-items-center justify-content-between">
+               <a href="all-news.php" class="btn btn-primary align-self-start shadow rounded-5">View All</a>
+            </div>
          </div>
-         <div class="d-flex align-items-center justify-content-between">
-            <a href="all-news.php" class="btn btn-primary align-self-start shadow rounded-5">View All</a>
-         </div>
+
       </div>
    </section>
 
