@@ -32,6 +32,9 @@ ini_set('display_errors', 1);
                     In today’s changing world, we embrace a Hybrid Model of Education that combines the richness of classroom experience with the flexibility and innovation of digital learning. This approach allows us to reach learners wherever they are, while still cultivating a strong sense of community and connection.
                     Our dedicated educators are not only academically qualified, but also ethically grounded, committed to walking alongside each child in their unique journey of learning.
                     As you explore our school, we pray you’ll see a place where your child can grow in wisdom and stature. We invite you to partner with us in this task of education—where learning leads to transformation.</p>
+                <p> Dr Hepesh Shepherd,</p>
+                <p> Principal,</p>
+                <p> School of Excellence</p>
             </div>
         </div>
     </div>
