@@ -136,7 +136,7 @@ error_reporting(E_ALL);
             <div class="col-xl-6 col-md-6">
                <div class="course-entry card p-2 rounded-2">
                   <div class="card-media position-relative">
-                     <a href="#"><img class="card-img-top" src="images/labs/composite-lab.jpg" alt="Course"></a>
+                     <a href="#"><img class="card-img-top" src="images/labs/lab1.jpg" alt="Course"></a>
                      <a href="#" class="action-wishlist position-absolute bg-alt-blue bg-opacity-50 text-white icon icon-xs rounded-circle"><img src="images/icons/heart-fill.svg" alt="Wishlist"></a>
                   </div>
                   <div class="card-body">
@@ -153,6 +153,31 @@ error_reporting(E_ALL);
                      </div>
                      <h2 class="sec-title mb-4 labs-heading">
                         Learner's  Hub</h2>
+                     <div class="course-footer d-flex align-items-center justify-content-between pt-3">
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="col-xl-6 col-md-6">
+               <div class="course-entry card p-2 rounded-2">
+                  <div class="card-media position-relative">
+                     <a href="#"><img class="card-img-top" src="images/labs/composite-lab.jpg" alt="Course"></a>
+                     <a href="#" class="action-wishlist position-absolute bg-alt-blue bg-opacity-50 text-white icon icon-xs rounded-circle"><img src="images/icons/heart-fill.svg" alt="Wishlist"></a>
+                  </div>
+                  <div class="card-body">
+                     <div class="d-flex justify-content-between align-items-center">
+                        <div class="d-flex align-items-center">
+                           <div class="ratings me-2">
+                              <a href="#"><img src="images/icons/star.png" alt=""></a>
+                              <a href="#"><img src="images/icons/star.png" alt=""></a>
+                              <a href="#"><img src="images/icons/star.png" alt=""></a>
+                              <a href="#"><img src="images/icons/star.png" alt=""></a>
+                              <a href="#"><img src="images/icons/star.png" alt=""></a>
+                           </div>
+                        </div>
+                     </div>
+                     <h2 class="sec-title mb-4 labs-heading">
+                       Composite Lab</h2>
                      <div class="course-footer d-flex align-items-center justify-content-between pt-3">
                      </div>
                   </div>
