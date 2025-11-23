@@ -554,8 +554,6 @@ error_reporting(E_ALL);
             <div class="col-lg-4">
                <div class="choose-media position-relative">
                   <img src="images/principal.jpg" alt="About" class="img-fluid teacher-entry">
-                  <h3 class="display-5"> Dr. Hepesh Shepherd</h3>
-                  <p> Principal</p>
                </div>
             </div>
             <div class="col-lg-8">
