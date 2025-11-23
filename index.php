@@ -1,4 +1,3 @@
-
 <?php
 // index.php
 $meta_title = "MKK School of Excellence | Best CBSE School in Panipat";
@@ -408,10 +407,10 @@ error_reporting(E_ALL);
       <div class="container">
          <div class="d-md-flex justify-content-between align-items-top mb-5 mb-lg-0">
             <div class="sec-intro">
-               <span class="badge-lg bg-primary rounded-5">Blog &amp; News</span>
+               <!-- <span class="badge-lg bg-primary rounded-5">Blog &amp; News</span> -->
                <h2 class="sec-title mb-0">Latest <span class="color">Activities</span></h2>
             </div>
-           
+
          </div>
          <div class="row">
             <?php while ($row = $result->fetch_assoc()): ?>
@@ -436,7 +435,9 @@ error_reporting(E_ALL);
                </div>
             <?php endwhile; ?>
          </div>
-          <a href="all-news.php" class="btn btn-primary align-self-start shadow rounded-5">View All</a>
+         <div class="d-flex align-items-center justify-content-between">
+            <a href="all-news.php" class="btn btn-primary align-self-start shadow rounded-5">View All</a>
+         </div>
       </div>
    </section>
 
