@@ -235,9 +235,9 @@ error_reporting(E_ALL);
                         </div>
                      </div>
                      <h2 class="sec-title mb-4 labs-heading">
-                        Indoor-Outdoor <span class="color"> Games</span></h2>
+                         Library<span class="color"> </span></h2>
                      <div class="course-footer d-flex align-items-center justify-content-between pt-3">
-                        <a href="#">Enroll Now <i class="feather-icon icon-arrow-right"></i></a>
+                         <!-- <a href="#" class="btn btn-dark rounded-5 btn-sm">Apply Now</a> -->
                      </div>
                   </div>
                </div>
