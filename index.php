@@ -101,7 +101,7 @@ error_reporting(E_ALL);
       </div>
    </section>
 
-   <section class="course-sec-3 bg-blue sec-padding">
+   <!-- <section class="course-sec-3 bg-blue sec-padding">
       <div class="container">
          <div class="text-center sec-intro">
             <span class="badge-lg bg-primary rounded-5">Our Facilities</span>
@@ -129,11 +129,9 @@ error_reporting(E_ALL);
                      <h2 class="sec-title mb-4 labs-heading">
                         Indoor-Outdoor <span class="color"> Games</span></h2>
                      <div class="course-footer d-flex align-items-center justify-content-between pt-3">
-                        <!-- <a href="#" class="btn btn-dark rounded-5 btn-sm">Apply Now</a> -->
                      </div>
                   </div>
                </div>
-               <!-- Course Entry End -->
             </div>
             <div class="col-xl-6 col-md-6">
                <div class="course-entry card p-2 rounded-2">
@@ -156,11 +154,9 @@ error_reporting(E_ALL);
                      <h2 class="sec-title mb-4 labs-heading">
                         Learner's <span class="color"> Hub</span></h2>
                      <div class="course-footer d-flex align-items-center justify-content-between pt-3">
-                        <!-- <a href="#" class="btn btn-dark rounded-5 btn-sm">Apply Now</a> -->
                      </div>
                   </div>
                </div>
-               <!-- Course Entry End -->
             </div>
             <div class="col-xl-6 col-md-6">
                <div class="course-entry card p-2 rounded-2">
@@ -183,11 +179,9 @@ error_reporting(E_ALL);
                      <h2 class="sec-title mb-4 labs-heading">
                         State-of-the-Art <span class="color"> Classrooms</span></h2>
                      <div class="course-footer d-flex align-items-center justify-content-between pt-3">
-                        <!-- <a href="#" class="btn btn-dark rounded-5 btn-sm">Apply Now</a> -->
                      </div>
                   </div>
                </div>
-               <!-- Course Entry End -->
             </div>
             <div class="col-xl-6 col-md-6">
                <div class="course-entry card p-2 rounded-2">
@@ -210,11 +204,9 @@ error_reporting(E_ALL);
                      <h2 class="sec-title mb-4 labs-heading">
                         Computer <span class="color"> Labs</span></h2>
                      <div class="course-footer d-flex align-items-center justify-content-between pt-3">
-                        <!-- <a href="#" class="btn btn-dark rounded-5 btn-sm">Apply Now</a> -->
                      </div>
                   </div>
                </div>
-               <!-- Course Entry End -->
             </div>
             <div class="col-xl-6 col-md-6">
                <div class="course-entry card p-2 rounded-2">
@@ -237,18 +229,13 @@ error_reporting(E_ALL);
                      <h2 class="sec-title mb-4 labs-heading">
                          Library<span class="color"> </span></h2>
                      <div class="course-footer d-flex align-items-center justify-content-between pt-3">
-                         <!-- <a href="#" class="btn btn-dark rounded-5 btn-sm">Apply Now</a> -->
                      </div>
                   </div>
                </div>
-               <!-- Course Entry End -->
             </div>
-            <!-- <div class="col-12 text-center mt-5 pt-3">
-               <a href="courses.html" class="btn btn-primary rounded-1 shadow-none border-0">Browse All Courses </a>
-            </div> -->
          </div>
       </div>
-   </section>
+   </section> -->
    <!-- Course Section Start -->
    <div class="course-sec sec-padding bg-blue">
       <div class="container">
