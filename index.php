@@ -101,7 +101,7 @@ error_reporting(E_ALL);
       </div>
    </section>
 
-   <!-- <section class="course-sec-3 bg-blue sec-padding">
+   <section class="course-sec-3 bg-blue sec-padding">
       <div class="container">
          <div class="text-center sec-intro">
             <span class="badge-lg bg-primary rounded-5">Our Facilities</span>
@@ -235,17 +235,15 @@ error_reporting(E_ALL);
             </div>
          </div>
       </div>
-   </section> -->
+   </section>
    <!-- Course Section Start -->
-   <div class="course-sec sec-padding bg-blue">
+   <!-- <div class="course-sec sec-padding bg-blue">
       <div class="container">
          <div class="d-flex justify-content-between align-items-top">
             <div class="sec-intro">
-               <!-- <span class="badge-lg bg-primary rounded-5">Let's A Tour</span> -->
                <h2 class="sec-title mb-4">Facilities & <span class="color">Campus Life</span></h2>
             </div>
             <div class="custom-nav d-flex gap-3 align-items-center">
-               <!-- navigation -->
                <div class="button-next icon-sm text-info"><i class="feather-icon icon-arrow-left"></i></div>
                <div class="button-prev icon-sm text-info"><i class="feather-icon icon-arrow-right"></i></div>
             </div>
@@ -274,9 +272,7 @@ error_reporting(E_ALL);
                      </div>
                   </div>
                </div>
-               <!-- Course Entry End -->
             </div>
-            <!-- Slide Item End -->
             <div class="swiper-slide">
                <div class="course-entry-3 card rounded-2 bg-white border">
                   <div class="card-media position-relative">
@@ -298,9 +294,7 @@ error_reporting(E_ALL);
                      </div>
                   </div>
                </div>
-               <!-- Course Entry End -->
             </div>
-            <!-- Slide Item End -->
             <div class="swiper-slide">
                <div class="course-entry-3 card rounded-2 bg-white border">
                   <div class="card-media position-relative">
@@ -322,9 +316,7 @@ error_reporting(E_ALL);
                         </div>
                   </div>
                </div>
-               <!-- Course Entry End -->
             </div>
-            <!-- Slide Item End -->
             <div class="swiper-slide">
                <div class="course-entry-3 card rounded-2 bg-white border">
                   <div class="card-media position-relative">
@@ -346,9 +338,7 @@ error_reporting(E_ALL);
                      </div>
                   </div>
                </div>
-               <!-- Course Entry End -->
             </div>
-            <!-- Slide Item End -->
             <div class="swiper-slide">
                <div class="course-entry-3 card rounded-2 bg-white border">
                   <div class="card-media position-relative">
@@ -370,9 +360,7 @@ error_reporting(E_ALL);
                      </div>
                   </div>
                </div>
-               <!-- Course Entry End -->
             </div>
-            <!-- Slide Item End -->
             <div class="swiper-slide">
                <div class="course-entry-3 card rounded-2 bg-white border">
                   <div class="card-media position-relative">
@@ -394,14 +382,10 @@ error_reporting(E_ALL);
                      </div>
                   </div>
                </div>
-               <!-- Course Entry End -->
             </div>
-            <!-- Slide Item End -->
          </div>
-         <!-- wrapper end -->
       </div>
-   </div>
-   <!-- Course Section End -->
+   </div> -->
    <section class="categories-sec sec-padding position-relative school-theme-color2">
       <div class="container">
          <img src="images/icons/dots1.png" alt="Dot 1" class="anim-img">
@@ -488,7 +472,6 @@ error_reporting(E_ALL);
          </div>
       </div>
    </section>
-
    <!-- Pricing Section Start -->
    <section class="pricing-sec sec-padding" style="background-image: url(/images/class-bg.png);">
       <div class="container">
