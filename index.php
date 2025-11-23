@@ -127,7 +127,7 @@ error_reporting(E_ALL);
                         </div>
                      </div>
                      <h2 class="sec-title mb-4 labs-heading">
-                        Indoor-Outdoor  Games/h2>
+                        Indoor-Outdoor  Games</h2>
                      <div class="course-footer d-flex align-items-center justify-content-between pt-3">
                      </div>
                   </div>
