@@ -536,6 +536,34 @@ error_reporting(E_ALL);
          </div>
       </div>
    </section>
+   <section class="single-post sec-padding">
+      <div class="container">
+         <div class="sec-intro">
+               <!-- <span class="badge-lg bg-primary rounded-5">Blog &amp; News</span> -->
+               <h2 class="sec-title mb-0">From The  <span class="color">Principal Desk</span></h2>
+            </div>
+         <div class="row">
+            <div class="col-lg-4">
+               <div class="choose-media position-relative">
+                  <img src="images/principal.jpg" alt="About" class="img-fluid teacher-entry">
+                  <h3 class="display-5"> Dr. Hepesh Shepherd</h3>
+                  <p> Principal</p>
+               </div>
+            </div>
+            <div class="col-lg-8">
+               <h3 class="display-5">Greetings and welcome to the School of Excellence !</h3>
+               <p class="line-heigth"> At the School of Excellence, we are more than just a place of learning—we are a student centered community dedicated to nurturing hearts, shaping minds, and preparing young lives to shine as lights in the world.
+                  Rooted in values, our vision is to raise up confident, compassionate, and capable students who live with purpose and integrity. We believe that true excellence begins with a heart aligned to God and is reflected in every area of life—academics, relationships, service, and personal growth.
+                  In today’s changing world, we embrace a Hybrid Model of Education that combines the richness of classroom experience with the flexibility and innovation of digital learning. This approach allows us to reach learners wherever they are, while still cultivating a strong sense of community and connection.
+                  Our dedicated educators are not only academically qualified, but also ethically grounded, committed to walking alongside each child in their unique journey of learning.
+                  As you explore our school, we pray you’ll see a place where your child can grow in wisdom and stature. We invite you to partner with us in this task of education—where learning leads to transformation.</p>
+               <h3 class="display-5"> Dr. Hepesh Shepherd</h3>
+               <p> Principal</p>
+            </div>
+         </div>
+      </div>
+   </section>
+
    <?php include './admin-panel/db.php';
    $result = $conn->query("SELECT * FROM photos ORDER BY upload_date DESC LIMIT 3");
    ?>
