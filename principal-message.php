@@ -22,7 +22,7 @@ ini_set('display_errors', 1);
         <div class="row">
             <div class="col-lg-8">
                 <div class="choose-media position-relative">
-                    <img src="images/about-md.png" alt="About" class="img-fluid">
+                    <img src="images/principal.jpg" alt="About" class="img-fluid">
                   </div>
                 <p class="line-heigth">Greetings and welcome to the School of Excellence !</p>
                 <p class="line-heigth"> At the School of Excellence, we are more than just a place of learning—we are a student centered community dedicated to nurturing hearts, shaping minds, and preparing young lives to shine as lights in the world.
