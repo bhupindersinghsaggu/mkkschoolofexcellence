@@ -136,6 +136,10 @@
     .call-us {
         display: none;
     }
+
+    .labs-heading {
+    font-size: 1.5rem;
+}
 }
 
 
