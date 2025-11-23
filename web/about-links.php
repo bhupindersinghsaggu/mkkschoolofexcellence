@@ -1,10 +1,10 @@
 <aside class="sidebar ps-lg-4">
-    <div class="widget search-widget">
+    <!-- <div class="widget search-widget">
         <form action="#" class="position-relative">
             <input type="search" placeholder="Search keyword">
             <button class="btn btn-primary position-absolute  top-0"><i class="feather-icon icon-search"></i></button>
         </form>
-    </div>
+    </div> -->
     <div class="widget category-widget">
         <h3 class="widget-title">More Links</h3>
         <div class="widget-inner">
