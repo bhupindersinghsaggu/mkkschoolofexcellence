@@ -138,7 +138,7 @@ error_reporting(E_ALL);
             <div class="col-xl-6 col-md-6">
                <div class="course-entry card p-2 rounded-2">
                   <div class="card-media position-relative">
-                     <a href="single-course.html"><img class="card-img-top" src="images/labs/labs1.jpg" alt="Course"></a>
+                     <a href="single-course.html"><img class="card-img-top" src="images/labs/composite-lab.jpg" alt="Course"></a>
                      <a href="#" class="action-wishlist position-absolute bg-alt-blue bg-opacity-50 text-white icon icon-xs rounded-circle"><img src="images/icons/heart-fill.svg" alt="Wishlist"></a>
                   </div>
                   <div class="card-body">
@@ -156,7 +156,7 @@ error_reporting(E_ALL);
                      <h2 class="sec-title mb-4 labs-heading">
                         Learner's <span class="color"> Hub</span></h2>
                      <div class="course-footer d-flex align-items-center justify-content-between pt-3">
-                      <!-- <a href="#" class="btn btn-dark rounded-5 btn-sm">Apply Now</a> -->
+                        <!-- <a href="#" class="btn btn-dark rounded-5 btn-sm">Apply Now</a> -->
                      </div>
                   </div>
                </div>
@@ -165,7 +165,7 @@ error_reporting(E_ALL);
             <div class="col-xl-6 col-md-6">
                <div class="course-entry card p-2 rounded-2">
                   <div class="card-media position-relative">
-                     <a href="single-course.html"><img class="card-img-top" src="images/labs/sports.jpg" alt="Course"></a>
+                     <a href="single-course.html"><img class="card-img-top" src="images/labs/smart-class.jpg" alt="Course"></a>
                      <a href="#" class="action-wishlist position-absolute bg-alt-blue bg-opacity-50 text-white icon icon-xs rounded-circle"><img src="images/icons/heart-fill.svg" alt="Wishlist"></a>
                   </div>
                   <div class="card-body">
@@ -181,9 +181,9 @@ error_reporting(E_ALL);
                         </div>
                      </div>
                      <h2 class="sec-title mb-4 labs-heading">
-                        Indoor-Outdoor <span class="color"> Games</span></h2>
+                        State-of-the-Art <span class="color"> Classrooms</span></h2>
                      <div class="course-footer d-flex align-items-center justify-content-between pt-3">
-                        <a href="#">Enroll Now <i class="feather-icon icon-arrow-right"></i></a>
+                        <!-- <a href="#" class="btn btn-dark rounded-5 btn-sm">Apply Now</a> -->
                      </div>
                   </div>
                </div>
@@ -192,7 +192,7 @@ error_reporting(E_ALL);
             <div class="col-xl-6 col-md-6">
                <div class="course-entry card p-2 rounded-2">
                   <div class="card-media position-relative">
-                     <a href="single-course.html"><img class="card-img-top" src="images/labs/sports.jpg" alt="Course"></a>
+                     <a href="single-course.html"><img class="card-img-top" src="images/labs/computer-lab.jpg" alt="Course"></a>
                      <a href="#" class="action-wishlist position-absolute bg-alt-blue bg-opacity-50 text-white icon icon-xs rounded-circle"><img src="images/icons/heart-fill.svg" alt="Wishlist"></a>
                   </div>
                   <div class="card-body">
@@ -208,9 +208,9 @@ error_reporting(E_ALL);
                         </div>
                      </div>
                      <h2 class="sec-title mb-4 labs-heading">
-                        Indoor-Outdoor <span class="color"> Games</span></h2>
+                        Computer <span class="color"> Labs</span></h2>
                      <div class="course-footer d-flex align-items-center justify-content-between pt-3">
-                        <a href="#">Enroll Now <i class="feather-icon icon-arrow-right"></i></a>
+                        <!-- <a href="#" class="btn btn-dark rounded-5 btn-sm">Apply Now</a> -->
                      </div>
                   </div>
                </div>
