@@ -550,7 +550,7 @@ error_reporting(E_ALL);
          </div>
          <div class="row">
             <?php while ($row = $result->fetch_assoc()): ?>
-               <div class="col-xl-6 col-md-6">
+               <div class="col-xl-4 col-md-6">
                   <div class="event-entry shadow-sm overflow-hidden rounded-4">
                      <div class="event-thumb">
                         <img class="card-img-top" src="admin-panel/gallery/uploads/<?= htmlspecialchars($row['image']) ?>" alt="<?= htmlspecialchars($row['title']) ?>">
