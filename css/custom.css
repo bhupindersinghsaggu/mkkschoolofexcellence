@@ -1,3 +1,13 @@
+.apply-card .h3,
+.apply-card h3 {
+    font-size: 3rem;
+    color: var(--white);
+    background: black;
+    border-radius: 10px;
+    padding: 6px;
+    text-align: center;
+}
+
 .hero-heading {
     font-size: 54px;
     margin-bottom: 2.5rem;
@@ -260,12 +270,3 @@
 
 }
 
-.apply-card .h3,
-.apply-card h3 {
-    font-size: 3rem;
-    color: var(--white);
-    background: black;
-    border-radius: 10px;
-    padding: 6px;
-    text-align: center;
-}
