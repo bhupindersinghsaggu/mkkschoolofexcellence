@@ -111,7 +111,7 @@ error_reporting(E_ALL);
             <div class="col-xl-6 col-md-6">
                <div class="course-entry card p-2 rounded-2">
                   <div class="card-media position-relative">
-                     <a href="single-course.html"><img class="card-img-top" src="images/labs/sports.jpg" alt="Course"></a>
+                     <a href="#"><img class="card-img-top" src="images/labs/sports.jpg" alt="Course"></a>
                      <a href="#" class="action-wishlist position-absolute bg-alt-blue bg-opacity-50 text-white icon icon-xs rounded-circle"><img src="images/icons/heart-fill.svg" alt="Wishlist"></a>
                   </div>
                   <div class="card-body">
@@ -138,7 +138,7 @@ error_reporting(E_ALL);
             <div class="col-xl-6 col-md-6">
                <div class="course-entry card p-2 rounded-2">
                   <div class="card-media position-relative">
-                     <a href="single-course.html"><img class="card-img-top" src="images/labs/composite-lab.jpg" alt="Course"></a>
+                     <a href="#"><img class="card-img-top" src="images/labs/composite-lab.jpg" alt="Course"></a>
                      <a href="#" class="action-wishlist position-absolute bg-alt-blue bg-opacity-50 text-white icon icon-xs rounded-circle"><img src="images/icons/heart-fill.svg" alt="Wishlist"></a>
                   </div>
                   <div class="card-body">
@@ -165,7 +165,7 @@ error_reporting(E_ALL);
             <div class="col-xl-6 col-md-6">
                <div class="course-entry card p-2 rounded-2">
                   <div class="card-media position-relative">
-                     <a href="single-course.html"><img class="card-img-top" src="images/labs/smart-class.jpg" alt="Course"></a>
+                     <a href="#"><img class="card-img-top" src="images/labs/smart-class.jpg" alt="Course"></a>
                      <a href="#" class="action-wishlist position-absolute bg-alt-blue bg-opacity-50 text-white icon icon-xs rounded-circle"><img src="images/icons/heart-fill.svg" alt="Wishlist"></a>
                   </div>
                   <div class="card-body">
@@ -192,7 +192,7 @@ error_reporting(E_ALL);
             <div class="col-xl-6 col-md-6">
                <div class="course-entry card p-2 rounded-2">
                   <div class="card-media position-relative">
-                     <a href="single-course.html"><img class="card-img-top" src="images/labs/computer-lab.jpg" alt="Course"></a>
+                     <a href="#"><img class="card-img-top" src="images/labs/computer-lab.jpg" alt="Course"></a>
                      <a href="#" class="action-wishlist position-absolute bg-alt-blue bg-opacity-50 text-white icon icon-xs rounded-circle"><img src="images/icons/heart-fill.svg" alt="Wishlist"></a>
                   </div>
                   <div class="card-body">
@@ -219,7 +219,7 @@ error_reporting(E_ALL);
             <div class="col-xl-6 col-md-6">
                <div class="course-entry card p-2 rounded-2">
                   <div class="card-media position-relative">
-                     <a href="single-course.html"><img class="card-img-top" src="images/labs/library.jpg" alt="Course"></a>
+                     <a href="#"><img class="card-img-top" src="images/labs/library.jpg" alt="Course"></a>
                      <a href="#" class="action-wishlist position-absolute bg-alt-blue bg-opacity-50 text-white icon icon-xs rounded-circle"><img src="images/icons/heart-fill.svg" alt="Wishlist"></a>
                   </div>
                   <div class="card-body">
@@ -243,36 +243,9 @@ error_reporting(E_ALL);
                </div>
                <!-- Course Entry End -->
             </div>
-            <div class="col-xl-6 col-md-6">
-               <div class="course-entry card p-2 rounded-2">
-                  <div class="card-media position-relative">
-                     <a href="single-course.html"><img class="card-img-top" src="images/labs/sports.jpg" alt="Course"></a>
-                     <a href="#" class="action-wishlist position-absolute bg-alt-blue bg-opacity-50 text-white icon icon-xs rounded-circle"><img src="images/icons/heart-fill.svg" alt="Wishlist"></a>
-                  </div>
-                  <div class="card-body">
-                     <div class="d-flex justify-content-between align-items-center">
-                        <div class="d-flex align-items-center">
-                           <div class="ratings me-2">
-                              <a href="#"><img src="images/icons/star.png" alt=""></a>
-                              <a href="#"><img src="images/icons/star.png" alt=""></a>
-                              <a href="#"><img src="images/icons/star.png" alt=""></a>
-                              <a href="#"><img src="images/icons/star.png" alt=""></a>
-                              <a href="#"><img src="images/icons/star.png" alt=""></a>
-                           </div>
-                        </div>
-                     </div>
-                     <h2 class="sec-title mb-4 labs-heading">
-                        Indoor-Outdoor <span class="color"> Games</span></h2>
-                     <div class="course-footer d-flex align-items-center justify-content-between pt-3">
-                        <a href="#">Enroll Now <i class="feather-icon icon-arrow-right"></i></a>
-                     </div>
-                  </div>
-               </div>
-               <!-- Course Entry End -->
-            </div>
-            <div class="col-12 text-center mt-5 pt-3">
+            <!-- <div class="col-12 text-center mt-5 pt-3">
                <a href="courses.html" class="btn btn-primary rounded-1 shadow-none border-0">Browse All Courses </a>
-            </div>
+            </div> -->
          </div>
       </div>
    </section>
