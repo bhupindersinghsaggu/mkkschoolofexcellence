@@ -18098,7 +18098,7 @@ a.banner-ads .b-content {
 }
 
 .course-entry {
-    background-color: rgba(var(--white-rgb), .2);
+    /* background-color: rgba(var(--white-rgb), .2); */
     border: .0625rem solid rgba(var(--border-color), .15);
     transform-origin: 50% 100%;
     -webkit-transition: all .3s ease-in-out;
@@ -18148,7 +18148,7 @@ a.banner-ads .b-content {
 
 .course-entry .author-meta a,
 .course-entry .card-body span {
-    color: var(--mute-alt);
+    /* color: var(--mute-alt); */
     -webkit-transition: all .3s ease-in-out;
     -moz-transition: all .3s ease-in-out;
     -ms-transition: all .3s ease-in-out;

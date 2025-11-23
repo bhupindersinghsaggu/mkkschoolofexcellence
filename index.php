@@ -100,6 +100,182 @@ error_reporting(E_ALL);
          </div>
       </div>
    </section>
+
+   <section class="course-sec-3 bg-blue sec-padding">
+      <div class="container">
+         <div class="text-center sec-intro">
+            <span class="badge-lg bg-primary rounded-5">Our Facilities</span>
+            <h2 class="sec-title text-white fw-bold">Facilities & <span class="color">Campus Life</span></h2>
+         </div>
+         <div class="row g-4">
+            <div class="col-xl-6 col-md-6">
+               <div class="course-entry card p-2 rounded-2">
+                  <div class="card-media position-relative">
+                     <a href="single-course.html"><img class="card-img-top" src="images/labs/sports.jpg" alt="Course"></a>
+                     <a href="#" class="action-wishlist position-absolute bg-alt-blue bg-opacity-50 text-white icon icon-xs rounded-circle"><img src="images/icons/heart-fill.svg" alt="Wishlist"></a>
+                  </div>
+                  <div class="card-body">
+                     <div class="d-flex justify-content-between align-items-center">
+                        <div class="d-flex align-items-center">
+                           <div class="ratings me-2">
+                              <a href="#"><img src="images/icons/star.png" alt=""></a>
+                              <a href="#"><img src="images/icons/star.png" alt=""></a>
+                              <a href="#"><img src="images/icons/star.png" alt=""></a>
+                              <a href="#"><img src="images/icons/star.png" alt=""></a>
+                              <a href="#"><img src="images/icons/star.png" alt=""></a>
+                           </div>
+                        </div>
+                     </div>
+                     <h2 class="sec-title mb-4 labs-heading">
+                        Indoor-Outdoor <span class="color"> Games</span></h2>
+                        <div class="course-footer d-flex align-items-center justify-content-between pt-3">
+                           <a href="#">Enroll Now <i class="feather-icon icon-arrow-right"></i></a>
+                        </div>
+                  </div>
+               </div>
+               <!-- Course Entry End -->
+            </div>
+            <div class="col-xl-6 col-md-6">
+               <div class="course-entry card p-2 rounded-2">
+                  <div class="card-media position-relative">
+                     <a href="single-course.html"><img class="card-img-top" src="images/labs/sports.jpg" alt="Course"></a>
+                     <a href="#" class="action-wishlist position-absolute bg-alt-blue bg-opacity-50 text-white icon icon-xs rounded-circle"><img src="images/icons/heart-fill.svg" alt="Wishlist"></a>
+                  </div>
+                  <div class="card-body">
+                     <div class="d-flex justify-content-between align-items-center">
+                        <div class="d-flex align-items-center">
+                           <div class="ratings me-2">
+                              <a href="#"><img src="images/icons/star.png" alt=""></a>
+                              <a href="#"><img src="images/icons/star.png" alt=""></a>
+                              <a href="#"><img src="images/icons/star.png" alt=""></a>
+                              <a href="#"><img src="images/icons/star.png" alt=""></a>
+                              <a href="#"><img src="images/icons/star.png" alt=""></a>
+                           </div>
+                        </div>
+                     </div>
+                     <h2 class="sec-title mb-4 labs-heading">
+                        Indoor-Outdoor <span class="color"> Games</span></h2>
+                        <div class="course-footer d-flex align-items-center justify-content-between pt-3">
+                           <a href="#">Enroll Now <i class="feather-icon icon-arrow-right"></i></a>
+                        </div>
+                  </div>
+               </div>
+               <!-- Course Entry End -->
+            </div>
+            <div class="col-xl-6 col-md-6">
+               <div class="course-entry card p-2 rounded-2">
+                  <div class="card-media position-relative">
+                     <a href="single-course.html"><img class="card-img-top" src="images/labs/sports.jpg" alt="Course"></a>
+                     <a href="#" class="action-wishlist position-absolute bg-alt-blue bg-opacity-50 text-white icon icon-xs rounded-circle"><img src="images/icons/heart-fill.svg" alt="Wishlist"></a>
+                  </div>
+                  <div class="card-body">
+                     <div class="d-flex justify-content-between align-items-center">
+                        <div class="d-flex align-items-center">
+                           <div class="ratings me-2">
+                              <a href="#"><img src="images/icons/star.png" alt=""></a>
+                              <a href="#"><img src="images/icons/star.png" alt=""></a>
+                              <a href="#"><img src="images/icons/star.png" alt=""></a>
+                              <a href="#"><img src="images/icons/star.png" alt=""></a>
+                              <a href="#"><img src="images/icons/star.png" alt=""></a>
+                           </div>
+                        </div>
+                     </div>
+                     <h2 class="sec-title mb-4 labs-heading">
+                        Indoor-Outdoor <span class="color"> Games</span></h2>
+                        <div class="course-footer d-flex align-items-center justify-content-between pt-3">
+                           <a href="#">Enroll Now <i class="feather-icon icon-arrow-right"></i></a>
+                        </div>
+                  </div>
+               </div>
+               <!-- Course Entry End -->
+            </div>
+            <div class="col-xl-6 col-md-6">
+               <div class="course-entry card p-2 rounded-2">
+                  <div class="card-media position-relative">
+                     <a href="single-course.html"><img class="card-img-top" src="images/labs/sports.jpg" alt="Course"></a>
+                     <a href="#" class="action-wishlist position-absolute bg-alt-blue bg-opacity-50 text-white icon icon-xs rounded-circle"><img src="images/icons/heart-fill.svg" alt="Wishlist"></a>
+                  </div>
+                  <div class="card-body">
+                     <div class="d-flex justify-content-between align-items-center">
+                        <div class="d-flex align-items-center">
+                           <div class="ratings me-2">
+                              <a href="#"><img src="images/icons/star.png" alt=""></a>
+                              <a href="#"><img src="images/icons/star.png" alt=""></a>
+                              <a href="#"><img src="images/icons/star.png" alt=""></a>
+                              <a href="#"><img src="images/icons/star.png" alt=""></a>
+                              <a href="#"><img src="images/icons/star.png" alt=""></a>
+                           </div>
+                        </div>
+                     </div>
+                     <h2 class="sec-title mb-4 labs-heading">
+                        Indoor-Outdoor <span class="color"> Games</span></h2>
+                        <div class="course-footer d-flex align-items-center justify-content-between pt-3">
+                           <a href="#">Enroll Now <i class="feather-icon icon-arrow-right"></i></a>
+                        </div>
+                  </div>
+               </div>
+               <!-- Course Entry End -->
+            </div>
+            <div class="col-xl-6 col-md-6">
+               <div class="course-entry card p-2 rounded-2">
+                  <div class="card-media position-relative">
+                     <a href="single-course.html"><img class="card-img-top" src="images/labs/sports.jpg" alt="Course"></a>
+                     <a href="#" class="action-wishlist position-absolute bg-alt-blue bg-opacity-50 text-white icon icon-xs rounded-circle"><img src="images/icons/heart-fill.svg" alt="Wishlist"></a>
+                  </div>
+                  <div class="card-body">
+                     <div class="d-flex justify-content-between align-items-center">
+                        <div class="d-flex align-items-center">
+                           <div class="ratings me-2">
+                              <a href="#"><img src="images/icons/star.png" alt=""></a>
+                              <a href="#"><img src="images/icons/star.png" alt=""></a>
+                              <a href="#"><img src="images/icons/star.png" alt=""></a>
+                              <a href="#"><img src="images/icons/star.png" alt=""></a>
+                              <a href="#"><img src="images/icons/star.png" alt=""></a>
+                           </div>
+                        </div>
+                     </div>
+                     <h2 class="sec-title mb-4 labs-heading">
+                        Indoor-Outdoor <span class="color"> Games</span></h2>
+                        <div class="course-footer d-flex align-items-center justify-content-between pt-3">
+                           <a href="#">Enroll Now <i class="feather-icon icon-arrow-right"></i></a>
+                        </div>
+                  </div>
+               </div>
+               <!-- Course Entry End -->
+            </div>
+            <div class="col-xl-6 col-md-6">
+               <div class="course-entry card p-2 rounded-2">
+                  <div class="card-media position-relative">
+                     <a href="single-course.html"><img class="card-img-top" src="images/labs/sports.jpg" alt="Course"></a>
+                     <a href="#" class="action-wishlist position-absolute bg-alt-blue bg-opacity-50 text-white icon icon-xs rounded-circle"><img src="images/icons/heart-fill.svg" alt="Wishlist"></a>
+                  </div>
+                  <div class="card-body">
+                     <div class="d-flex justify-content-between align-items-center">
+                        <div class="d-flex align-items-center">
+                           <div class="ratings me-2">
+                              <a href="#"><img src="images/icons/star.png" alt=""></a>
+                              <a href="#"><img src="images/icons/star.png" alt=""></a>
+                              <a href="#"><img src="images/icons/star.png" alt=""></a>
+                              <a href="#"><img src="images/icons/star.png" alt=""></a>
+                              <a href="#"><img src="images/icons/star.png" alt=""></a>
+                           </div>
+                        </div>
+                     </div>
+                     <h2 class="sec-title mb-4 labs-heading">
+                        Indoor-Outdoor <span class="color"> Games</span></h2>
+                        <div class="course-footer d-flex align-items-center justify-content-between pt-3">
+                           <a href="#">Enroll Now <i class="feather-icon icon-arrow-right"></i></a>
+                        </div>
+                  </div>
+               </div>
+               <!-- Course Entry End -->
+            </div>
+            <div class="col-12 text-center mt-5 pt-3">
+               <a href="courses.html" class="btn btn-primary rounded-1 shadow-none border-0">Browse All Courses </a>
+            </div>
+         </div>
+      </div>
+   </section>
    <!-- Course Section Start -->
    <div class="course-sec sec-padding bg-blue">
       <div class="container">
@@ -414,7 +590,7 @@ error_reporting(E_ALL);
          </div>
          <div class="row">
             <?php while ($row = $result->fetch_assoc()): ?>
-               <div class="col-xl-4 col-md-6">
+               <div class="col-xl-6 col-md-6">
                   <div class="event-entry shadow-sm overflow-hidden rounded-4">
                      <div class="event-thumb">
                         <img class="card-img-top" src="admin-panel/gallery/uploads/<?= htmlspecialchars($row['image']) ?>" alt="<?= htmlspecialchars($row['title']) ?>">
