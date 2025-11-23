@@ -127,7 +127,7 @@ error_reporting(E_ALL);
                         </div>
                      </div>
                      <h2 class="sec-title mb-4 labs-heading">
-                        Indoor-Outdoor <span class="color"> Games</span></h2>
+                        Indoor-Outdoor  Games/h2>
                      <div class="course-footer d-flex align-items-center justify-content-between pt-3">
                      </div>
                   </div>
@@ -152,7 +152,7 @@ error_reporting(E_ALL);
                         </div>
                      </div>
                      <h2 class="sec-title mb-4 labs-heading">
-                        Learner's <span class="color"> Hub</span></h2>
+                        Learner's  Hub</h2>
                      <div class="course-footer d-flex align-items-center justify-content-between pt-3">
                      </div>
                   </div>
@@ -177,7 +177,7 @@ error_reporting(E_ALL);
                         </div>
                      </div>
                      <h2 class="sec-title mb-4 labs-heading">
-                        State-of-the-Art <span class="color"> Classrooms</span></h2>
+                        State-of-the-Art  Classrooms</h2>
                      <div class="course-footer d-flex align-items-center justify-content-between pt-3">
                      </div>
                   </div>
@@ -202,7 +202,7 @@ error_reporting(E_ALL);
                         </div>
                      </div>
                      <h2 class="sec-title mb-4 labs-heading">
-                        Computer <span class="color"> Labs</span></h2>
+                        Computer  Labs</h2>
                      <div class="course-footer d-flex align-items-center justify-content-between pt-3">
                      </div>
                   </div>
@@ -227,7 +227,7 @@ error_reporting(E_ALL);
                         </div>
                      </div>
                      <h2 class="sec-title mb-4 labs-heading">
-                         Library<span class="color"> </span></h2>
+                         Library </h2>
                      <div class="course-footer d-flex align-items-center justify-content-between pt-3">
                      </div>
                   </div>
