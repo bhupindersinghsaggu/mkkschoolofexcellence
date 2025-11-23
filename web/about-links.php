@@ -20,8 +20,8 @@
         <div class="widget-inner p-4 text-center">
             <h4 class="display-5">Follow us</h4>
             <div class="footer-social mt-4">
-                <a href="https://www.facebook.com/schoolofexcellencepanipat"><i class="feather-icon icon-facebook"></i></a>
-                <a href="https://www.instagram.com/schoolofexcellencepanipat2025/"><i class="feather-icon icon-instagram"></i></a>
+                <a href="https://www.facebook.com/schoolofexcellencepanipat" target="_blank"><i class="feather-icon icon-facebook"></i></a>
+                <a href="https://www.instagram.com/schoolofexcellencepanipat2025/" target="_blank"><i class="feather-icon icon-instagram"></i></a>
                 <!-- <a href="#"><i class="feather-icon icon-youtube"></i></a> -->
             </div>
         </div>
