@@ -30,7 +30,7 @@ ini_set('display_errors', 1);
             </div>
             <div class="col-lg-4">
                 <?php
-                include ('/web/about-links.php')
+                include ('web/about-links.php')
                 ?>
             </div>
         </div>
