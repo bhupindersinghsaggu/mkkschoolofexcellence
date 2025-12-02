@@ -24,7 +24,7 @@ ini_set('display_errors', 1);
                 <div class="card-media position-relative">
                     <a href="#"><img class="card-img-top" src="images/labs/sports.jpg" alt="Course"></a>
                 </div>
-                <p class="line-heigth pb-4">At School of Excellence, we believe that education is incomplete without physical fitness and recreational activities. As the saying goes, “All work and no play makes Jack a dull boy,” which is why our curriculum gives equal importance to sports, games, and overall well-being. Students participate in a wide range of outdoor sports such as soccer, basketball, volleyball, and more — helping them develop stamina, teamwork, discipline, and a healthy spirit of competition.
+                <p class="line-heigth pt-4">At School of Excellence, we believe that education is incomplete without physical fitness and recreational activities. As the saying goes, “All work and no play makes Jack a dull boy,” which is why our curriculum gives equal importance to sports, games, and overall well-being. Students participate in a wide range of outdoor sports such as soccer, basketball, volleyball, and more — helping them develop stamina, teamwork, discipline, and a healthy spirit of competition.
                 </p>
                 <p class="line-heigth">Along with outdoor activities, we also emphasize indoor games that stimulate mental alertness and analytical thinking. Games like table tennis, carrom, chess, puzzles, scrabble, ludo, monopoly, and others help enhance focus, problem-solving skills, and strategic thinking.
                 </p>
