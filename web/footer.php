@@ -260,7 +260,7 @@
      .pay-online {
          position: fixed;
          bottom: 15px;
-         left: 20px;
+         right: 20px;
          z-index: 99;
          cursor: pointer;
          border-width: initial;
