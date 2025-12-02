@@ -32,8 +32,13 @@ ini_set('display_errors', 1);
                     We believe that every child is born with unique talents and unlimited potential, and our mission is to nurture that potential through holistic and value-based education.
                 </p>
                 <p class="line-heigth"> At MKK School of Excellence, learning goes beyond textbooks. Our curriculum is designed to develop academic excellence, creativity, confidence, discipline, leadership, and strong moral values. With experienced faculty, modern teaching methods, and a safe, supportive environment, we ensure that every student grows intellectually, emotionally, socially, and physically.
-
                     Our school campus provides well-equipped classrooms, advanced labs, smart learning facilities, sports and activity arenas, and opportunities for cultural and personality development. We aim to create responsible global citizens who are ready to face the challenges of the future with courage and capability.</p>
+                <h5>Vision</h5>
+                <p class="line-heigth">Our mission is to deliver holistic education that blends academic excellence with essential life skills. We strive to ignite a lifelong love for learning, nurture strong moral values, and shape socially responsible and compassionate individuals.</p>
+                <h5>Academic Excellence</h5>
+                <p class="line-heigth">We take great pride in our strong academic programs that challenge, motivate, and engage learners at every stage. Our comprehensive curriculum incorporates modern educational practices and advanced technology to help students reach their highest potential. With a team of dedicated and experienced educators, we ensure high–quality teaching and personalized guidance for every student.p>
+                <h5>Community and Values</h5>
+                <p class="line-heigth">We are more than just a school — we are a community built on respect, integrity, and compassion. We encourage our students to actively contribute to society, embrace diverse perspectives, and become positive change–makers in the world around them.</p>
             </div>
             <div class="col-lg-4">
                 <?php include('web/infra-links.php'); ?>
