@@ -34,9 +34,12 @@ ini_set('display_errors', 1);
                         <a href="#"><img class="card-img-top" src="images/labs/sports2.jpg" alt="Course"></a>
                     </div>
                 </div>
-                <p class="line-heigth pt-4">Along with outdoor activities, we also emphasize indoor games that stimulate mental alertness and analytical thinking. Games like table tennis, carrom, chess, puzzles, scrabble, ludo, monopoly, and others help enhance focus, problem-solving skills, and strategic thinking.
+                <p class="line-heigth pt-4">Along with outdoor activities, we also emphasize indoor games that stimulate mental 
+                    alertness and analytical thinking. Games like Basketball, Volleyball, Hadal Race, Cricket & Taekwondo and others help enhance focus, problem-solving skills, and strategic thinking.
                 </p>
-                <p class="line-heigth">Through both indoor and outdoor sports, School of Excellence ensures that students get the perfect balance of physical fitness, mental strength, enjoyment, and stress relief. We aim to nurture learners who are not only academically strong but also emotionally balanced, energetic, and confident in every aspect of life.</p>
+                <p class="line-heigth">Through both indoor and outdoor sports, School of Excellence ensures that 
+                    students get the perfect balance of physical fitness, mental strength, enjoyment, and stress relief.
+                     We aim to nurture learners who are not only academically strong but also emotionally balanced, energetic, and confident in every aspect of life.</p>
             </div>
             <div class="col-lg-4">
                 <?php include('web/infra-links.php'); ?>
