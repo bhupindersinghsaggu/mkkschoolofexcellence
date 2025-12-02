@@ -270,3 +270,18 @@
 
 }
 
+
+.teacher-entry {
+    min-height: 32.5rem;
+    background-size: cover;
+    border-radius: 320px;
+    background-position: top;
+    border: 7px solid #fff;
+    -webkit-transition: all .3s 
+ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s 
+ease-in-out;
+}
