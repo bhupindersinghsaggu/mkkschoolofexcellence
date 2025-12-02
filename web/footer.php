@@ -184,7 +184,7 @@
                display: none;
            }
              .mobile-footer {
-           display: none;
+           /* display: none; */
            position: fixed;
            bottom: 0;
            left: 0;
