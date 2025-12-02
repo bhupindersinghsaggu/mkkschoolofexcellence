@@ -122,19 +122,7 @@
 
 
        /* Footer Styles */
-       .mobile-footer {
-           /* display: none; */
-           position: fixed;
-           bottom: 0;
-           left: 0;
-           width: 100%;
-           background: linear-gradient(to right, #f8f9fa, #e9ecef);
-           padding: 15px 0;
-           box-shadow: 0 -5px 15px rgba(0, 0, 0, 0.1);
-           z-index: 1000;
-           border-top-left-radius: 20px;
-           border-top-right-radius: 20px;
-       }
+     
 
        .footer-icons {
            display: flex;
@@ -195,6 +183,19 @@
            .desktop-message {
                display: none;
            }
+             .mobile-footer {
+           display: none;
+           position: fixed;
+           bottom: 0;
+           left: 0;
+           width: 100%;
+           background: linear-gradient(to right, #f8f9fa, #e9ecef);
+           padding: 15px 0;
+           box-shadow: 0 -5px 15px rgba(0, 0, 0, 0.1);
+           z-index: 1000;
+           border-top-left-radius: 20px;
+           border-top-right-radius: 20px;
+       }
        }
 
        /* Demo content */
