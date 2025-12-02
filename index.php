@@ -548,7 +548,7 @@ error_reporting(E_ALL);
       <div class="container">
          <div class="sec-intro">
                <!-- <span class="badge-lg bg-primary rounded-5">Blog &amp; News</span> -->
-               <h2 class="sec-title mb-0">From The  <span class="color">Principal Desk</span></h2>
+               <h2 class="sec-title mb-0">From The  <span class="color">Principal’s desk</span></h2>
             </div>
          <div class="row">
             <div class="col-lg-4">
