@@ -58,7 +58,7 @@
                      <div class="recent-posts mt-4">
                          <iframe
                              src="https://curtina.in/_EazySchool/Formsweb/StudBday_STM.aspx?AppId=soe&cdn=http://curtina.in/soe"
-                             style="height:370px; width:100% ;border:none; margin-left: -70px;"></iframe>
+                             style="height:270px; width:100% ;border:none; margin-left: -70px;"></iframe>
                      </div>
                  </div>
              </div>
