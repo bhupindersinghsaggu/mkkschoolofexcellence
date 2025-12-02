@@ -21,12 +21,12 @@
                      <div class=" text-info rounded-3 ">
                          <h3 style="color:#fff;">More Info</h3>
                      </div>
-                       <ul class="mt-4">
+                     <ul class="mt-4">
                          <li><a href="history.php">About School</a></li>
                          <li><a href="gps-app.php">Download GPS APP</a></li>
                          <li><a href="#" data-toggle="modal" data-target="#exampleModal">Make A Query</a></li>
                          <li><a href="https://play.google.com/store/apps/details?id=com.magnus.soe&hl=en_IN">Download Mobile APP</a></li>
-                         
+
                      </ul>
                  </div>
              </div>
@@ -51,10 +51,10 @@
              <!--  Widget End -->
              <div class="col-lg-4 ps-xxl-5 col-sm-6">
                  <div class="footer-widget post-widget">
-                    <div class=" text-info rounded-3 ">
+                     <div class=" text-info rounded-3 ">
                          <h3 style="color:#fff;">Happy Birth Day</h3>
                      </div>
-                 
+
                      <div class="recent-posts mt-4">
                          <iframe
                              src="https://curtina.in/_EazySchool/Formsweb/StudBday_STM.aspx?AppId=soe&cdn=http://curtina.in/soe"
@@ -80,223 +80,227 @@
      </div>
  </footer>
 
-   <style>
-       .footer-icon1 {
-           position: fixed;
-           bottom: 40px;
-           /* distance from bottom */
-           right: 20px;
-           /* distance from right */
-           display: flex;
-           flex-direction: column;
-           gap: 10px;
-           /* spacing between items */
-           z-index: 9999;
-           /* keeps it on top */
-           text-align: center;
-       }
+ <style>
+     .footer-icon1 {
+         position: fixed;
+         bottom: 40px;
+         /* distance from bottom */
+         right: 20px;
+         /* distance from right */
+         display: flex;
+         flex-direction: column;
+         gap: 10px;
+         /* spacing between items */
+         z-index: 9999;
+         /* keeps it on top */
+         text-align: center;
+     }
 
-       .footer-icon1 a div {
-           background: #dc3545;
-           /* red background */
-           color: #fff;
-           /* white text */
-           padding: 8px 12px;
-           border-radius: 6px;
-           font-size: 14px;
-           font-weight: 500;
-           transition: 0.3s;
-       }
+     .footer-icon1 a div {
+         background: #dc3545;
+         /* red background */
+         color: #fff;
+         /* white text */
+         padding: 8px 12px;
+         border-radius: 6px;
+         font-size: 14px;
+         font-weight: 500;
+         transition: 0.3s;
+     }
 
-       .footer-icon1 a div:hover {
-           background: #b52a34;
-       }
+     .footer-icon1 a div:hover {
+         background: #b52a34;
+     }
 
-       .footer-icon1 img {
-           width: 50px;
-           height: 50px;
-           border-radius: 50%;
-           cursor: pointer;
-       }
+     .footer-icon1 img {
+         width: 50px;
+         height: 50px;
+         border-radius: 50%;
+         cursor: pointer;
+     }
 
 
 
-       /* Footer Styles */
-     
+     /* Footer Styles */
+     .mobile-footer {
+         display: none;
+         position: fixed;
+         bottom: 0;
+         left: 0;
+         width: 100%;
+         background: linear-gradient(to right, #f8f9fa, #e9ecef);
+         padding: 15px 0;
+         box-shadow: 0 -5px 15px rgba(0, 0, 0, 0.1);
+         z-index: 1000;
+         border-top-left-radius: 20px;
+         border-top-right-radius: 20px;
+     }
 
-       .footer-icons {
-           display: flex;
-           justify-content: space-around;
-           align-items: center;
-       }
+     /* Show only on mobile (max 768px) */
+     @media only screen and (max-width: 768px) {
+         .mobile-footer {
+             display: block;
+         }
+     }
 
-       .footer-item {
-           display: flex;
-           flex-direction: column;
-           align-items: center;
-           text-decoration: none;
-           color: #495057;
-           transition: all 0.3s ease;
-           flex: 1;
-       }
+     .footer-icons {
+         display: flex;
+         justify-content: space-around;
+         align-items: center;
+     }
 
-       .footer-item:hover {
-           transform: translateY(-5px);
-           color: #007bff;
-       }
+     .footer-item {
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+         text-decoration: none;
+         color: #495057;
+         transition: all 0.3s ease;
+         flex: 1;
+     }
 
-       .footer-icon {
-           font-size: 22px;
-           margin-bottom: 5px;
-           background: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%);
-           -webkit-background-clip: text;
-           -webkit-text-fill-color: transparent;
-           transition: all 0.3s ease;
-           padding: 10px;
-           border-radius: 50%;
-           background-color: rgba(255, 255, 255, 0.9);
-           box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-           width: 50px;
-           height: 50px;
-           display: flex;
-           align-items: center;
-           justify-content: center;
-       }
+     .footer-item:hover {
+         transform: translateY(-5px);
+         color: #007bff;
+     }
 
-       .footer-item:hover .footer-icon {
-           transform: scale(1.2) rotate(5deg);
-           box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
-       }
+     .footer-icon {
+         font-size: 22px;
+         margin-bottom: 5px;
+         background: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%);
+         -webkit-background-clip: text;
+         -webkit-text-fill-color: transparent;
+         transition: all 0.3s ease;
+         padding: 10px;
+         border-radius: 50%;
+         background-color: rgba(255, 255, 255, 0.9);
+         box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+         width: 50px;
+         height: 50px;
+         display: flex;
+         align-items: center;
+         justify-content: center;
+     }
 
-       .footer-label {
-           font-size: 12px;
-           font-weight: 500;
-           margin-top: 5px;
-       }
+     .footer-item:hover .footer-icon {
+         transform: scale(1.2) rotate(5deg);
+         box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+     }
 
-       /* Show footer only on mobile */
-       @media (max-width: 768px) {
-           .mobile-footer {
-               display: block;
-           }
+     .footer-label {
+         font-size: 12px;
+         font-weight: 500;
+         margin-top: 5px;
+     }
 
-           .desktop-message {
-               display: none;
-           }
-             .mobile-footer {
-           /* display: none; */
-           position: fixed;
-           bottom: 0;
-           left: 0;
-           width: 100%;
-           background: linear-gradient(to right, #f8f9fa, #e9ecef);
-           padding: 15px 0;
-           box-shadow: 0 -5px 15px rgba(0, 0, 0, 0.1);
-           z-index: 1000;
-           border-top-left-radius: 20px;
-           border-top-right-radius: 20px;
-       }
-       }
+     /* Show footer only on mobile */
+     @media (max-width: 768px) {
+         
 
-       /* Demo content */
-       .content {
-           margin-bottom: 80px;
-       }
+         .desktop-message {
+             display: none;
+         }
+     }
 
-       .notification {
-           background: rgba(255, 255, 255, 0.15);
-           padding: 15px;
-           border-radius: 12px;
-           margin: 15px 0;
-       }
+     /* Demo content */
+     .content {
+         margin-bottom: 80px;
+     }
 
-       /* Instructions */
-       .instructions {
-           background: rgba(255, 255, 255, 0.2);
-           padding: 20px;
-           border-radius: 15px;
-           margin-top: 30px;
-       }
+     .notification {
+         background: rgba(255, 255, 255, 0.15);
+         padding: 15px;
+         border-radius: 12px;
+         margin: 15px 0;
+     }
 
-       .instructions h2 {
-           margin-bottom: 10px;
-           font-size: 1.4rem;
-       }
+     /* Instructions */
+     .instructions {
+         background: rgba(255, 255, 255, 0.2);
+         padding: 20px;
+         border-radius: 15px;
+         margin-top: 30px;
+     }
 
-       .instructions ul {
-           padding-left: 20px;
-       }
+     .instructions h2 {
+         margin-bottom: 10px;
+         font-size: 1.4rem;
+     }
 
-       .instructions li {
-           margin-bottom: 8px;
-       }
+     .instructions ul {
+         padding-left: 20px;
+     }
 
-       /* Desktop message */
-       .desktop-message {
-           text-align: center;
-           padding: 20px;
-           background: rgba(255, 255, 255, 0.2);
-           border-radius: 15px;
-           margin-top: 30px;
-       }
+     .instructions li {
+         margin-bottom: 8px;
+     }
 
-       /* Version badge */
-       .version-badge {
-           position: absolute;
-           top: 15px;
-           right: 15px;
-           background: white;
-           color: #6a11cb;
-           padding: 5px 10px;
-           border-radius: 20px;
-           font-size: 12px;
-           font-weight: bold;
-       }
-   </style>
-   <footer class="mobile-footer">
-       <div class="footer-icons">
-           <!-- <a href="/booklist.php" class="footer-item">
+     /* Desktop message */
+     .desktop-message {
+         text-align: center;
+         padding: 20px;
+         background: rgba(255, 255, 255, 0.2);
+         border-radius: 15px;
+         margin-top: 30px;
+     }
+
+     /* Version badge */
+     .version-badge {
+         position: absolute;
+         top: 15px;
+         right: 15px;
+         background: white;
+         color: #6a11cb;
+         padding: 5px 10px;
+         border-radius: 20px;
+         font-size: 12px;
+         font-weight: bold;
+     }
+ </style>
+ <footer class="mobile-footer">
+     <div class="footer-icons">
+         <!-- <a href="/booklist.php" class="footer-item">
                <div class="footer-icon">
                    <i class="fas fa-th-large"></i>
                </div>
                <span class="footer-label">Book List</span>
            </a> -->
-           <a href="https://mkkschoolofexcellence.com/gps-app.php" class="footer-item">
-               <div class="footer-icon">
-                   <i class="fas fa-users"></i>
-               </div>
-               <span class="footer-label">GPS APP</span>
-           </a>
-           <a href="https://play.google.com/store/apps/details?id=com.magnus.soe&hl=en_IN" class="footer-item">
-               <div class="footer-icon">
-                   <i class="fas fa-network-wired"></i>
-               </div>
-               <span class="footer-label">Mobile APP</span>
-           </a>
-           <a href="https://curtina.in/soe/forms/frmstdPayOnline.aspx" class="footer-item">
-               <div class="footer-icon">
-                   <i class="fas fa-credit-card"></i>
-               </div>
-               <span class="footer-label">Pay Online</span>
-           </a>
-       </div>
-   </footer>
+         <a href="https://mkkschoolofexcellence.com/gps-app.php" class="footer-item">
+             <div class="footer-icon">
+                 <i class="fas fa-users"></i>
+             </div>
+             <span class="footer-label">GPS APP</span>
+         </a>
+         <a href="https://play.google.com/store/apps/details?id=com.magnus.soe&hl=en_IN" class="footer-item">
+             <div class="footer-icon">
+                 <i class="fas fa-network-wired"></i>
+             </div>
+             <span class="footer-label">Mobile APP</span>
+         </a>
+         <a href="https://curtina.in/soe/forms/frmstdPayOnline.aspx" class="footer-item">
+             <div class="footer-icon">
+                 <i class="fas fa-credit-card"></i>
+             </div>
+             <span class="footer-label">Pay Online</span>
+         </a>
+     </div>
+ </footer>
 
-   <script>
-       // Simple animation for icons when page loads
-       document.addEventListener('DOMContentLoaded', function() {
-           const icons = document.querySelectorAll('.footer-icon');
-           icons.forEach((icon, index) => {
-               setTimeout(() => {
-                   icon.style.opacity = '1';
-                   icon.style.transform = 'scale(1.1)';
-                   setTimeout(() => {
-                       icon.style.transform = 'scale(1)';
-                   }, 200);
-               }, index * 100);
-           });
-       });
-   </script>
+ <script>
+     // Simple animation for icons when page loads
+     document.addEventListener('DOMContentLoaded', function() {
+         const icons = document.querySelectorAll('.footer-icon');
+         icons.forEach((icon, index) => {
+             setTimeout(() => {
+                 icon.style.opacity = '1';
+                 icon.style.transform = 'scale(1.1)';
+                 setTimeout(() => {
+                     icon.style.transform = 'scale(1)';
+                 }, 200);
+             }, index * 100);
+         });
+     });
+ </script>
  <!-- Footer Section End -->
  </div>
  <!-- Scroll Top -->
