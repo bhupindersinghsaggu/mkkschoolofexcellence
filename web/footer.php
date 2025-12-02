@@ -299,7 +299,7 @@
      </div>
  </footer>
  <div class="pay-online">
-     <a href="https://curtina.in/soe/forms/frmstdPayOnline.aspx" target="_blank"><img onclick="topFunction()" id="btnGoToTop" src="assets/images/ss.png" alt=""></a>
+     <a href="https://curtina.in/soe/forms/frmstdPayOnline.aspx" target="_blank"><img onclick="topFunction()" id="btnGoToTop" src="images/ss.png" alt=""></a>
  </div>
  <script>
      // Simple animation for icons when page loads
