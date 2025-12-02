@@ -10,8 +10,8 @@
                      </div>
                      <a href="tel:+9034252500" class="display-4 cta-link text-secondary txt-white">90342 52500</a>
                      <div class="social-share-alt text-mute mt-4">
-                         <a href="https://www.facebook.com/schoolofexcellencepanipat"><img class="footer-icons" src="images/icons/fb-w.png" alt=""></a>
-                         <a href="https://www.instagram.com/schoolofexcellencepanipat2025/"><img class="footer-icons" src="images/icons/ins-w.png" alt=""></a>
+                         <a href="https://www.facebook.com/schoolofexcellencepanipat"><img class="footer-icon" src="images/icons/fb-w.png" alt=""></a>
+                         <a href="https://www.instagram.com/schoolofexcellencepanipat2025/"><img class="footer-icon" src="images/icons/ins-w.png" alt=""></a>
                      </div>
                  </div>
              </div>
