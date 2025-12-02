@@ -28,10 +28,10 @@ ini_set('display_errors', 1);
                 </p>
                 <div class="d-flex justify-content-center gap-4">
                     <div class="card-media position-relative">
-                        <a href="#"><img class="card-img-top" src="images/labs/sports.jpg" alt="Course"></a>
+                        <a href="#"><img class="card-img-top" src="images/labs/sports1.jpg" alt="Course"></a>
                     </div>
                     <div class="card-media position-relative">
-                        <a href="#"><img class="card-img-top" src="images/labs/sports.jpg" alt="Course"></a>
+                        <a href="#"><img class="card-img-top" src="images/labs/sports2.jpg" alt="Course"></a>
                     </div>
                 </div>
                 <p class="line-heigth">Along with outdoor activities, we also emphasize indoor games that stimulate mental alertness and analytical thinking. Games like table tennis, carrom, chess, puzzles, scrabble, ludo, monopoly, and others help enhance focus, problem-solving skills, and strategic thinking.
