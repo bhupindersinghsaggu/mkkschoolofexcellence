@@ -195,7 +195,7 @@
 
      /* Show footer only on mobile */
      @media (max-width: 768px) {
-         
+
 
          .desktop-message {
              display: none;
@@ -256,6 +256,19 @@
          font-size: 12px;
          font-weight: bold;
      }
+
+     .pay-online {
+         position: fixed;
+         bottom: 15px;
+         left: 20px;
+         z-index: 99;
+         cursor: pointer;
+         border-width: initial;
+         border-style: none;
+         border-color: initial;
+         border-image: initial;
+         outline: none;
+     }
  </style>
  <footer class="mobile-footer">
      <div class="footer-icons">
@@ -285,7 +298,9 @@
          </a>
      </div>
  </footer>
-
+ <div class="pay-online">
+     <a href="https://curtina.in/soe/forms/frmstdPayOnline.aspx" target="_blank"><img onclick="topFunction()" id="btnGoToTop" src="assets/images/ss.png" alt=""></a>
+ </div>
  <script>
      // Simple animation for icons when page loads
      document.addEventListener('DOMContentLoaded', function() {
