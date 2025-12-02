@@ -143,11 +143,11 @@
          }
      }
 
-     .footer-icons {
+     /* .footer-icons {
          display: flex;
          justify-content: space-around;
          align-items: center;
-     }
+     } */
 
      .footer-item {
          display: flex;
