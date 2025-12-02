@@ -271,7 +271,7 @@
 
                                         </li>
                                         <li><a class="dropdown-item" href="campus.php">Campus</a></li>
-                                        <li><a class="dropdown-item" href="playground.php">Playground</a></li>
+                                        <li><a class="dropdown-item" href="indoor-outdoor-games.php">Sports & Games</a></li>
                                         <li><a class="dropdown-item" href="library.php">Library</a></li>
                                         <li><a class="dropdown-item" href="art-craft.php">Art And Craft</a></li>
                                         <li><a class="dropdown-item" href="music-dance.php">Music and Dance</a>

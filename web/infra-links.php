@@ -10,9 +10,8 @@
             <ul>
                 <li><a href="labs.php">Labs<span><i class="feather-icon icon-chevron-right"></i></span></a></li>
                 <li><a href="campus.php">Campus<span><i class="feather-icon icon-chevron-right"></i></span></a></li>
-                <li><a href="playground.php">Playground<span><i class="feather-icon icon-chevron-right"></i></span></a></li>
+                <li><a href="indoor-outdoor-games.php">Sports & Games<span><i class="feather-icon icon-chevron-right"></i></span></a></li>
                 <li><a href="library.php">Library<span><i class="feather-icon icon-chevron-right"></i></span></a></li>
-                <li><a href="playground.php">Playground<span><i class="feather-icon icon-chevron-right"></i></span></a></li>
                 <li><a href="art-craft.php">Art & Craft<span><i class="feather-icon icon-chevron-right"></i></span></a></li>
                 <li><a href="dance-music.php">Music & Dance<span><i class="feather-icon icon-chevron-right"></i></span></a></li>
             </ul>
