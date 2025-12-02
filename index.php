@@ -604,7 +604,7 @@ error_reporting(E_ALL);
                   </div>
                </div>
             <?php endwhile; ?>
-            <div class="d-flex align-items-center justify-content-between">
+            <div class="d-flex align-items-center justify-content-between p-4">
                <a href="all-news.php" class="btn btn-primary align-self-start shadow rounded-5">View All</a>
             </div>
          </div>
