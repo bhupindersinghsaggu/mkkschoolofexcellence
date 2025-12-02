@@ -28,7 +28,12 @@ ini_set('display_errors', 1);
     <div class="container">
         <div class="row">
             <div class="col-lg-8">
-                
+                <p>Welcome to MKK School of Excellence, where education meets inspiration.
+We believe that every child is born with unique talents and unlimited potential, and our mission is to nurture that potential through holistic and value-based education.
+
+At MKK School of Excellence, learning goes beyond textbooks. Our curriculum is designed to develop academic excellence, creativity, confidence, discipline, leadership, and strong moral values. With experienced faculty, modern teaching methods, and a safe, supportive environment, we ensure that every student grows intellectually, emotionally, socially, and physically.
+
+Our school campus provides well-equipped classrooms, advanced labs, smart learning facilities, sports and activity arenas, and opportunities for cultural and personality development. We aim to create responsible global citizens who are ready to face the challenges of the future with courage and capability.</p>
             </div>
             <div class="col-lg-4">
                 <?php include ('web/infra-links.php');?>
