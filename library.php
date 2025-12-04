@@ -30,10 +30,10 @@ ini_set('display_errors', 1);
                 </p>
                 <div class="d-flex justify-content-center gap-4">
                     <div class="card-media position-relative">
-                        <a href="#"><img class="card-img-top" src="images/labs/library2.jpg" alt="Course"></a>
+                        <a href="#"><img class="card-img-top" src="images/labs/lib2.jpg" alt="Course"></a>
                     </div>
                     <div class="card-media position-relative">
-                        <a href="#"><img class="card-img-top" src="images/labs/sports2.jpg" alt="Course"></a>
+                        <a href="#"><img class="card-img-top" src="images/labs/lib1.jpg" alt="Course"></a>
                     </div>
                 </div>
                 <p class="line-heigth pt-4">The library is equipped with comfortable seating, proper lighting, and a structured cataloging system for easy access to information. Guided by a supportive librarian, students are encouraged to develop good reading habits, independent study skills, and a deep appreciation for literature.
