@@ -30,7 +30,7 @@ ini_set('display_errors', 1);
                 </p>
                 <div class="d-flex justify-content-center gap-4">
                     <div class="card-media position-relative">
-                        <a href="#"><img class="card-img-top" src="images/labs/sports1.jpg" alt="Course"></a>
+                        <a href="#"><img class="card-img-top" src="images/labs/library2.jpg" alt="Course"></a>
                     </div>
                     <div class="card-media position-relative">
                         <a href="#"><img class="card-img-top" src="images/labs/sports2.jpg" alt="Course"></a>
