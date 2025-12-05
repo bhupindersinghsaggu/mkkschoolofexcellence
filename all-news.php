@@ -16,14 +16,14 @@
     <div class="container">
         <div class="row">
             <?php include './admin-panel/db.php';
-            $result = $conn->query("SELECT * FROM photos ORDER BY upload_date DESC LIMIT 3");
+            $result = $conn->query("SELECT * FROM photos ORDER BY upload_date DESC LIMIT 100");
             ?>
             <section class="blog-sec bg-shade sec-padding">
                 <div class="container">
                     <div class="d-md-flex justify-content-between align-items-top mb-5 mb-lg-0">
                         <div class="sec-intro">
-                            <span class="badge-lg bg-primary rounded-5">Blog &amp; News</span>
-                            <h2 class="sec-title mb-0">Latest <span class="color">Activities</span></h2>
+                            <!-- <span class="badge-lg bg-primary rounded-5">Blog &amp; News</span> -->
+                            <h2 class="sec-title mb-0"> <span class="color">Activities</span></h2>
                         </div>
                     </div>
                     <div class="row">
