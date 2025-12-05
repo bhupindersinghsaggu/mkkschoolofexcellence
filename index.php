@@ -578,7 +578,7 @@ error_reporting(E_ALL);
          <div class="d-md-flex justify-content-between align-items-top mb-5 mb-lg-0">
             <div class="sec-intro">
                <!-- <span class="badge-lg bg-primary rounded-5">Blog &amp; News</span> -->
-               <h2 class="sec-title mb-0"> <span class="color">Activities</span></h2>
+               <h2 class="sec-title mb-0">Activities <span class="color"></span></h2>
             </div>
 
          </div>
