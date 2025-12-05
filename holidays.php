@@ -21,7 +21,7 @@ ini_set('display_errors', 1);
     <div class="container">
         <div class="row">
             <div class="col-lg-8">
-                <table class="table">
+                <table class="table table-bordered">
                     <tbody>
                         <tr>
                             <td width="60">
