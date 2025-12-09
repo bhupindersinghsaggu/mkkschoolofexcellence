@@ -547,10 +547,10 @@ error_reporting(E_ALL);
          </div>
       </div>
    </section>
-   <section class="single-post sec-padding">
+   <!-- <section class="single-post sec-padding">
       <div class="container">
          <div class="sec-intro">
-               <!-- <span class="badge-lg bg-primary rounded-5">Blog &amp; News</span> -->
+              
                <h2 class="sec-title mb-0">From The  <span class="color">Principal’s desk</span></h2>
             </div>
          <div class="row">
@@ -571,7 +571,7 @@ error_reporting(E_ALL);
             </div>
          </div>
       </div>
-   </section>
+   </section> -->
 
     <script>
         document.getElementById('contactform').addEventListener('submit', function(e) {
@@ -608,4 +608,5 @@ error_reporting(E_ALL);
 </body>
 
 </html>
+ <?php include('web/footer.php') ?>
 <?php include('web/admission-open.php') ?>
