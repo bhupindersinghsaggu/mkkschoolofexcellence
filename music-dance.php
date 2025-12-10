@@ -1,3 +1,12 @@
+
+<?php
+
+$meta_title = "Music & Dance | MKK School of Excellence, Panipat";
+$meta_description = "Explore the Music & Dance program at MKK School of Excellence, Panipat — where students learn vocal and instrumental music, dance forms, and performing-arts under expert guidance to foster creativity, confidence and all-round development.";
+$meta_keywords = "MKK School of Excellence, Music and Dance, Panipat school, CBSE school Panipat, school music classes, school dance classes, extracurricular activities Panipat, performing arts school Panipat";
+?>
+
+
 <?php include('web/header.php'); ?>
 
 <?php include('./admin-panel/db.php'); ?>
