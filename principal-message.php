@@ -1,3 +1,11 @@
+<?php
+
+$meta_title = "Principal’s Message | MKK School of Excellence, Panipat";
+$meta_description = "Read the Principal’s Message at MKK School of Excellence, Panipat — our commitment to holistic education, student growth, values and all-round development. Learn how we nurture confident, responsible and future-ready students.";
+$meta_keywords = "MKK School of Excellence, Principal message, Panipat school, CBSE school Panipat, holistic education, school leadership, school vision";
+?>
+
+
 <?php include('web/header.php'); ?>
 
 <?php include('./admin-panel/db.php'); ?>
