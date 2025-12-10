@@ -1,3 +1,11 @@
+
+<?php
+
+$meta_title = "Campus & Facilities – MKK School of Excellence, Panipat";
+$meta_description = "Explore the campus and facilities at MKK School of Excellence: state-of-the-art classrooms, computer and composite labs, library, learner’s hub, and well-designed campus life for holistic student development";
+$meta_keywords = "MKK School of Excellence, school campus, school facilities, campus life, classrooms, computer lab, library, learner's hub, CBSE school Panipat, school labs, school infrastructure";
+?>
+
 <?php include('web/header.php'); ?>
 
 <?php include('./admin-panel/db.php'); ?>
