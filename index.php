@@ -553,7 +553,7 @@ error_reporting(E_ALL);
          <div class="row">
             <div class="col-lg-4">
                <div class="choose-media position-relative">
-                  <img src="images/principal.jpg" alt="About" class="img-fluid teacher-entry">
+                  <img src="images/principal1.jpg" alt="About" class="img-fluid teacher-entry">
                </div>
             </div>
             <div class="col-lg-8">
