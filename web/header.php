@@ -2,10 +2,22 @@
 <html lang="zxx">
 
 <head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-R5D24KGHXN"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'G-R5D24KGHXN');
+    </script>
     <!-- Responsive -->
-  <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-   <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title><?php echo isset($meta_title) ? $meta_title : "Default Title"; ?></title>
     <meta name="description" content="<?php echo isset($meta_description) ? $meta_description : "Default description"; ?>">
     <meta name="keywords" content="<?php echo isset($meta_keywords) ? $meta_keywords : "default, keywords"; ?>">
