@@ -1,3 +1,11 @@
+<?php
+
+$meta_title = "Indoor & Outdoor Games – MKK School of Excellence";
+$meta_description = "Discover the wide range of indoor and outdoor games at MKK School of Excellence — from table-games and indoor play to outdoor sports like cricket, football, badminton and more. Our sports & play programs foster physical fitness, teamwork, coordination and all-round development of students";
+$meta_keywords = "MKK School of Excellence, indoor games, outdoor games, school sports, school playground, student fitness, cricket, football, badminton, children activities, school games panipat";
+?>
+
+
 <?php include('web/header.php'); ?>
 
 <?php include('./admin-panel/db.php'); ?>
