@@ -272,7 +272,7 @@
 
 
 .teacher-entry {
-    min-height: 32.5rem;
+    /* min-height: 32.5rem; */
     background-size: cover;
     border-radius: 320px;
     background-position: top;

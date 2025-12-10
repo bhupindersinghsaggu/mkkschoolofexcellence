@@ -19100,7 +19100,7 @@ a.banner-ads .b-content {
 }
 
 .teacher-entry {
-    min-height: 32.5rem;
+    /* min-height: 32.5rem; */
     background-size: cover;
     background-position: top;
     border: 7px solid #fff;
