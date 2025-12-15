@@ -45,7 +45,7 @@
                              <span><i class="feather-icon icon-map-pin"></i></span>
                              Sector-18, Huda, Panipat
                          </li>
-                        
+
                      </ul>
                  </div>
              </div>
@@ -57,7 +57,7 @@
                      </div>
 
                      <div class="recent-posts mt-4">
-                       <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3474.63853390945!2d76.9791434!3d29.4393593!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390dd93d2a0bbc13%3A0xce8914b4202f057d!2sSchool%20of%20Excellence!5e0!3m2!1sen!2sin!4v1765257415660!5m2!1sen!2sin" width="200" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3474.63853390945!2d76.9791434!3d29.4393593!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390dd93d2a0bbc13%3A0xce8914b4202f057d!2sSchool%20of%20Excellence!5e0!3m2!1sen!2sin!4v1765257415660!5m2!1sen!2sin" width="200" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                      </div>
                  </div>
              </div>
@@ -290,19 +290,17 @@
              </div>
              <span class="footer-label">Call us</span>
          </a>
-         
+
          <a href="#" data-toggle="modal" data-target="#exampleModalLabelwhatsapp" class="footer-item">
              <div class="footer-icon">
                  <i class="fa-brands fa-whatsapp"></i>
              </div>
              <span class="footer-label">Inquiry</span>
          </a>
-         <!-- <a href="mailto:soepanipat" class="footer-item">
-             <div class="footer-icon">
-                 <i class="fa-solid fa-envelope"></i>
-             </div>
+         <a href="mailto:soepanipat" class="footer-item">
+             <span class="badge-lg bg-primary rounded-5 bounce">No Admission Fee</span>
              <span class="footer-label">Mail us</span>
-         </a> -->
+         </a>
      </div>
  </footer>
  <div class="pay-online">
