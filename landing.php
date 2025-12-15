@@ -471,7 +471,7 @@ error_reporting(E_ALL);
       <div class="container">
          <div class="row ">
             <div class="col-lg-6 col-md-6 order-md-1 order-2">
-               <div class="contact-form position-relative z-index bg-secondary2 p-lg-5 p-4 rounded-3">
+               <div class="contact-form position-relative z-index bg-secondary2  p-4 rounded-3">
                   <h2 class="sec-title position-relative pd-50">
                      Admission Open <span class="color">2026-27</span>
                   </h2>
