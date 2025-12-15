@@ -20,7 +20,7 @@ error_reporting(E_ALL);
       </div>
    </div>
          <!-- Banner Section Start -->
-         <div class="about-sec sec-padding ">
+         <div class="about-sec sec-padding2 ">
             <div class="container">
                <div class="row align-items-center">
                   <div class="col-xl-7">

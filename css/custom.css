@@ -303,3 +303,9 @@ ease-in-out;
     transform: translateY(-6px);
   }
 }
+
+
+
+.sec-padding2 {
+    padding: 2.5rem 0;
+}
