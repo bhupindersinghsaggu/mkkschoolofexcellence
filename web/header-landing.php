@@ -28,22 +28,17 @@ $meta_keywords = "School of Excellence, Best CBSE School Panipat, Top School in 
 
 <body>
     <header class="header header-2">
-        <div class="sticky-height"></div>
-        <div class="top-bar bg-secondary py-2">
-            <div class="header-top bg-primary text-info text-uppercase">
-                <div class="marquee" style="padding: 14px;">
-                    <marquee scrollamount="5" loop="2">
-                        <a href="#" data-toggle="modal" data-target="#exampleModal">
-                            <span class="adm-text">Admissions Open for the Session 2026-27 <i class="fa-solid fa-star star-icon"></i> </span>
-                            <span class="adm-text">Admissions Open for the Session 2026-27 <i class="fa-solid fa-star star-icon"></i> </span>
-                            <span class="adm-text">Admissions Open for the Session 2026-27 <i class="fa-solid fa-star star-icon"></i> </span>
-                            <span class="adm-text">Admissions Open for the Session 2026-27 <i class="fa-solid fa-star star-icon"></i> </span>
-                            <span class="adm-text">Admissions Open for the Session 2026-27 <i class="fa-solid fa-star star-icon"></i> </span>
-                            <span class="adm-text">Admissions Open for the Session 2026-27 <i class="fa-solid fa-star star-icon"></i> </span>
-                        </a>
-                    </marquee>
-                </div>
-            </div>
+        <div class="marquee" style="padding: 14px;">
+            <marquee scrollamount="5" loop="2">
+                <a href="#" data-toggle="modal" data-target="#exampleModal">
+                    <span class="adm-text">Admissions Open for the Session 2026-27 <i class="fa-solid fa-star star-icon"></i> </span>
+                    <span class="adm-text">Admissions Open for the Session 2026-27 <i class="fa-solid fa-star star-icon"></i> </span>
+                    <span class="adm-text">Admissions Open for the Session 2026-27 <i class="fa-solid fa-star star-icon"></i> </span>
+                    <span class="adm-text">Admissions Open for the Session 2026-27 <i class="fa-solid fa-star star-icon"></i> </span>
+                    <span class="adm-text">Admissions Open for the Session 2026-27 <i class="fa-solid fa-star star-icon"></i> </span>
+                    <span class="adm-text">Admissions Open for the Session 2026-27 <i class="fa-solid fa-star star-icon"></i> </span>
+                </a>
+            </marquee>
         </div>
     </header>
     <!-- Header End -->
