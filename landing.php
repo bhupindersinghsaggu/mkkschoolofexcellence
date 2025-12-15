@@ -470,7 +470,7 @@ error_reporting(E_ALL);
       <img src="images/icons/book-xxl.png" alt="Book" class="img-fluid slideright contact-img">
       <div class="container">
          <div class="row ">
-            <div class="col-lg-7 col-md-7 order-md-1 order-2">
+            <div class="col-lg-5 col-md-5 order-md-1 order-2">
                <div class="contact-form position-relative z-index bg-secondary2 p-lg-5 p-4 rounded-3">
                    <h2 class="sec-title position-relative pd-50">
                      Admission Open <span class="color">2026-27</span>
@@ -482,7 +482,7 @@ error_reporting(E_ALL);
                </div>
                <!-- Contact Form End -->
             </div>
-            <div class="col-lg-5 col-md-5 order-md-2 order-1">
+            <div class="col-lg-7 col-md-7 order-md-2 order-1">
                <div class="contact-txt">
                   <span class="badge-lg rounded-5 bg-primary">Get in Touch</span>
                   <h2 class="sec-title text-info">Talk to  <span class="color">Our Admission Couseller</span></h2>
