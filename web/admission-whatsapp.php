@@ -21,7 +21,7 @@
 								<div class="col-lg-12 form-group">
 									<i class="feather-icon icon-mail"></i>
 									<select class="form-control" name="classes" id="classes" required>
-										<option value="">Select Class</option>
+										<option value=""> Select Class</option>
 										<option value="Play Group">Play Group</option>
 										<option value="Nursery">Nursery</option>
 										<option value="KG, Prep">KG, Prep</option>
@@ -34,11 +34,14 @@
 										<option value="Class VII">Class VII</option>
 									</select>
 								</div>
-
-
 								<div class="col-lg-12 form-group">
 									<i class="feather-icon icon-phone-call"></i>
 									<input class="form-control" type="text" name="phone" id="phone" placeholder="Phone Number" required="">
+								</div>
+
+								<div class="col-lg-12 form-group">
+									<i class="feather-icon icon-phone-call"></i>
+									<input class="form-control" type="message" name="message" id="message" placeholder="Enter Message" required="">
 								</div>
 								<div class="col-lg-12 text-center">
 									<button type="submit" class="btn btn-primary-orange  mt-4" data-bs-target="#exampleModalToggle2">Submit</button>
@@ -65,11 +68,12 @@
 		const phoneNumber = "919034252500";
 		const name = document.getElementById("name").value;
 		const phone = document.getElementById("phone").value;
-		// const message = document.getElementById("message").value;
+		const message = document.getElementById("message").value;
 		const classes = document.getElementById("classes").value;
 		const text = `Hello, my name is: ${name}
           Phone: ${phone}
-		  Classes: ${classes} `;
+		  Inquiry About: ${classes} 
+		  message ${message}  `;
 		const url = `https://wa.me/${phoneNumber}?text=${text}`;
 		window.open(url, 'index.php');
 	});
