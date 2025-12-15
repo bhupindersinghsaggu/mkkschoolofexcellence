@@ -8,7 +8,7 @@ error_reporting(E_ALL);
 
 <body>
    <!-- Banner Section Start -->
-   <div class="about-sec sec-padding ">
+   <div class="about-sec ">
       <div class="container">
          <div class="row">
             <div class="col-xl-7">
