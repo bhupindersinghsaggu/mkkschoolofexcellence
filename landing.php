@@ -62,39 +62,7 @@ error_reporting(E_ALL);
       </div>
    </div>
 
-   <section class="about-sec2">
-      <div class="container">
-         <div class="row">
-            <div class="col-xl-6 col-md-10">
-               <div class="about-media position-relative me-lg-2 text-center mt-5 mt-sm-0">
-                  <div class="d-sm-flex gap-3 align-items-center mb-3">
-                     <img src="images/ab-lg2.jpg" alt="" class="img-fluid about-thumb-1 img-border">
-                     <img src="images/ab3.jpg" alt="" class="img-fluid about-thumb-2 mt-3 mt-md-0 img-border">
-                  </div>
-                  <img src="images/ab2.jpg" alt="" class="img-fluid text-center img-border">
-               </div>
-            </div>
-            <div class="col-xl-6 col-md-10 order-1 order-md-2">
-               <div class="about-txt">
-                  <span class="badge-lg bg-primary rounded-5 ">Welcome To School of Excellence</span>
-                  <h2 class="sec-title position-relative pd-50">A Future-Ready Learning <span class="color">Experience</span></h2>
-                  <p class="line-heigth">At School of Excellence we believe that education should be engaging, future-focused, and deeply personalized.
-                     Our hybrid learning model blends the best of Montessori, CBSE and experiential learning approaches, ensuring that every child develops a strong academic foundation while nurturing creativity, problem-solving and essential life skills.</p>
-                  <div class="d-sm-flex align-items-center mt-5">
-                     <a href="history.php" class="btn btn-primary shadow">More About us</a>
-                     <div class="d-flex ms-sm-5 align-items-center mt-4 mt-sm-0">
-                        <span class="icon-sm bg-secondary text-info rounded-circle me-3 shadow-alt"><img src="images/icons/phone.svg" alt=""></span>
-                        <a href="tel:+919054252500" class="text-reset">
-                           <h5>Call us Anytime</h5>
-                           90542-52500
-                        </a>
-                     </div>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </div>
-   </section>
+  
 
    <section class="course-sec-3 bg-blue sec-padding">
       <div class="container">
@@ -256,6 +224,39 @@ error_reporting(E_ALL);
          </div>
       </div>
    </section>
+    <section class="about-sec2">
+      <div class="container">
+         <div class="row">
+            <div class="col-xl-6 col-md-10">
+               <div class="about-media position-relative me-lg-2 text-center mt-5 mt-sm-0">
+                  <div class="d-sm-flex gap-3 align-items-center mb-3">
+                     <img src="images/ab-lg2.jpg" alt="" class="img-fluid about-thumb-1 img-border">
+                     <img src="images/ab3.jpg" alt="" class="img-fluid about-thumb-2 mt-3 mt-md-0 img-border">
+                  </div>
+                  <img src="images/ab2.jpg" alt="" class="img-fluid text-center img-border">
+               </div>
+            </div>
+            <div class="col-xl-6 col-md-10 order-1 order-md-2">
+               <div class="about-txt">
+                  <span class="badge-lg bg-primary rounded-5 ">Welcome To School of Excellence</span>
+                  <h2 class="sec-title position-relative pd-50">A Future-Ready Learning <span class="color">Experience</span></h2>
+                  <p class="line-heigth">At School of Excellence we believe that education should be engaging, future-focused, and deeply personalized.
+                     Our hybrid learning model blends the best of Montessori, CBSE and experiential learning approaches, ensuring that every child develops a strong academic foundation while nurturing creativity, problem-solving and essential life skills.</p>
+                  <div class="d-sm-flex align-items-center mt-5">
+                     <a href="about-us.php" class="btn btn-primary shadow">More About us</a>
+                     <div class="d-flex ms-sm-5 align-items-center mt-4 mt-sm-0">
+                        <span class="icon-sm bg-secondary text-info rounded-circle me-3 shadow-alt"><img src="images/icons/phone.svg" alt=""></span>
+                        <a href="tel:+919054252500" class="text-reset">
+                           <h5>Call us Anytime</h5>
+                           90542-52500
+                        </a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
    <!-- Course Section Start -->
    <!-- <div class="course-sec sec-padding bg-blue">
       <div class="container">
@@ -406,92 +407,7 @@ error_reporting(E_ALL);
          </div>
       </div>
    </div> -->
-   <section class="categories-sec sec-padding position-relative school-theme-color2">
-      <div class="container">
-         <img src="images/icons/dots1.png" alt="Dot 1" class="anim-img">
-         <div class="text-center sec-intro">
-            <h2 class="sec-title ">Why Choose <span class="color">School of Excellence</span></h2>
-            <h5>We provide more than just education.<br>We offer a second home where your child feels loved, encouraged and safe.</h5>
-         </div>
-         <div class="row justify-content-center g-4">
-            <div class="col-md-6 col-lg-4">
-               <div class="card pricing-card bg-shade border rounded-4">
-                  <div class="card-head">
-                     <p> <img class="img-fluid" src="images/labs/1.jpg" alt="Instructor"></p>
-                     <div class="d-flex align-items-center justify-content-between mb-3">
-                        <h5 class="txt-center">Personalized & <span class="pur-color">Hybrid Learning Approach</span></h5>
-                        <!-- <span class="badge-lg bg-secondary rounded-5">Basic</span> -->
-                     </div>
-                     <!-- <div class="d-flex  justify-content-center">
-                     <div class="button-next icon-sm text-info " tabindex="0" role="button" aria-label="Next slide" aria-controls="swiper-wrapper-2ffed5d564d26aa5"><i class="feather-icon icon-arrow-right why-choose-icon"></i></div>
-                  </div> -->
-                     <!-- <p>Blending traditional and digital methods, we offer flexible, student-focused learning tailored to individual needs.</p> -->
-                  </div>
-               </div>
-            </div> <!-- Pricing Card End -->
-            <div class="col-md-6 col-lg-4">
-               <div class="card pricing-card bg-shade border rounded-4">
-                  <div class="card-head">
-                     <p> <img class="img-fluid" src="images/labs/2.jpg" alt="Instructor"></p>
-                     <div class="d-flex align-items-center justify-content-between mb-3">
-                        <h5 class="txt-center">Experiential <span class="pur-color">Learning</span></h5>
-                     </div>
-                     <!-- <div class="d-flex  justify-content-center">
-                     <div class="button-next icon-sm text-info " tabindex="0" role="button" aria-label="Next slide" aria-controls="swiper-wrapper-2ffed5d564d26aa5"><i class="feather-icon icon-arrow-right why-choose-icon"></i></div>
-                  </div> -->
-                     <!-- <p>Blending traditional and digital methods, we offer flexible, student-focused learning tailored to individual needs.</p> -->
-                  </div>
-               </div>
-            </div> <!-- Pricing Card End -->
-            <div class="col-md-6 col-lg-4">
-               <div class="card pricing-card bg-shade border rounded-4">
-                  <div class="card-head">
-                     <p> <img class="img-fluid" src="images/labs/3.jpg" alt="Instructor"></p>
-                     <div class="d-flex align-items-center justify-content-between mb-3">
-                        <h5 class="txt-center">Building Social Skills, <span class="pur-color">Creativity and Confidence</span></h5>
-                        <!-- <span class="badge-lg bg-secondary rounded-5">Basic</span> -->
-                     </div>
-                     <!-- <div class="d-flex  justify-content-center">
-                     <div class="button-next icon-sm text-info " tabindex="0" role="button" aria-label="Next slide" aria-controls="swiper-wrapper-2ffed5d564d26aa5"><i class="feather-icon icon-arrow-right why-choose-icon"></i></div>
-                  </div> -->
-                     <!-- <p>Blending traditional and digital methods, we offer flexible, student-focused learning tailored to individual needs.</p> -->
-                  </div>
-               </div>
-            </div> <!-- Pricing Card End -->
-         </div>
-         <div class="row justify-content-center g-4 pd-50">
-            <div class="col-md-6 col-lg-4">
-               <div class="card pricing-card bg-shade border rounded-4">
-                  <div class="card-head">
-                     <p> <img class="img-fluid" src="images/labs/4.jpg" alt="Instructor"></p>
-                     <div class="d-flex align-items-center justify-content-between mb-3">
-                        <h5 class="txt-center">Safe, Colorful Classrooms & <span class="pur-color">Joyful Activities</span></h5>
-                        <!-- <span class="badge-lg bg-secondary rounded-5">Basic</span> -->
-                     </div>
-                     <!-- <div class="d-flex  justify-content-center">
-                     <div class="button-next icon-sm text-info " tabindex="0" role="button" aria-label="Next slide" aria-controls="swiper-wrapper-2ffed5d564d26aa5"><i class="feather-icon icon-arrow-right why-choose-icon"></i></div>
-                  </div> -->
-                     <!-- <p>Blending traditional and digital methods, we offer flexible, student-focused learning tailored to individual needs.</p> -->
-                  </div>
-               </div>
-            </div> <!-- Pricing Card End -->
-            <div class="col-md-6 col-lg-4">
-               <div class="card pricing-card bg-shade border rounded-4">
-                  <div class="card-head">
-                     <p> <img class="img-fluid" src="images/labs/5.jpg" alt="Instructor"></p>
-                     <div class="d-flex align-items-center justify-content-between mb-3">
-                        <h5 class="txt-center">Strong Parent-School <span class="pur-color">Partnership</span></h5>
-                     </div>
-                     <!-- <div class="d-flex  justify-content-center">
-                     <div class="button-next icon-sm text-info " tabindex="0" role="button" aria-label="Next slide" aria-controls="swiper-wrapper-2ffed5d564d26aa5"><i class="feather-icon icon-arrow-right why-choose-icon"></i></div>
-                  </div> -->
-                     <!-- <p>Blending traditional and digital methods, we offer flexible, student-focused learning tailored to individual needs.</p> -->
-                  </div>
-               </div>
-            </div> <!-- Pricing Card End -->
-         </div>
-      </div>
-   </section>
+
    <!-- Pricing Section Start -->
    <section class="pricing-sec sec-padding" style="background-image: url(/images/class-bg.png);">
       <div class="container">
