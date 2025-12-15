@@ -41,7 +41,7 @@ $meta_keywords = "School of Excellence, Best CBSE School Panipat, Top School in 
                     <div class="topbar-text dropdown d-xl-none"><a class="text-info fw-bold dropdown-toggle" href="#"
                             data-bs-toggle="dropdown" aria-expanded="false">Quick Connect</a>
                         <ul class="dropdown-menu bg-secondary p-2 p-sm-3 border-0 shadow-sm">
-                            <li><span><img class="me-2" src="images/icons/message.png" alt="Message"><a href="/cdn-cgi/l/email-protection#4d2e2223392c2e3924232b220d2a202c2421632e2220"><span class="__cf_email__" data-cfemail="d4b1b0a1acbbbdbab2bb94b3b9b5bdb8fab7bbb9">Soepanipat@gmail.com</span></a></span></li>
+                            <li><span><img class="me-2" src="images/icons/message.png" alt="Message"><a href="mailto:soepanipat@gmail.com"><span class="__cf_email__" data-cfemail="d4b1b0a1acbbbdbab2bb94b3b9b5bdb8fab7bbb9">Soepanipat@gmail.com</span></a></span></li>
                             <li><a class="text-info" href="tel:+919054252500"><img class="me-2" src="images/icons/phone.png"
                                         alt="">90542 52500</a></li>
                         </ul>

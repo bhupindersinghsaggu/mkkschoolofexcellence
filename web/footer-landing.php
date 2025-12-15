@@ -290,7 +290,7 @@
              </div>
              <span class="footer-label">Inquiry</span>
          </a>
-         <a href="https://play.google.com/store/apps/details?id=com.magnus.soe&hl=en_IN" class="footer-item">
+         <a href="mailto:soepanipat@gmail.com" class="footer-item">
              <div class="footer-icon">
                  <i class="fa-solid fa-envelope"></i>
              </div>
