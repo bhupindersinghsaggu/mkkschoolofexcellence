@@ -399,7 +399,7 @@ error_reporting(E_ALL);
                   <div class="col-lg-12">
                      <div class="sec-intro text-center">
                         <h5 span>Choose Your Class</span>
-                           <h2 class="sec-title">We Make a Door to <span class="color">Bright Future</span></h2>
+                           <h2 class="sec-title">No Admission  <span class="color">Fee</span></h2>
                      </div>
                   </div>
                </div>
