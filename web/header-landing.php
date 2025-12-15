@@ -28,7 +28,7 @@ $meta_keywords = "School of Excellence, Best CBSE School Panipat, Top School in 
 
 <body>
     <header class="header header-2">
-        <div class="header-top bg-primary text-info text-uppercase">
+        <div class=" bg-primary text-info text-uppercase">
             <div class="marquee" style="padding: 14px;">
                 <marquee scrollamount="5" loop="2">
                     <a href="#" data-toggle="modal" data-target="#exampleModal">
