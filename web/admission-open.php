@@ -11,7 +11,7 @@
 			<div class="modal-body">
 				<div class="row">
 					<div class="col-lg-12 mx-auto">
-						<iframe style="height:500px;" width="100%"
+						<iframe style="height:600px;" width="100%"
 							src="https://curtina.in/_EazySchool/FormsWeb/frmEnquiry_Mkk.aspx?AppId=SOE">
 						</iframe>
 					</div>
