@@ -35,9 +35,10 @@ error_reporting(E_ALL);
                         <div class="img-meta position-absolute">
                            <img class="img-fluid updown" src="images/icons/shape1.png" alt="">
                         </div>
-                        <h2 class="banner-sec2 h1 hero-heading">
+                        <h2 class="sec-title position-relative pd-50">
                            Admission Open <span class="color">2026-27</span>
                         </h2>
+                        <p>No Admission Fee</p>
                         <iframe style="height:600px;" width="100%"
                            src="https://curtina.in/_EazySchool/FormsWeb/frmEnquiry_Mkk.aspx?AppId=SOE">
                         </iframe>
