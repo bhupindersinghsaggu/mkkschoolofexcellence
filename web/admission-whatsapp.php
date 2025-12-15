@@ -1,4 +1,24 @@
 <!-- Modal -->
+
+<style>
+	.form-group {
+		position: relative;
+	}
+
+	.form-group i {
+		position: absolute;
+		left: 15px;
+		top: 50%;
+		transform: translateY(-50%);
+		color: #aaa;
+		z-index: 2;
+	}
+
+	.form-group .form-control {
+		padding-left: 45px;
+		/* space for icon */
+	}
+</style>
 <div class="modal fade" id="exampleModalLabelwhatsapp" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabelwhatsapp" aria-hidden="true">
 	<div class="modal-dialog" role="document">
 		<div class="modal-content">
@@ -19,7 +39,7 @@
 									<div data-lastpass-icon-root="" style="position: relative !important; height: 0px !important; width: 0px !important; float: left !important;"></div>
 								</div>
 								<div class="col-lg-12 form-group">
-									<i class="feather-icon icon-mail"></i> 
+									<i class="feather-icon icon-mail"></i>
 									<select class="form-control" name="classes" id="classes" required>
 										<option value=""> Select Class</option>
 										<option value="Play Group"> Play Group</option>
