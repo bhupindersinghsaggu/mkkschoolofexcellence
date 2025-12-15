@@ -10,7 +10,7 @@
 
 .hero-heading {
     font-size: 54px;
-    margin-bottom: 2.5rem;
+    margin-bottom: 0.5rem;
     line-height: 65px;
 }
 
@@ -161,12 +161,7 @@
         padding: 6px;
         text-align: center;
     }
-
-    .hero-heading {
-    font-size: 54px;
-    margin-bottom: 0.5rem;
-    line-height: 65px;
-}
+    
 }
 
 
