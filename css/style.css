@@ -20294,8 +20294,8 @@ a.banner-ads .b-content {
 
 .contact-form .form-group i,
 .profile-form .form-group i {
-    position: absolute;
-    top: 1.1875rem;
+    /* position: absolute;
+    top: 1.1875rem; */
     left: 1.5625rem;
     font-size: 1.125rem;
     color: var(--mute)
