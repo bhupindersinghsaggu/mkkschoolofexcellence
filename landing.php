@@ -469,7 +469,7 @@ error_reporting(E_ALL);
       <div class="contact-bg position-absolute" style="background-image: url('images/contact-bg.jpg')"></div>
       <img src="images/icons/book-xxl.png" alt="Book" class="img-fluid slideright contact-img">
       <div class="container">
-         <div class="row align-items-center">
+         <div class="row ">
             <div class="col-lg-7 col-md-7 order-md-1 order-2">
                <div class="contact-form position-relative z-index bg-secondary p-lg-5 p-4 rounded-3">
                   <iframe style="height:600px;" width="100%"
