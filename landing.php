@@ -11,7 +11,7 @@ error_reporting(E_ALL);
    <div class="about-sec ">
       <div class="container">
          <div class="row">
-            <div class="col-xl-12">
+            <div class="d-flex justify-content-center">
                <h1 class="banner-sec2 h1 hero-heading">
                   School of  <span class="color">Excellence</span>
                </h1>
