@@ -277,23 +277,24 @@
                </div>
                <span class="footer-label">Book List</span>
            </a> -->
-         <a href="https://mkkschoolofexcellence.com/gps-app.php" class="footer-item">
+         <a href="tel:9034252500" class="footer-item">
              <div class="footer-icon">
-                 <i class="fa-solid fa-bus"></i>
+                 <i class="fa-solid fa-phone"></i>
              </div>
-             <span class="footer-label">GPS APP</span>
+             <span class="footer-label">Call us</span>
+         </a>
+         
+         <a href="#" data-toggle="modal" data-target="#exampleModalLabelwhatsapp" class="footer-item">
+             <div class="footer-icon">
+                 <i class="fa-brands fa-whatsapp"></i>
+             </div>
+             <span class="footer-label">Inquiry</span>
          </a>
          <a href="https://play.google.com/store/apps/details?id=com.magnus.soe&hl=en_IN" class="footer-item">
              <div class="footer-icon">
-                 <i class="fa-brands fa-android"></i>
+                 <i class="fa-solid fa-envelope"></i>
              </div>
-             <span class="footer-label">Mobile APP</span>
-         </a>
-         <a href="https://curtina.in/soe/forms/frmstdPayOnline.aspx" class="footer-item">
-             <div class="footer-icon">
-                 <i class="fas fa-credit-card"></i>
-             </div>
-             <span class="footer-label">Pay Online</span>
+             <span class="footer-label">Mail us</span>
          </a>
      </div>
  </footer>
