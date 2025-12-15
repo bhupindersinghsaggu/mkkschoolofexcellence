@@ -1,8 +1,8 @@
 <?php
 
-$meta_title = "Contact MKK School of Excellence | Panipat CBSE School";
+$meta_title = "Thankyou MKK School of Excellence | Panipat CBSE School";
 $meta_description = "Get in touch with MKK School of Excellence, Panipat for queries, admissions, or to schedule a campus visit.";
-$meta_keywords = "Contact MKK School Panipat, School Address, CBSE School Near Me, Panipat School Enquiry, Visit MKK Campus";
+$meta_keywords = " MKK School Panipat, School Address, CBSE School Near Me, Panipat School Enquiry, Visit MKK Campus";
 ?>
 
 <?php include('web/header.php'); ?>
