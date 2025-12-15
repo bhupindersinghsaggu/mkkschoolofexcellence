@@ -1,4 +1,12 @@
-<?php include('web/header-landing.php'); ?>
+<?php
+// index.php
+$meta_title = "School of Excellence | Best CBSE School in Panipat";
+$meta_description = "Welcome to School of Excellence – a top CBSE-affiliated school in Panipat offering academic excellence, innovation & holistic development.";
+$meta_keywords = "School of Excellence, Best CBSE School Panipat, Top School in Panipat, Panipat Schools, Admissions Open, Holistic Education";
+?>
+
+
+<?php include('web/header.php'); ?>
 <?php
 ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
@@ -7,17 +15,6 @@ error_reporting(E_ALL);
 
 
 <body>
-   <nav class="navbar navbar-expand-xl">
-      <div class="container pd-10 ">
-         <a class="navbar-brand" href="./index.php"><img src="images/logo.png" alt="Logo"></a>
-         <div class="header-actions position-relative order-xl-3  d-flex align-items-center justify-content-between">
-            <div class="admin-menu pt-3 bg-white collapse" id="collapseAdminMenu">
-            </div>
-            <a href="http://curtina.in/soe" class="btn d-none d-lg-block btn-primary shadow border-0 rounded-2">Contact us</a>
-         </div>
-      </div>
-   </nav>
-   <!-- Banner Section Start -->
    <!-- Banner Section Start -->
    <div class="about-sec sec-padding school-theme-color1">
       <div class="container">
