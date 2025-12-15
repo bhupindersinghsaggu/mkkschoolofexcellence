@@ -290,17 +290,16 @@
              </div>
              <span class="footer-label">Call us</span>
          </a>
-
+         <a href="#" data-toggle="modal" data-target="#exampleModalLabelwhatsapp" class="footer-item">
+             <span class="badge-lg bg-primary rounded-5 bounce">No Admission Fee</span>
+         </a>
          <a href="#" data-toggle="modal" data-target="#exampleModalLabelwhatsapp" class="footer-item">
              <div class="footer-icon">
                  <i class="fa-brands fa-whatsapp"></i>
              </div>
              <span class="footer-label">Inquiry</span>
          </a>
-         <a href="mailto:soepanipat" class="footer-item">
-             <span class="badge-lg bg-primary rounded-5 bounce">No Admission Fee</span>
-             <span class="footer-label">Mail us</span>
-         </a>
+
      </div>
  </footer>
  <div class="pay-online">
