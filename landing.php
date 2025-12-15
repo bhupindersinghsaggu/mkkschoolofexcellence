@@ -472,6 +472,10 @@ error_reporting(E_ALL);
          <div class="row ">
             <div class="col-lg-7 col-md-7 order-md-1 order-2">
                <div class="contact-form position-relative z-index bg-secondary2 p-lg-5 p-4 rounded-3">
+                   <h2 class="sec-title position-relative pd-50">
+                     Admission Open <span class="color">2026-27</span>
+                  </h2>
+                  <span class="badge-lg bg-primary rounded-5 bounce">No Admission Fee</span>
                   <iframe style="height:600px;" width="100%"
                      src="https://curtina.in/_EazySchool/FormsWeb/frmEnquiry_Mkk.aspx?AppId=SOE">
                   </iframe>
@@ -482,10 +486,10 @@ error_reporting(E_ALL);
                <div class="contact-txt">
                   <span class="badge-lg rounded-5 bg-primary">Get in Touch</span>
                   <h2 class="sec-title text-info">Talk to  <span class="color">Our Couseller</span></h2>
-                  <p>
+                  <!-- <p>
                      Being involved in education dedicatedly is a good meditation for years. A good education for you and me,
                      a better world it will be.
-                  </p>
+                  </p> -->
                </div>
             </div>
          </div>
