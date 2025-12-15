@@ -20,7 +20,7 @@
 								</div>
 								<div class="col-lg-12 form-group">
 									<i class="feather-icon icon-mail"></i>
-									<select class="form-control" name="class" id="class" required>
+									<select class="form-control" name="classes" id="classes" required>
 										<option value="">Select Class</option>
 										<option value="Play Group">Play Group</option>
 										<option value="Nursery">Nursery</option>
