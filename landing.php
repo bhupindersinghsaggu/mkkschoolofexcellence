@@ -599,5 +599,5 @@ error_reporting(E_ALL);
 </body>
 
 </html>
-<?php include('web/footer.php') ?>
+<?php include('web/footer-landing.php') ?>
 <?php include('web/admission-open.php') ?>
