@@ -481,7 +481,7 @@ error_reporting(E_ALL);
             <div class="col-lg-5 col-md-5 order-md-2 order-1">
                <div class="contact-txt">
                   <span class="badge-lg rounded-5 bg-primary">Get in Touch</span>
-                  <h2 class="sec-title text-info">If You Have Any Query <span class="color">Contact Us</span></h2>
+                  <h2 class="sec-title text-info">Talk to  <span class="color">Our Couseller</span></h2>
                   <p>
                      Being involved in education dedicatedly is a good meditation for years. A good education for you and me,
                      a better world it will be.
