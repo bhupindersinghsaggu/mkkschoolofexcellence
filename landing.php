@@ -471,7 +471,7 @@ error_reporting(E_ALL);
       <div class="container">
          <div class="row ">
             <div class="col-lg-7 col-md-7 order-md-1 order-2">
-               <div class="contact-form position-relative z-index bg-secondary p-lg-5 p-4 rounded-3">
+               <div class="contact-form position-relative z-index  p-lg-5 p-4 rounded-3">
                   <iframe style="height:600px;" width="100%"
                      src="https://curtina.in/_EazySchool/FormsWeb/frmEnquiry_Mkk.aspx?AppId=SOE">
                   </iframe>
