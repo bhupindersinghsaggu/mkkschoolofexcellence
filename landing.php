@@ -37,7 +37,7 @@ error_reporting(E_ALL);
                   <h1 class="banner-sec2 h1 hero-heading">
                      Admission <span class="color">Open</span>
                   </h1>
-                  <iframe style="height:460px;" width="100%"
+                  <iframe style="height:100px;" width="100%"
                      src="https://curtina.in/_EazySchool/FormsWeb/frmEnquiry_Mkk.aspx?AppId=SOE">
                   </iframe>
                </div>
