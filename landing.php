@@ -486,7 +486,7 @@ error_reporting(E_ALL);
                <div class="contact-txt">
                   <span class="badge-lg rounded-5 bg-primary">Get in Touch</span>
                   <h2 class="sec-title text-info">Talk to  <span class="color">Our Admission Couseller</span></h2>
-                 <img class="ab-media-1 img-fluid " src="images/about-n1.png" alt="About">
+                 <img class="ab-media-1 img-fluid " src="images/cous.png" alt="About">
                </div>
             </div>
          </div>
