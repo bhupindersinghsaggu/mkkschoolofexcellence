@@ -615,3 +615,6 @@ error_reporting(E_ALL);
    <!-- Footer Section Start -->
    <?php include('web/footer.php') ?>
    <?php include('web/admission-open.php') ?>
+    <?php include('web/admission-whatsapp.php') ?>
+
+  
