@@ -43,7 +43,7 @@
                          </li>
                          <li class="d-flex align-items-center">
                              <span><i class="feather-icon icon-map-pin"></i></span>
-                             Sector-18, Huda, Panipat
+                            Plot No-1, Sector-18, Huda, Panipat
                          </li>
 
                      </ul>
