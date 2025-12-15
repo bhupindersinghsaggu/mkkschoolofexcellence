@@ -504,56 +504,7 @@
          outline: none;
      }
  </style>
- <footer class="mobile-footer">
-     <div class="footer-icons">
-         <!-- <a href="/booklist.php" class="footer-item">
-               <div class="footer-icon">
-                   <i class="fas fa-th-large"></i>
-               </div>
-               <span class="footer-label">Book List</span>
-           </a> -->
-         <a href="https://mkkschoolofexcellence.com/gps-app.php" class="footer-item">
-             <div class="footer-icon">
-                 <i class="fa-solid fa-bus"></i>
-             </div>
-             <span class="footer-label">GPS APP</span>
-         </a>
-         <a href="https://play.google.com/store/apps/details?id=com.magnus.soe&hl=en_IN" class="footer-item">
-             <div class="footer-icon">
-                 <i class="fa-brands fa-android"></i>
-             </div>
-             <span class="footer-label">Mobile APP</span>
-         </a>
-         <a href="https://curtina.in/soe/forms/frmstdPayOnline.aspx" class="footer-item">
-             <div class="footer-icon">
-                 <i class="fas fa-credit-card"></i>
-             </div>
-             <span class="footer-label">Pay Online</span>
-         </a>
-         <a href="#" data-toggle="modal" data-target="#exampleModalLabelwhatsapp" class="footer-item">
-             <div class="footer-icon">
-                 <i class="fa-brands fa-whatsapp"></i>
-             </div>
-             <span class="footer-label">Inquiry</span>
-         </a>
-     </div>
- </footer>
  
- <script>
-     // Simple animation for icons when page loads
-     document.addEventListener('DOMContentLoaded', function() {
-         const icons = document.querySelectorAll('.footer-icon');
-         icons.forEach((icon, index) => {
-             setTimeout(() => {
-                 icon.style.opacity = '1';
-                 icon.style.transform = 'scale(1.1)';
-                 setTimeout(() => {
-                     icon.style.transform = 'scale(1)';
-                 }, 200);
-             }, index * 100);
-         });
-     });
- </script>
  <script>
      // Simple animation for icons when page loads
      document.addEventListener('DOMContentLoaded', function() {
