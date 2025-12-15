@@ -7,16 +7,6 @@ error_reporting(E_ALL);
 
 
 <body>
-   <nav class="navbar navbar-expand-xl">
-      <div class="container pd-10 ">
-         <a class="navbar-brand" href="./index.php"><img src="images/logo.png" alt="Logo"></a>
-         <div class="header-actions position-relative order-xl-3  d-flex align-items-center justify-content-between">
-            <div class="admin-menu pt-3 bg-white collapse" id="collapseAdminMenu">
-            </div>
-            <a href="tel:+919054252500" class="btn d-none d-lg-block btn-primary shadow border-0 rounded-2">Call us</a>
-         </div>
-      </div>
-   </nav>
    <!-- Banner Section Start -->
    <!-- Banner Section Start -->
    <div class="about-sec sec-padding ">
@@ -46,24 +36,6 @@ error_reporting(E_ALL);
       </div>
    </div>
    <!-- Banner Section End -->
-
-   <div class="header-top bg-primary text-info text-uppercase">
-      <div class="marquee" style="padding: 14px;">
-         <marquee scrollamount="5" loop="2">
-            <a href="#" data-toggle="modal" data-target="#exampleModal">
-               <span class="adm-text">Admissions Open for the Session 2026-27 <i class="fa-solid fa-star star-icon"></i> </span>
-               <span class="adm-text">Admissions Open for the Session 2026-27 <i class="fa-solid fa-star star-icon"></i> </span>
-               <span class="adm-text">Admissions Open for the Session 2026-27 <i class="fa-solid fa-star star-icon"></i> </span>
-               <span class="adm-text">Admissions Open for the Session 2026-27 <i class="fa-solid fa-star star-icon"></i> </span>
-               <span class="adm-text">Admissions Open for the Session 2026-27 <i class="fa-solid fa-star star-icon"></i> </span>
-               <span class="adm-text">Admissions Open for the Session 2026-27 <i class="fa-solid fa-star star-icon"></i> </span>
-            </a>
-         </marquee>
-      </div>
-   </div>
-
-  
-
    <section class="course-sec-3 bg-blue sec-padding">
       <div class="container">
          <div class="text-center sec-intro">
