@@ -484,7 +484,7 @@ error_reporting(E_ALL);
             </div>
             <div class="col-lg-6 col-md-6 order-md-2 order-1">
                <div class="contact-txt">
-                  <h2 class="sec-title mb-4 labs-heading txt-white">Talk to <span class="color">Our Admission Couseller</span></h2>
+                  <h2 class="sec-title mb-4  txt-white">Talk to <span class="color">Our Admission Couseller</span></h2>
                   <img class="ab-media-1 img-fluid " src="images/cous.png" alt="About" style="background: #ffa03a;
     border-radius: 50px;">
                </div>
