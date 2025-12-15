@@ -466,7 +466,7 @@ error_reporting(E_ALL);
    </section> -->
    <section class="contact-sec sec-padding position-relative overflow-hidden">
       <div class="offcanvas-overly"></div>
-      <div class="contact-bg position-absolute" style="background-image: url('images/contact-bg.jpg')"></div>
+      <div class="contact-bg position-absolute"></div>
       <img src="images/icons/book-xxl.png" alt="Book" class="img-fluid slideright contact-img">
       <div class="container">
          <div class="row ">
