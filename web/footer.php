@@ -311,7 +311,7 @@
              </div>
              <span class="footer-label">Pay Online</span>
          </a>
-         <a href="https://curtina.in/soe/forms/frmstdPayOnline.aspx" class="footer-item">
+         <a href="#" data-toggle="modal" data-target="#exampleModal" class="footer-item">
              <div class="footer-icon">
                  <i class="fa-brands fa-whatsapp"></i>
              </div>
