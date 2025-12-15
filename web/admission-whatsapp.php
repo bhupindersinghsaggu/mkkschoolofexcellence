@@ -69,7 +69,7 @@
 		const classes = document.getElementById("classes").value;
 		const text = `Hello, my name is: ${name}
           Phone: ${phone}
-		  Classes: ${class} `;
+		  Classes: ${classes} `;
 		const url = `https://wa.me/${phoneNumber}?text=${text}`;
 		window.open(url, 'index.php');
 	});
