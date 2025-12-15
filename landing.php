@@ -22,7 +22,7 @@ error_reporting(E_ALL);
          <!-- Banner Section Start -->
          <div class="about-sec sec-padding ">
             <div class="container">
-               <div class="row">
+               <div class="row align-items-center">
                   <div class="col-xl-7">
                      <div class="about-media-2 position-relative mb-4 mb-xl-0">
                         <img class="ab-media-1 img-fluid " src="images/about-n1.png" alt="About">
