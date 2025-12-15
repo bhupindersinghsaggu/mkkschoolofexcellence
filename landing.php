@@ -35,11 +35,19 @@ error_reporting(E_ALL);
                      <img class="img-fluid updown" src="images/icons/shape1.png" alt="">
                   </div>
                   <h1 class="banner-sec2 h1 hero-heading">
-                     Admissions <span class="color">Open</span>
+                     A Premier School Focused on <span class="color">Excellence & Values</span>
                   </h1>
-                  <iframe style="height:460px;" width="100%"
-                     src="https://curtina.in/_EazySchool/FormsWeb/frmEnquiry_Mkk.aspx?AppId=soe">
-                  </iframe>
+                  <p class="lead-sm">Empowering students through a balanced blend of academics, values, and creativity for all-round development.</p>
+                  <div class="about-cta mt-5 d-flex">
+                     <a href="#" class="btn btn-primary shadow rounded-5 me-5" data-toggle="modal" data-target="#exampleModal">Admissions Open </a>
+                     <div class="call-us">
+                        <a href="tel:919034252500" class="d-flex align-items-center text-reset play-btn"><span class="icon bg-secondary rounded-circle me-4">
+                              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-phone-call" style="color:#000;">
+                                 <path d="M15.05 5A5 5 0 0 1 19 8.95M15.05 1A9 9 0 0 1 23 8.94m-1 7.98v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                              </svg>
+                           </span> Contact us</a>
+                     </div>
+                  </div>
                </div>
             </div>
          </div>
