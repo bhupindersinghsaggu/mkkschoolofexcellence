@@ -270,6 +270,20 @@
          border-image: initial;
          outline: none;
      }
+.whatsapp {
+         position: fixed;
+         bottom: 15px;
+         left: 20px;
+         z-index: 99;
+         cursor: pointer;
+         border-width: initial;
+         border-style: none;
+         border-color: initial;
+         border-image: initial;
+         outline: none;
+     }
+
+     
  </style>
  <footer class="mobile-footer">
      <div class="footer-icons">
@@ -300,6 +314,10 @@
      </div>
  </footer>
  <div class="pay-online">
+     <a href="https://curtina.in/soe/forms/frmstdPayOnline.aspx" target="_blank"><img onclick="topFunction()" id="btnGoToTop" src="images/ss.png" alt=""></a>
+ </div>
+
+ <div class="whatsapp">
      <a href="https://curtina.in/soe/forms/frmstdPayOnline.aspx" target="_blank"><img onclick="topFunction()" id="btnGoToTop" src="images/ss.png" alt=""></a>
  </div>
  <script>
