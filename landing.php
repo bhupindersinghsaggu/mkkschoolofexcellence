@@ -486,10 +486,7 @@ error_reporting(E_ALL);
                <div class="contact-txt">
                   <span class="badge-lg rounded-5 bg-primary">Get in Touch</span>
                   <h2 class="sec-title text-info">Talk to  <span class="color">Our Couseller</span></h2>
-                  <!-- <p>
-                     Being involved in education dedicatedly is a good meditation for years. A good education for you and me,
-                     a better world it will be.
-                  </p> -->
+                 <img class="ab-media-1 img-fluid " src="images/about-n1.png" alt="About">
                </div>
             </div>
          </div>
