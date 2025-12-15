@@ -38,7 +38,7 @@ error_reporting(E_ALL);
                         <h2 class="sec-title position-relative pd-50">
                            Admission Open <span class="color">2026-27</span>
                         </h2>
-                        <p>No Admission Fee</p>
+                        <span class="badge-lg bg-primary rounded-5">No Admission Fee</span>
                         <iframe style="height:600px;" width="100%"
                            src="https://curtina.in/_EazySchool/FormsWeb/frmEnquiry_Mkk.aspx?AppId=SOE">
                         </iframe>
