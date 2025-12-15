@@ -315,3 +315,12 @@ ease-in-out;
     --bs-bg-opacity: 1;
     background-color: rgb(255 255 255) !important;
 }
+
+
+.contact-sec .contact-txt
+
+ {
+    max-width: 35.9375rem;
+    margin-left: auto;
+    margin-right: 0;
+}
