@@ -7,18 +7,18 @@ error_reporting(E_ALL);
 
 
 <body>
-    <nav class="navbar navbar-expand-xl">
-        <div class="container pd-10 ">
-            <a class="navbar-brand" href="./index.php"><img src="images/logo.png" alt="Logo"></a>
-            <div class="header-actions position-relative order-xl-3  d-flex align-items-center justify-content-between">
-                <div class="admin-menu pt-3 bg-white collapse" id="collapseAdminMenu">
-                </div>
-                <a href="http://curtina.in/soe" class="btn d-none d-lg-block btn-primary shadow border-0 rounded-2">Contact us</a>
+   <nav class="navbar navbar-expand-xl">
+      <div class="container pd-10 ">
+         <a class="navbar-brand" href="./index.php"><img src="images/logo.png" alt="Logo"></a>
+         <div class="header-actions position-relative order-xl-3  d-flex align-items-center justify-content-between">
+            <div class="admin-menu pt-3 bg-white collapse" id="collapseAdminMenu">
             </div>
-        </div>
-    </nav>
-    <!-- Banner Section Start -->
-    <!-- Banner Section Start -->
+            <a href="http://curtina.in/soe" class="btn d-none d-lg-block btn-primary shadow border-0 rounded-2">Contact us</a>
+         </div>
+      </div>
+   </nav>
+   <!-- Banner Section Start -->
+   <!-- Banner Section Start -->
    <div class="about-sec sec-padding school-theme-color1">
       <div class="container">
          <div class="row">
@@ -37,17 +37,9 @@ error_reporting(E_ALL);
                   <h1 class="banner-sec2 h1 hero-heading">
                      A Premier School Focused on <span class="color">Excellence & Values</span>
                   </h1>
-                  <p class="lead-sm">Empowering students through a balanced blend of academics, values, and creativity for all-round development.</p>
-                  <div class="about-cta mt-5 d-flex">
-                     <a href="#" class="btn btn-primary shadow rounded-5 me-5" data-toggle="modal" data-target="#exampleModal">Admissions Open </a>
-                     <div class="call-us">
-                        <a href="tel:919034252500" class="d-flex align-items-center text-reset play-btn"><span class="icon bg-secondary rounded-circle me-4">
-                              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-phone-call" style="color:#000;">
-                                 <path d="M15.05 5A5 5 0 0 1 19 8.95M15.05 1A9 9 0 0 1 23 8.94m-1 7.98v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
-                              </svg>
-                           </span> Contact us</a>
-                     </div>
-                  </div>
+                  <iframe style="height:460px;" width="100%"
+                     src="https://curtina.in/_EazySchool/FormsWeb/frmEnquiry_Mkk.aspx?AppId=soe">
+                  </iframe>
                </div>
             </div>
          </div>
@@ -130,7 +122,7 @@ error_reporting(E_ALL);
                         </div>
                      </div>
                      <h2 class="sec-title mb-4 labs-heading">
-                        Indoor-Outdoor  Games</h2>
+                        Indoor-Outdoor Games</h2>
                      <div class="course-footer d-flex align-items-center justify-content-between pt-3">
                      </div>
                   </div>
@@ -155,7 +147,7 @@ error_reporting(E_ALL);
                         </div>
                      </div>
                      <h2 class="sec-title mb-4 labs-heading">
-                        Learner's  Hub</h2>
+                        Learner's Hub</h2>
                      <div class="course-footer d-flex align-items-center justify-content-between pt-3">
                      </div>
                   </div>
@@ -180,7 +172,7 @@ error_reporting(E_ALL);
                         </div>
                      </div>
                      <h2 class="sec-title mb-4 labs-heading">
-                       Composite Lab</h2>
+                        Composite Lab</h2>
                      <div class="course-footer d-flex align-items-center justify-content-between pt-3">
                      </div>
                   </div>
@@ -205,7 +197,7 @@ error_reporting(E_ALL);
                         </div>
                      </div>
                      <h2 class="sec-title mb-4 labs-heading">
-                        State-of-the-Art  Classrooms</h2>
+                        State-of-the-Art Classrooms</h2>
                      <div class="course-footer d-flex align-items-center justify-content-between pt-3">
                      </div>
                   </div>
@@ -230,7 +222,7 @@ error_reporting(E_ALL);
                         </div>
                      </div>
                      <h2 class="sec-title mb-4 labs-heading">
-                        Computer  Labs</h2>
+                        Computer Labs</h2>
                      <div class="course-footer d-flex align-items-center justify-content-between pt-3">
                      </div>
                   </div>
@@ -255,7 +247,7 @@ error_reporting(E_ALL);
                         </div>
                      </div>
                      <h2 class="sec-title mb-4 labs-heading">
-                         Library </h2>
+                        Library </h2>
                      <div class="course-footer d-flex align-items-center justify-content-between pt-3">
                      </div>
                   </div>
@@ -573,40 +565,39 @@ error_reporting(E_ALL);
       </div>
    </section> -->
 
-    <script>
-        document.getElementById('contactform').addEventListener('submit', function(e) {
-            e.preventDefault();
+   <script>
+      document.getElementById('contactform').addEventListener('submit', function(e) {
+         e.preventDefault();
 
-            // Replace with your WhatsApp number
-            const phoneNumber = "919034252500";
-            const name = document.getElementById("name").value;
-            const phone = document.getElementById("phone").value;
-            // const message = document.getElementById("message").value;
-            const email = document.getElementById("email").value;
-            const text = `Hello, my name is: ${name}
+         // Replace with your WhatsApp number
+         const phoneNumber = "919034252500";
+         const name = document.getElementById("name").value;
+         const phone = document.getElementById("phone").value;
+         // const message = document.getElementById("message").value;
+         const email = document.getElementById("email").value;
+         const text = `Hello, my name is: ${name}
           Phone: ${phone}
 		  Email: ${email} `;
-            const url = `https://wa.me/${phoneNumber}?text=${text}`;
-            window.open(url, 'index.php');
-        });
-        
-    </script>
-    <!-- Footer Section Start -->
-    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
-    <script src="js/bootstrap.bundle.min.js"></script>
-    <script src="js/swiper-bundle.min.js"></script>
-    <script src="js/nice-select2.js"></script>
-    <script src="js/glightbox.min.js"></script>
-    <script src="js/isotope.pkgd.min.js"></script>
-    <script src="js/purecounter_vanilla.js"></script>
-    <script src="js/lenis.min.js"></script>
-    <script src="js/custom.js"></script>
-    <script defer src="https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015" integrity="sha512-ZpsOmlRQV6y907TI0dKBHq9Md29nnaEIPlkf84rnaERnq6zvWvPUqr2ft8M1aS28oN72PdrCzSjY4U6VaAw1EQ==" data-cf-beacon='{"rayId":"94a775a3bdd1e1a4","version":"2025.5.0","r":1,"token":"389fa74406c44f21b129709ce8a3ec16","serverTiming":{"name":{"cfExtPri":true,"cfEdge":true,"cfOrigin":true,"cfL4":true,"cfSpeedBrain":true,"cfCacheStatus":true}}}' crossorigin="anonymous"></script>
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+         const url = `https://wa.me/${phoneNumber}?text=${text}`;
+         window.open(url, 'index.php');
+      });
+   </script>
+   <!-- Footer Section Start -->
+   <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+   <script src="js/bootstrap.bundle.min.js"></script>
+   <script src="js/swiper-bundle.min.js"></script>
+   <script src="js/nice-select2.js"></script>
+   <script src="js/glightbox.min.js"></script>
+   <script src="js/isotope.pkgd.min.js"></script>
+   <script src="js/purecounter_vanilla.js"></script>
+   <script src="js/lenis.min.js"></script>
+   <script src="js/custom.js"></script>
+   <script defer src="https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015" integrity="sha512-ZpsOmlRQV6y907TI0dKBHq9Md29nnaEIPlkf84rnaERnq6zvWvPUqr2ft8M1aS28oN72PdrCzSjY4U6VaAw1EQ==" data-cf-beacon='{"rayId":"94a775a3bdd1e1a4","version":"2025.5.0","r":1,"token":"389fa74406c44f21b129709ce8a3ec16","serverTiming":{"name":{"cfExtPri":true,"cfEdge":true,"cfOrigin":true,"cfL4":true,"cfSpeedBrain":true,"cfCacheStatus":true}}}' crossorigin="anonymous"></script>
+   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </body>
 
 </html>
- <?php include('web/footer.php') ?>
+<?php include('web/footer.php') ?>
 <?php include('web/admission-open.php') ?>
