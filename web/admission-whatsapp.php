@@ -22,16 +22,16 @@
 									<i class="feather-icon icon-mail"></i> 
 									<select class="form-control" name="classes" id="classes" required>
 										<option value=""> Select Class</option>
-										<option value="Play Group">Play Group</option>
-										<option value="Nursery">Nursery</option>
-										<option value="KG, Prep">KG, Prep</option>
-										<option value="Class I">Class I</option>
-										<option value="Class II">Class II</option>
-										<option value="Class III">Class III</option>
-										<option value="Class IV">Class IV</option>
-										<option value="Class V">Class V</option>
-										<option value="Class VI">Class VI</option>
-										<option value="Class VII">Class VII</option>
+										<option value="Play Group"> Play Group</option>
+										<option value="Nursery"> Nursery</option>
+										<option value="KG, Prep"> KG, Prep</option>
+										<option value="Class I"> Class I</option>
+										<option value="Class II"> Class II</option>
+										<option value="Class III"> Class III</option>
+										<option value="Class IV"> Class IV</option>
+										<option value="Class V"> Class V</option>
+										<option value="Class VI"> Class VI</option>
+										<option value="Class VII"> Class VII</option>
 									</select>
 								</div>
 								<div class="col-lg-12 form-group">
