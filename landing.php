@@ -19,7 +19,7 @@ error_reporting(E_ALL);
    </nav>
    <!-- Banner Section Start -->
    <!-- Banner Section Start -->
-   <div class="about-sec sec-padding school-theme-color1">
+   <div class="about-sec sec-padding ">
       <div class="container">
          <div class="row">
             <div class="col-xl-7">
