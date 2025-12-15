@@ -11,32 +11,9 @@
 			<div class="modal-body">
 				<div class="row">
 					<div class="col-lg-12 mx-auto">
-						<div class="contact-form">
-							<form id="whatsappForm" class="row">
-								<div class="col-lg-12 form-group">
-									<i class="feather-icon icon-user"></i>
-									<input class="form-control" name="name" type="text" placeholder="Name" id="name" required="">
-									<div data-lastpass-icon-root="" style="position: relative !important; height: 0px !important; width: 0px !important; float: left !important;"></div>
-								</div>
-								<div class="col-lg-12 form-group">
-									<i class="feather-icon icon-mail"></i>
-									<input class="form-control" name="email" id="email" type="email" placeholder="Email Address" required="">
-								</div>
-
-								<div class="col-lg-12 form-group">
-									<i class="feather-icon icon-phone-call"></i>
-									<input class="form-control" type="text" name="phone" id="phone" placeholder="Phone Number" required="">
-								</div>
-								
-								<!-- <div class="col-lg-12 form-group">
-									<textarea class="form-control" name="message" id="message" rows="6" placeholder="Enter your message" required=""></textarea>
-								</div> -->
-								<div class="col-lg-12 text-center">
-									<button type="submit" class="btn btn-primary-orange  mt-4" data-bs-target="#exampleModalToggle2">Submit</button>
-								</div>
-							</form>
-
-						</div><!-- Contact Form End -->
+						<iframe style="height:500px;" width="100%"
+							src="https://curtina.in/_EazySchool/FormsWeb/frmEnquiry_Mkk.aspx?AppId=SOE">
+						</iframe>
 					</div>
 				</div>
 			</div>
