@@ -464,9 +464,9 @@ error_reporting(E_ALL);
          </div>
       </div>
    </section> -->
-   <section class=" sec-padding position-relative overflow-hidden">
+   <section class="contact-sec sec-padding position-relative overflow-hidden">
       <div class="offcanvas-overly"></div>
-      <div class="contact-bg position-absolute"></div>
+      <div class="contact-bg position-absolute" style="background-image: url('images/contact-bg.jpg')"></div>
       <img src="images/icons/book-xxl.png" alt="Book" class="img-fluid slideright contact-img">
       <div class="container">
          <div class="row ">
@@ -484,7 +484,7 @@ error_reporting(E_ALL);
             </div>
             <div class="col-lg-6 col-md-6 order-md-2 order-1">
                <div class="contact-txt">
-                  <h2 class="sec-title mb-4  ">Talk to <span class="color">Our Admission Couseller</span></h2>
+                  <h2 class="sec-title mb-4  txt-white">Talk to <span class="color">Our Admission Couseller</span></h2>
                   <img class="ab-media-1 img-fluid mt-4 " src="images/cous.png" alt="About" style="background: #ffa03a;
     border-radius: 50px;">
                   <div class="d-sm-flex align-items-center mt-5">
