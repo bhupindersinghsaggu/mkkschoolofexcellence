@@ -13,7 +13,7 @@ error_reporting(E_ALL);
          <div class="header-actions position-relative order-xl-3  d-flex align-items-center justify-content-between">
             <div class="admin-menu pt-3 bg-white collapse" id="collapseAdminMenu">
             </div>
-            <a href="http://curtina.in/soe" class="btn d-none d-lg-block btn-primary shadow border-0 rounded-2">Contact us</a>
+            <a href="tel:+919054252500" class="btn d-none d-lg-block btn-primary shadow border-0 rounded-2">Call us</a>
          </div>
       </div>
    </nav>
