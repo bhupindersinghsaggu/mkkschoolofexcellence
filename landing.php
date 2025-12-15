@@ -601,3 +601,5 @@ error_reporting(E_ALL);
 </html>
 <?php include('web/footer-landing.php') ?>
 <?php include('web/admission-open.php') ?>
+
+<?php include('web/admission-whatsapp.php') ?>

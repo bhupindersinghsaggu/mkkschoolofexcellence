@@ -270,7 +270,8 @@
          border-image: initial;
          outline: none;
      }
-.whatsapp {
+
+     .whatsapp {
          position: fixed;
          bottom: 15px;
          left: 20px;
@@ -282,7 +283,6 @@
          border-image: initial;
          outline: none;
      }
-
  </style>
  <footer class="mobile-footer">
      <div class="footer-icons">
@@ -323,7 +323,7 @@
  </div>
 
  <div class="whatsapp">
-     <a href="#" data-toggle="modal" data-target="#exampleModalLabelwhatsapp""><img onclick="topFunction()" id="btnGoToTop" src="/images/whats.png" alt=""></a>
+     <a href="#" data-toggle="modal" data-target="#exampleModalLabelwhatsapp""><img onclick=" topFunction()" id="btnGoToTop" src="/images/whats.png" alt=""></a>
  </div>
  <script>
      // Simple animation for icons when page loads
