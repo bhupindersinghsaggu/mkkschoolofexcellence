@@ -19,7 +19,7 @@
 									<div data-lastpass-icon-root="" style="position: relative !important; height: 0px !important; width: 0px !important; float: left !important;"></div>
 								</div>
 								<div class="col-lg-12 form-group">
-									<i class="feather-icon icon-mail"></i>
+									<i class="feather-icon icon-mail"></i> 
 									<select class="form-control" name="classes" id="classes" required>
 										<option value=""> Select Class</option>
 										<option value="Play Group">Play Group</option>
@@ -73,7 +73,7 @@
 		const text = `Hello, my name is: ${name}
           Phone: ${phone}
 		  Inquiry About: ${classes} 
-		  message ${message}  `;
+		  Message: ${message}  `;
 		const url = `https://wa.me/${phoneNumber}?text=${text}`;
 		window.open(url, 'index.php');
 	});
