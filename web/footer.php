@@ -283,7 +283,6 @@
          outline: none;
      }
 
-     
  </style>
  <footer class="mobile-footer">
      <div class="footer-icons">
