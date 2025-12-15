@@ -8,6 +8,14 @@ error_reporting(E_ALL);
 
 <body>
    <!-- Banner Section Start -->
+<div class="about-sec sec-padding ">
+      <div class="container">
+         <div class="row">
+            <div class="col-xl-7">
+<h1 class="banner-sec2 h1 hero-heading">
+                     Admission <span class="color">Open</span>
+                  </h1>
+            </div></div>
    <!-- Banner Section Start -->
    <div class="about-sec sec-padding ">
       <div class="container">
