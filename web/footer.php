@@ -313,7 +313,7 @@
          </a>
          <a href="https://curtina.in/soe/forms/frmstdPayOnline.aspx" class="footer-item">
              <div class="footer-icon">
-                 <i class="fas fa-whatapp"></i>
+                 <i class="fa-brands fa-whatsapp"></i>
              </div>
              <span class="footer-label">Inquiry</span>
          </a>
