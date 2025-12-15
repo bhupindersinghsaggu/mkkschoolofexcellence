@@ -3,10 +3,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lexend:wght@100..900&display=swap');
 
 :root {
-    --primary: #3a4bff;
+    --primary: #6045ff;
     --primary-rgb: 96, 69, 255;
     --secondary: #ffa03a;
-    --secondary-rgb: 255, 160, 58;
+    --secondary-rgb: #3a4bff;
     --white: #fff;
     --white-rgb: 255, 255, 255;
     --shade: #f4f5f8;
