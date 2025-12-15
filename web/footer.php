@@ -318,7 +318,7 @@
  </div>
 
  <div class="whatsapp">
-     <a href="#" data-toggle="modal" data-target="#exampleModalLabelwhatsapp""><img onclick="topFunction()" id="btnGoToTop" src="images/ss.png" alt=""></a>
+     <a href="#" data-toggle="modal" data-target="#exampleModalLabelwhatsapp""><img onclick="topFunction()" id="btnGoToTop" src="images/whatapp.png" alt=""></a>
  </div>
  <script>
      // Simple animation for icons when page loads
