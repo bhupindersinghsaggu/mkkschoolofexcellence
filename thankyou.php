@@ -29,7 +29,7 @@ ini_set('display_errors', 1);
         <div class="row">
             <div class="col-lg-12">
 
-            <h2 class="sec-title mb-4 labs-heading lh-1">
+            <h2 class="sec-title mb-4 labs-heading lh-lg">
                 “Thank you for choosing School of Excellence! Our team will contact you shortly. For any further queries, you may call us at  
                 <a href="tel:+91 90342 52500">+91 90342 52500</a></h2>
             </div>
