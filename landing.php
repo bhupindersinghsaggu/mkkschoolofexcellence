@@ -464,66 +464,33 @@ error_reporting(E_ALL);
          </div>
       </div>
    </section> -->
-<section class="contact-sec sec-padding position-relative overflow-hidden">
-    <div class="offcanvas-overly"></div>
-    <div class="contact-bg position-absolute" style="background-image: url('images/contact-bg.jpg')"></div>
-    <img src="images/icons/book-xxl.png" alt="Book" class="img-fluid slideright contact-img">
-    <div class="container">
-      <div class="row align-items-center">
-        <div class="col-lg-7 col-md-7 order-md-1 order-2">
-          <div class="contact-form position-relative z-index bg-secondary p-lg-5 p-4 rounded-3">
-            <form id="contact-form" class="row" method="POST" action="mail.php">
-              <div class="col-lg-6 form-group">
-                <i class="feather-icon icon-user"></i>
-                <input class="form-control" name="name" type="text" placeholder="Name" required="">
-              </div>
-              <div class="col-lg-6 form-group">
-                <i class="feather-icon icon-mail"></i>
-                <input class="form-control" name="email" type="email" placeholder="Email Address" required="">
-              </div>
-              <div class="col-lg-6 form-group">
-                <i class="feather-icon icon-pocket"></i>
-                <input class="form-control" type="text" name="subject" placeholder="Your Subject" required="">
-              </div>
-              <div class="col-lg-6 form-group">
-                <i class="feather-icon icon-phone-call"></i>
-                <input class="form-control" type="text" name="phone" placeholder="Phone Number" required="">
-              </div>
-              <div class="col-lg-12 form-group">
-                <textarea class="form-control" name="message" id="message" rows="6" placeholder="Enter your message" required=""></textarea>
-              </div>
-              <div class="form-group mt-4">
-                <button type="submit" class="btn btn-dark rounded-5">Submit Now</button>
-              </div>
-            </form>
-            <!-- Contact Form Start-->
-            <div class="open-popup rounded-3">
-              <div class="icon">
-                <i class="feather-icon icon-check"></i>
-              </div>
-              <h2>Success</h2>
-              <p>Thank You! Your message has been sent.</p>
-              <div class="close_popup_btn">
-                <button class="btn btn-primary rounded-5">Okey</button>
-              </div>
+   <section class="contact-sec sec-padding position-relative overflow-hidden">
+      <div class="offcanvas-overly"></div>
+      <div class="contact-bg position-absolute" style="background-image: url('images/contact-bg.jpg')"></div>
+      <img src="images/icons/book-xxl.png" alt="Book" class="img-fluid slideright contact-img">
+      <div class="container">
+         <div class="row align-items-center">
+            <div class="col-lg-7 col-md-7 order-md-1 order-2">
+               <div class="contact-form position-relative z-index bg-secondary p-lg-5 p-4 rounded-3">
+                  <iframe style="height:600px;" width="100%"
+                     src="https://curtina.in/_EazySchool/FormsWeb/frmEnquiry_Mkk.aspx?AppId=SOE">
+                  </iframe>
+               </div>
+               <!-- Contact Form End -->
             </div>
-            <!-- Contact Form Message End -->
-          </div>
-          <!-- Contact Form End -->
-        </div>
-        <div class="col-lg-5 col-md-5 order-md-2 order-1">
-          <div class="contact-txt">
-            <span class="badge-lg rounded-5 bg-primary">Get in Touch</span>
-            <h2 class="sec-title text-info">If You Have Any Query <span class="color">Contact Us</span></h2>
-            <p>
-              Being involved in education dedicatedly is a good meditation for years. A good education for you and me,
-              a better world it will be.
-            </p>
-          </div>
-        </div>
+            <div class="col-lg-5 col-md-5 order-md-2 order-1">
+               <div class="contact-txt">
+                  <span class="badge-lg rounded-5 bg-primary">Get in Touch</span>
+                  <h2 class="sec-title text-info">If You Have Any Query <span class="color">Contact Us</span></h2>
+                  <p>
+                     Being involved in education dedicatedly is a good meditation for years. A good education for you and me,
+                     a better world it will be.
+                  </p>
+               </div>
+            </div>
+         </div>
       </div>
-    </div>
-  </section>
+   </section>
    <script>
       document.getElementById('contactform').addEventListener('submit', function(e) {
          e.preventDefault();
