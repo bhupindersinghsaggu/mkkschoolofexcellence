@@ -309,3 +309,9 @@ ease-in-out;
 .sec-padding2 {
     padding: 2.5rem 0;
 }
+
+
+.bg-secondary2 {
+    --bs-bg-opacity: 1;
+    background-color: rgb(255 255 255) !important;
+}
