@@ -297,12 +297,12 @@
              </div>
              <span class="footer-label">Inquiry</span>
          </a>
-         <a href="mailto:soepanipat" class="footer-item">
+         <!-- <a href="mailto:soepanipat" class="footer-item">
              <div class="footer-icon">
                  <i class="fa-solid fa-envelope"></i>
              </div>
              <span class="footer-label">Mail us</span>
-         </a>
+         </a> -->
      </div>
  </footer>
  <div class="pay-online">
