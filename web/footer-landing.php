@@ -303,7 +303,9 @@
      </div>
  </footer>
  <div class="pay-online">
-     <a href="https://curtina.in/soe/forms/frmstdPayOnline.aspx" target="_blank"><img onclick="topFunction()" id="btnGoToTop" src="images/ss.png" alt=""></a>
+     <a href="#" data-toggle="modal" data-target="#exampleModalLabelwhatsapp" class="footer-item">
+         <span class="badge-lg bg-primary rounded-5 bounce">No Admission Fee</span>
+     </a>
  </div>
 
  <div class="whatsapp">
