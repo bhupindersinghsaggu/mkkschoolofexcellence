@@ -196,7 +196,7 @@ error_reporting(E_ALL);
          </div>
       </div>
    </section>
-    <section class="about-sec2">
+    <section class="about-sec2 sec-padding">
       <div class="container">
          <div class="row">
             <div class="col-xl-6 col-md-10">
