@@ -20,8 +20,21 @@
 								</div>
 								<div class="col-lg-12 form-group">
 									<i class="feather-icon icon-mail"></i>
-									<input class="form-control" name="email" id="email" type="email" placeholder="Email Address" required="">
+									<select class="form-control" name="class" id="class" required>
+										<option value="">Select Class</option>
+										<option value="Play Group">Play Group</option>
+										<option value="Nursery">Nursery</option>
+										<option value="KG, Prep">KG, Prep</option>
+										<option value="Class I">Class I</option>
+										<option value="Class II">Class II</option>
+										<option value="Class III">Class III</option>
+										<option value="Class IV">Class IV</option>
+										<option value="Class V">Class V</option>
+										<option value="Class VI">Class VI</option>
+										<option value="Class VII">Class VII</option>
+									</select>
 								</div>
+
 
 								<div class="col-lg-12 form-group">
 									<i class="feather-icon icon-phone-call"></i>
@@ -53,10 +66,10 @@
 		const name = document.getElementById("name").value;
 		const phone = document.getElementById("phone").value;
 		// const message = document.getElementById("message").value;
-		const email = document.getElementById("email").value;
+		const classes = document.getElementById("classes").value;
 		const text = `Hello, my name is: ${name}
           Phone: ${phone}
-		  Email: ${email} `;
+		  Classes: ${class} `;
 		const url = `https://wa.me/${phoneNumber}?text=${text}`;
 		window.open(url, 'index.php');
 	});
