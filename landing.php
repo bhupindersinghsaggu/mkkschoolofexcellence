@@ -35,7 +35,7 @@ error_reporting(E_ALL);
                      <img class="img-fluid updown" src="images/icons/shape1.png" alt="">
                   </div>
                   <h1 class="banner-sec2 h1 hero-heading">
-                     A Premier School Focused on <span class="color">Excellence & Values</span>
+                     Admissions <span class="color">Open</span>
                   </h1>
                   <iframe style="height:460px;" width="100%"
                      src="https://curtina.in/_EazySchool/FormsWeb/frmEnquiry_Mkk.aspx?AppId=soe">
