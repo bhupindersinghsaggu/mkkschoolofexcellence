@@ -311,6 +311,12 @@
              </div>
              <span class="footer-label">Pay Online</span>
          </a>
+         <a href="https://curtina.in/soe/forms/frmstdPayOnline.aspx" class="footer-item">
+             <div class="footer-icon">
+                 <i class="fas fa-whatapp"></i>
+             </div>
+             <span class="footer-label">Inquiry</span>
+         </a>
      </div>
  </footer>
  <div class="pay-online">
