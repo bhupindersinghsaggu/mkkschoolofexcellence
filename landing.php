@@ -487,13 +487,13 @@ error_reporting(E_ALL);
                   <h2 class="sec-title mb-4  txt-white">Talk to <span class="color">Our Admission Couseller</span></h2>
                   <img class="ab-media-1 img-fluid mt-4 " src="images/cous.png" alt="About" style="background: #ffa03a;
     border-radius: 50px;">
-    <div class="d-flex ms-sm-5 align-items-center mt-4 mt-sm-0">
-                        <span class="icon-sm bg-secondary text-info rounded-circle me-3 shadow-alt"><img src="images/icons/phone.svg" alt=""></span>
-                        <a href="tel:+919054252500" class="text-reset">
-                           <h5>Call us Anytime</h5>
-                           90542-52500
-                        </a>
-                     </div>
+                  <div class="d-flex ms-sm-5 align-items-center mt-4 mt-sm-0">
+                     <span class="icon-sm bg-secondary text-info rounded-circle me-3 shadow-alt"><img src="images/icons/phone.svg" alt=""></span>
+                     <a href="tel:+919054252500" class="text-reset">
+                        <h5 class="txt-white">Call us Anytime</h5>
+                        90542-52500
+                     </a>
+                  </div>
                </div>
             </div>
          </div>
