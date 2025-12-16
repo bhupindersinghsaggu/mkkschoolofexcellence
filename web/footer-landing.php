@@ -304,7 +304,7 @@
  </footer>
  <div class="pay-online">
      <a href="#" data-toggle="modal" data-target="#exampleModalLabelwhatsapp" class="footer-item">
-         <span class="badge-lg bg-primary rounded-5 bounce">No Admission Fee</span>
+         <span class="badge-lg bg-danger rounded-5 bounce">No Admission Fee</span>
      </a>
  </div>
 
