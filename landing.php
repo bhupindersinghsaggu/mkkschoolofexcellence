@@ -13,7 +13,7 @@ error_reporting(E_ALL);
          <div class="row">
             <div class="d-flex justify-content-center">
                <div>
-               <a class="navbar-brand" href="landing.php"><img src="images/logo.png" alt="Logo"></a>
+               <a class="navbar-brand" href="landing.php"><img src="images/logo-landing.png" alt="Logo"></a>
                </div>
                <h1 class="banner-sec2 h1 hero-heading">
                   School of <span class="color">Excellence</span>
