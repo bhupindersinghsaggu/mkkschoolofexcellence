@@ -499,7 +499,7 @@ error_reporting(E_ALL);
          </div>
       </div>
    </section>
-   <script>
+   <!-- <script>
       document.getElementById('contactform').addEventListener('submit', function(e) {
          e.preventDefault();
 
@@ -515,9 +515,9 @@ error_reporting(E_ALL);
          const url = `https://wa.me/${phoneNumber}?text=${text}`;
          window.open(url, 'index.php');
       });
-   </script>
+   </script> -->
    <!-- Footer Section Start -->
-   <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+   <!-- <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script> -->
    <script src="js/bootstrap.bundle.min.js"></script>
    <script src="js/swiper-bundle.min.js"></script>
    <script src="js/nice-select2.js"></script>
