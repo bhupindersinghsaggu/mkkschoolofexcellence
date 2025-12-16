@@ -8,7 +8,7 @@ error_reporting(E_ALL);
 
 <body>
    <!-- Banner Section Start -->
-   <div class="about-sec ">
+   <div class="about-sec landing-header">
       <div class="container">
          <div class="row">
             <div class="d-flex flex-column flex-md-row justify-content-center align-items-center gap-3 text-center">
