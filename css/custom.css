@@ -324,3 +324,8 @@ ease-in-out;
     margin-left: auto;
     margin-right: 0;
 }
+@media (max-width: 767px) {
+  .hero-heading {
+    font-size: 28px;
+  }
+}

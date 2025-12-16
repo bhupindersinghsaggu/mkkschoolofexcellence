@@ -11,12 +11,15 @@ error_reporting(E_ALL);
    <div class="about-sec ">
       <div class="container">
          <div class="row">
-            <div class="d-flex justify-content-center align-items-center gap-3">
-               <a href="landing.php"><img src="images/logo-landing.png" alt="Logo" style="width: 100px;"></a>
-               <h1 class="banner-sec2 h1 hero-heading">
+            <div class="d-flex flex-column flex-md-row justify-content-center align-items-center gap-3 text-center">
+               <a href="landing.php">
+                  <img src="images/logo-landing.png" alt="Logo" class="img-fluid" style="width: 100px;">
+               </a>
+               <h1 class="banner-sec2 hero-heading mb-0">
                   School of <span class="color">Excellence</span>
                </h1>
             </div>
+
          </div>
       </div>
    </div>
