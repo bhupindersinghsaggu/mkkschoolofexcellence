@@ -67,7 +67,7 @@
 									<i class="feather-icon icon-mail"></i>
 									<select class="form-control" name="source" id="source" required>
 										<option value="">Select Source of Information</option>
-										<option value="Google">Source of Information</option>
+										<option value="Google">Google</option>
 										<option value="Social Media">Social Media</option>
 										<option value="Website">Website</option>
 										<option value="Hoarding">Hoarding</option>
