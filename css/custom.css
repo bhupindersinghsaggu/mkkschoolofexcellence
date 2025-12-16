@@ -328,4 +328,8 @@ ease-in-out;
   .hero-heading {
     font-size: 28px;
   }
+
+  .landind-logo{
+    max-width: 60px;
+  }
 }
