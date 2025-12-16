@@ -133,6 +133,10 @@
         width: 23.75rem;
     }
 
+     .landing-header {
+        background: #fff;
+        padding: 0px;
+    }
     .pricing-card .card-head .h2,
     .pricing-card .card-head h2 {
         font-size: 2rem;
@@ -340,10 +344,8 @@
     .landind-logo {
         max-width: 70px;
     }
-    .landing-header {
-    background: #fff;
-    padding: 0px;
-}
+
+   
 }
 
 .landing-header {
