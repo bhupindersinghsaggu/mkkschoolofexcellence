@@ -326,22 +326,6 @@
          });
      });
  </script>
-
- <script>
-     // Simple animation for icons when page loads
-     document.addEventListener('DOMContentLoaded', function() {
-         const icons = document.querySelectorAll('.footer-icon');
-         icons.forEach((icon, index) => {
-             setTimeout(() => {
-                 icon.style.opacity = '1';
-                 icon.style.transform = 'scale(1.1)';
-                 setTimeout(() => {
-                     icon.style.transform = 'scale(1)';
-                 }, 200);
-             }, index * 100);
-         });
-     });
- </script>
  <!-- Footer Section End -->
  </div>
  <!-- Scroll Top -->
