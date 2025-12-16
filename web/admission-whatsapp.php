@@ -92,22 +92,23 @@
 
 
 <script>
-	document.getElementById('whatsappForm').addEventListener('submit', function(e) {
-		e.preventDefault();
+	document.addEventListener("DOMContentLoaded", function() {
+		document.getElementById('whatsappForm').addEventListener('submit', function(e) {
+			e.preventDefault();
 
-		// Replace with your WhatsApp number
-		const phoneNumber = "919034252500";
-		const name = document.getElementById("name").value;
-		const phone = document.getElementById("phone").value;
-		const message = document.getElementById("message").value;
-		const classes = document.getElementById("classes").value;
-		const source = document.getElementById("source").value;
-		const text = `Hello, my name is: ${name}
-          Phone: ${phone}
-		  Inquiry About: ${classes} 
-		  Message: ${message} 
-		  Source of Information: ${source}`;
-		const url = `https://wa.me/${phoneNumber}?text=${text}`;
-		window.open(url, 'index.php');
+			const phoneNumber = "919034252500";
+
+			const name = document.getElementById("name").value;
+			const phone = document.getElementById("phone").value;
+			const email = document.getElementById("email").value;
+
+			const text = `Hello, my name is: ${name}
+Phone: ${phone}
+Email: ${email}`;
+
+			const url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(text)}`;
+
+			window.open(url, '_blank');
+		});
 	});
 </script>
