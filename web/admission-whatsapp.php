@@ -63,6 +63,17 @@
 									<i class="feather-icon icon-phone-call"></i>
 									<input class="form-control" type="message" name="message" id="message" placeholder="Enter Message" required="">
 								</div>
+								<div class="col-lg-12 form-group">
+									<i class="feather-icon icon-mail"></i>
+									<select class="form-control" name="source" id="source" required>
+										<option value="">Select Source of Information</option>
+										<option value="Google">Source of Information</option>
+										<option value="Social Media">Social Media</option>
+										<option value="Website">Website</option>
+										<option value="Hoarding">Hoarding</option>
+										<option value="Word of Mouth">Word of Mouth</option>
+									</select>
+								</div>
 								<div class="col-lg-12 text-center">
 									<button type="submit" class="btn btn-primary-orange  mt-4" data-bs-target="#exampleModalToggle2">Submit</button>
 								</div>
@@ -90,10 +101,12 @@
 		const phone = document.getElementById("phone").value;
 		const message = document.getElementById("message").value;
 		const classes = document.getElementById("classes").value;
+		const source = document.getElementById("source").value;
 		const text = `Hello, my name is: ${name}
           Phone: ${phone}
 		  Inquiry About: ${classes} 
-		  Message: ${message}  `;
+		  Message: ${message} 
+		  Source of Information: ${source}`;
 		const url = `https://wa.me/${phoneNumber}?text=${text}`;
 		window.open(url, 'index.php');
 	});
