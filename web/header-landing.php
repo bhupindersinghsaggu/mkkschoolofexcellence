@@ -38,6 +38,10 @@ $meta_keywords = "School of Excellence, Best CBSE School Panipat, Top School in 
                         <span class="adm-text">Admissions Open for the Session 2026-27 <i class="fa-solid fa-star star-icon"></i> </span>
                         <span class="adm-text">Admissions Open for the Session 2026-27 <i class="fa-solid fa-star star-icon"></i> </span>
                         <span class="adm-text">Admissions Open for the Session 2026-27 <i class="fa-solid fa-star star-icon"></i> </span>
+                        <span class="adm-text">Admissions Open for the Session 2026-27 <i class="fa-solid fa-star star-icon"></i> </span>
+                        <span class="adm-text">Admissions Open for the Session 2026-27 <i class="fa-solid fa-star star-icon"></i> </span><span class="adm-text">Admissions Open for the Session 2026-27 <i class="fa-solid fa-star star-icon"></i> </span>
+                        <span class="adm-text">Admissions Open for the Session 2026-27 <i class="fa-solid fa-star star-icon"></i> </span><span class="adm-text">Admissions Open for the Session 2026-27 <i class="fa-solid fa-star star-icon"></i> </span>
+                        <span class="adm-text">Admissions Open for the Session 2026-27 <i class="fa-solid fa-star star-icon"></i> </span>
                     </a>
                 </marquee>
             </div>
