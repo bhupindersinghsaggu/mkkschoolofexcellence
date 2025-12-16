@@ -291,7 +291,7 @@
              <span class="footer-label">Call us</span>
          </a>
          <a href="#" data-toggle="modal" data-target="#exampleModalLabelwhatsapp" class="footer-item">
-             <span class="badge-lg bg-primary rounded-5 bounce">No Admission Fee</span>
+             <span class="badge-lg bg-danger rounded-5 bounce">No Admission Fee</span>
          </a>
          <a href="#" data-toggle="modal" data-target="#exampleModalLabelwhatsapp" class="footer-item">
              <div class="footer-icon">
