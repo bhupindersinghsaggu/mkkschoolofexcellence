@@ -36,9 +36,9 @@ error_reporting(E_ALL);
             </div>
             <div class="col-xl-5 px-lg-0">
                <div class="">
-                  <div class="img-meta position-absolute">
+                  <!-- <div class="img-meta position-absolute">
                      <img class="img-fluid updown" src="images/icons/shape1.png" alt="">
-                  </div>
+                  </div> -->
                   <h2 class="sec-title position-relative pd-50">
                      Admission Open <span class="color">2026-27</span>
                   </h2>
