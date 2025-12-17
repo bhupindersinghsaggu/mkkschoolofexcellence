@@ -40,7 +40,7 @@ ini_set('display_errors', 1);
                 <h5> Transport Charges</h5>
                <p class="line-heigth" ><i class="fa-solid fa-circle-arrow-right" style="color: #3a4bff"></i>  1800/- within 1 KM</p>
                <p class="line-heigth" > <i class="fa-solid fa-circle-arrow-right" style="color: #3a4bff"></i> 2200/- afterwards</p>
-                <a href="https://mkkschoolofexcellence.com/gps-app.php" class="btn d-none d-lg-block btn-primary shadow border-0 rounded-2">Download GPS APP</a>
+                <a href="https://mkkschoolofexcellence.com/gps-app.php" class="btn d-none d-lg-block btn-secondary shadow border-0 rounded-2">Download GPS APP</a>
             </div>
         </div>
     </div>
