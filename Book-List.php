@@ -2,10 +2,7 @@
 
 
 
-<?php
-error_reporting(E_ALL);
-ini_set('display_errors', 1);
-?>
+
 <section class="promo-sec" style="background: url('images/promo-bg.jpg')no-repeat center center / cover;">
     <img src="images/promo-left.png" alt="" class="anim-img">
     <img src="images/promo-right.png" alt="" class="anim-img anim-right">
