@@ -24,13 +24,34 @@ ini_set('display_errors', 1);
         </div>
     </div>
 </section>
-<section class="single-post sec-padding">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12">
-                
-            </div>
-        </div>
-    </div>
-</section>
+<section class="contact-card-sec sec-padding">
+		<div class="container">
+			<div class="row gy-3 gy-md-0">
+				<div class="col-md-4">
+					<div class="card bg-shade text-center">
+						<span class="icon-lg mx-auto bg-secondary text-info rounded-circle mb-4"><i class="feather-icon icon-phone"></i></span>
+						<h5>Call Us</h5>
+						<p><a class="text-reset" href="tel:90342 52500">90342 52500</a></p>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="card bg-shade text-center">
+						<span class="icon-lg mx-auto bg-secondary text-info rounded-circle mb-4"><i class="feather-icon icon-mail"></i></span>
+						<h5>Email Us</h5>
+						<ul>
+							<li><a class="text-reset" href="mailto:soepanipat@gmail.com">soepanipat@gmail.com
+								</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="card bg-shade text-center">
+						<span class="icon-lg mx-auto bg-secondary text-info rounded-circle mb-4"><i class="feather-icon icon-map-pin"></i></span>
+						<h5>Locations</h5>
+						<p>Plot No.1, Sector-18, Huda, Panipat</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
 <?php include('web/footer.php'); ?>
