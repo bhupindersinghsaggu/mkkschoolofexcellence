@@ -36,7 +36,7 @@ ini_set('display_errors', 1);
                <p class="line-heigth" > <i class="fa-solid fa-circle-arrow-right" style="color: #3a4bff"></i> Class 6 - ₹7500/-</p>
                <p class="line-heigth" > <i class="fa-solid fa-circle-arrow-right" style="color: #3a4bff"></i> Class 7 - ₹7750/-</p>
                <p class="line-heigth" ><i class="fa-solid fa-circle-arrow-right" style="color: #3a4bff"></i> A Sibling discount of 20% on the Tuition fee of the elder sibling.</p>
-               <a href="https://curtina.in/soe/forms/frmstdPayOnline.aspx" class="btn d-none d-lg-block btn-primary shadow border-0 rounded-2 mt-4">Pay Online</a>
+               <a href="https://curtina.in/soe/forms/frmstdPayOnline.aspx" class="btn d-none d-lg-block btn-primary shadow border-0 rounded-2 mt-4 mb-4">Pay Online</a>
                 <h5> Transport Charges</h5>
                <p class="line-heigth" ><i class="fa-solid fa-circle-arrow-right" style="color: #3a4bff"></i>  1800/- within 1 KM</p>
                <p class="line-heigth" > <i class="fa-solid fa-circle-arrow-right" style="color: #3a4bff"></i> 2200/- afterwards</p>
