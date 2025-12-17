@@ -22,7 +22,7 @@ ini_set('display_errors', 1);
         <div class="row">
             <div class="col-sm-6">
                 <h5> Registration fee ₹1000</h5>
-                <p class="line-heigth"> Admission fee ₹30000 ( waived for initial 100 admissions for 2026 -27 )</p>
+                <!-- <p class="line-heigth"> Admission fee ₹30000 ( waived for initial 100 admissions for 2026 -27 )</p> -->
                 <p class="line-heigth"> Tuition fee ( PreN to Prep ) - ₹6000/-</p>
                 <p class="line-heigth"> Classes 1 to 5 - ₹7250/-</p>
                 <p class="line-heigth"> Class 6 - ₹7500/-</p>
