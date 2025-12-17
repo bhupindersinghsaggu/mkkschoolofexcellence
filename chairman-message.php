@@ -21,7 +21,9 @@ ini_set('display_errors', 1);
     <div class="container">
         <div class="row">
             <div class="col-lg-8">
-                
+                <p class="line-heigth">Education is both a profound responsibility and an immense privilege. The students of today are the leaders of tomorrow. At the School of Excellence, we are committed to guiding young minds to become successful, compassionate, and responsible citizens. We strive to instill core values such as perseverance, tolerance, and integrity while nurturing students’ mental and physical development.
+
+                    We strongly believe in encouraging independent thinking and creativity, allowing every child’s unique talents to grow and shine. While respecting individuality, we also emphasize the importance of teamwork and collaboration. Our dedication to nurturing these values is reflected in the wholehearted commitment of our school and staff. Together with parents, we form one united School of Excellence family, creating a supportive and enriching environment for every child’s growth and success.</p>
             </div>
             <div class="col-lg-4">
                 <aside class="sidebar ps-lg-4">
