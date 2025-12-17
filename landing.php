@@ -36,7 +36,7 @@ error_reporting(E_ALL);
          <div class="row ">
             <div class="d-flex justify-content-center gap-5  mobile-row">
                <div class="about-media-2 position-relative mb-4 mb-xl-0">
-                  <img class="img-fluid" src="images/hero.png" alt="About">
+                  <img class="img-fluid" src="images/hero1.png" alt="About">
                </div>
                <div>
                   <h2 class="sec-title position-relative">
