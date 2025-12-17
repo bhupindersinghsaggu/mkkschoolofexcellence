@@ -33,15 +33,8 @@ ini_set('display_errors', 1);
                             <button class="btn btn-primary position-absolute  top-0"><i class="feather-icon icon-search"></i></button>
                         </form>
                     </div>
-                    <div class="widget category-widget">
-                        <h3 class="widget-title">More Links</h3>
-                        <div class="widget-inner">
-                            <ul>
-                                <li><a href="about-us.php">About us <span><i class="feather-icon icon-chevron-right"></i></span></a></li>
-                                <li><a href="principal-message.php">Message From Principal<span><i class="feather-icon icon-chevron-right"></i></span></a></li>
-                                <li><a href="chairman-message.php">Message From Chairman<span><i class="feather-icon icon-chevron-right"></i></span></a></li>
-                            </ul>
-                        </div>
+                    <div class="col-lg-4">
+                        <?php include('web/infra-links.php'); ?>
                     </div>
                     <div class="widget widget_author">
                         <div class="widget-inner p-4 text-center">
