@@ -8,13 +8,6 @@ $meta_keywords = "MKK School of Excellence, school campus, school facilities, ca
 
 <?php include('web/header.php'); ?>
 
-<?php include('./admin-panel/db.php'); ?>
-
-<?php
-error_reporting(E_ALL);
-ini_set('display_errors', 1);
-?>
-
 <section class="course-sec-3 bg-blue sec-padding">
     <div class="container">
         <div class="text-center sec-intro">
