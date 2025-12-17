@@ -176,7 +176,7 @@
         <div class="header-nav-wrapper header-sticky">
             <nav class="navbar navbar-expand-xl">
                 <div class="container navbar-line">
-                    <a class="navbar-brand" href="./index.php"><img src="images/logo.png" alt="Logo"></a>
+                    <a class="navbar-brand" href="index.php"><img src="images/logo.png" alt="Logo"></a>
                     <div
                         class="header-actions position-relative order-xl-3  d-flex align-items-center justify-content-between">
 
