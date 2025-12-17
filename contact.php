@@ -13,6 +13,25 @@ $meta_keywords = "Contact MKK School Panipat, School Address, CBSE School Near M
 error_reporting(E_ALL);
 ini_set('display_errors', 1);
 ?>
+<style>
+    .form-group {
+        position: relative;
+    }
+
+    .form-group i {
+        position: absolute;
+        left: 15px;
+        top: 50%;
+        transform: translateY(-50%);
+        color: #aaa;
+        z-index: 2;
+    }
+
+    .form-group .form-control {
+        padding-left: 45px;
+        /* space for icon */
+    }
+</style>
 <section class="promo-sec" style="background: url('images/promo-bg.jpg')no-repeat center center / cover;">
     <img src="images/promo-left.png" alt="" class="anim-img">
     <img src="images/promo-right.png" alt="" class="anim-img anim-right">
