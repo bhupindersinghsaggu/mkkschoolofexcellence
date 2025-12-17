@@ -19,31 +19,33 @@ error_reporting(E_ALL);
                   School of <span class="color">Excellence</span>
                </h1>
             </div>
-
          </div>
       </div>
    </div>
+   <style>
+      @media (max-width: 767px) {
+         .mobile-row {
+            flex-direction: column !important;
+            align-items: center;
+         }
+      }
+   </style>
    <!-- Banner Section Start -->
    <div class="about-sec sec-padding2 ">
       <div class="container">
-         <div class="row align-items-center">
-            <div class="col-xl-6">
+         <div class="row ">
+            <div class="d-flex justify-content-center gap-5  mobile-row">
                <div class="about-media-2 position-relative mb-4 mb-xl-0">
-                  <img class="ab-media-1 img-fluid " src="images/hero.png" alt="About">
-                  <!-- <img class="ab-media-2 position-absolute img-fluid " src="images/about-n2.png" alt="About">
-                  <img class="ab-media-3 position-absolute img-fluid " src="images/about-n3.png" alt="About"> -->
+                  <img class="img-fluid" src="images/hero.png" alt="About">
                </div>
-            </div>
-            <div class="col-xl-6 px-lg-0">
-               <div class="">
-                  <!-- <div class="img-meta position-absolute">
-                     <img class="img-fluid updown" src="images/icons/shape1.png" alt="">
-                  </div> -->
-                  <h2 class="sec-title position-relative pd-50">
+               <div>
+                  <h2 class="sec-title position-relative">
                      Admission Open <span class="color">2026-27</span>
                   </h2>
                   <span class="badge-lg bg-primary rounded-5 bounce">No Admission Fee</span>
-                  <iframe style="height:600px;" width="100%"
+                  <iframe
+                     style="height:600px;"
+                     width="100%"
                      src="https://curtina.in/_EazySchool/FormsWeb/frmEnquiry_Mkk.aspx?AppId=SOE">
                   </iframe>
                </div>
