@@ -21,27 +21,16 @@ ini_set('display_errors', 1);
     <div class="container">
         <div class="row">
             <div class="col-sm-6">
-                <?php
-                $category = 'fee-structure';
-                $stmt = $conn->prepare("SELECT title, file_name FROM pdfs WHERE category = ? ORDER BY id DESC");
-                $stmt->bind_param("s", $category);
-                $stmt->execute();
-                $result = $stmt->get_result();
-
-                if ($result->num_rows === 0) {
-                    echo "<p>No Fee found.</p>";
-                } else {
-                    echo "<ul class='list-group'>";
-                    while ($row = $result->fetch_assoc()) {
-                        echo "<li class='list-group-item d-flex justify-content-between align-items-center'>";
-                        echo htmlspecialchars($row['title']);
-                        echo "<span>";
-                        echo "<a class='btn btn-sm btn-outline-primary me-2' target='_blank' href='./admin-panel/pdfs/uploads/pdfs/" . $row['file_name'] . "'>View</a>";
-                        echo "</span></li>";
-                    }
-                    echo "</ul>";
-                }
-                ?>
+                <p class="line-heigth"> Registration fee ₹1000</p>
+                <p class="line-heigth"> Admission fee ₹30000 ( waived for initial 100 admissions for 2026 -27 )</p>
+                <p class="line-heigth"> Tuition fee ( PreN to Prep ) - ₹6000/-</p>
+                <p class="line-heigth"> Classes 1 to 5 - ₹7250/-</p>
+                <p class="line-heigth"> Class 6 - ₹7500/-</p>
+                <p class="line-heigth"> Class 7 - ₹7750/-</p>
+                <p class="line-heigth">A Sibling discount of 20% on the Tuition fee of the elder sibling.</p>
+                <p class="line-heigth"> Transport charges</p>
+                <p class="line-heigth"> 1800/- within 1 KM</p>
+                <p class="line-heigth"> 2200/- afterwards</p>
             </div>
         </div>
     </div>
