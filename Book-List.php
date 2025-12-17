@@ -1,6 +1,6 @@
 <?php include('web/header.php'); ?>
 
-<?php include('./admin-panel/db.php'); ?>
+
 
 <?php
 error_reporting(E_ALL);
@@ -21,58 +21,10 @@ ini_set('display_errors', 1);
     <div class="container">
         <div class="row">
             <div class="col-lg-8">
-                <?php
-                $category = 'book-list';
-                $stmt = $conn->prepare("SELECT title, file_name FROM pdfs WHERE category = ? ORDER BY id DESC");
-                $stmt->bind_param("s", $category);
-                $stmt->execute();
-                $result = $stmt->get_result();
 
-                if ($result->num_rows === 0) {
-                    echo "<p>No brochures found.</p>";
-                } else {
-                    echo "<ul class='list-group'>";
-                    while ($row = $result->fetch_assoc()) {
-                        echo "<li class='list-group-item d-flex justify-content-between align-items-center'>";
-                        echo htmlspecialchars($row['title']);
-                        echo "<span>";
-                        echo "<a class='btn btn-primary me-2' target='_blank' href='./admin-panel/pdfs/uploads/pdfs/" . $row['file_name'] . "'>Download </a>";
-                        echo "</span></li>";
-                    }
-                    echo "</ul>";
-                }
-                ?>
             </div>
             <div class="col-lg-4">
-                <aside class="sidebar ps-lg-4">
-                    <div class="widget search-widget">
-                        <form action="#" class="position-relative">
-                            <input type="search" placeholder="Search keyword">
-                            <button class="btn btn-primary position-absolute  top-0"><i class="feather-icon icon-search"></i></button>
-                        </form>
-                    </div>
-                    <div class="widget category-widget">
-                        <h3 class="widget-title">Popular Categories</h3>
-                        <div class="widget-inner">
-                            <ul>
-                                <li><a href="history.php">History<span><i class="feather-icon icon-chevron-right"></i></span></a></li>
-                                <li><a href="vision-mission.php">Vision & Mission<span><i class="feather-icon icon-chevron-right"></i></span></a></li>
-                                <li><a href="principal-message.php">Message From Principal<span><i class="feather-icon icon-chevron-right"></i></span></a></li>
-                                <li><a href="chairman-message.php">Message From Principal<span><i class="feather-icon icon-chevron-right"></i></span></a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="widget widget_author">
-                        <div class="widget-inner p-4 text-center">
-                            <h4 class="display-5">Follow us</h4>
-                            <div class="footer-social mt-4">
-                                <a href="#"><i class="feather-icon icon-facebook"></i></a>
-                                <a href="#"><i class="feather-icon icon-instagram"></i></a>
-                                <a href="#"><i class="feather-icon icon-youtube"></i></a>
-                            </div>
-                        </div>
-                    </div><!-- Widget End -->
-                </aside>
+                <?php include('web/infra-links.php'); ?>
             </div>
         </div>
     </div>
