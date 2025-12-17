@@ -67,7 +67,7 @@ error_reporting(E_ALL);
       </div>
    </div>
 
-   <section class="about-sec2">
+   <section class="about-sec2" style="margin-top: 100px;">
       <div class="container">
          <div class="row">
             <div class="col-xl-6 col-md-10">
