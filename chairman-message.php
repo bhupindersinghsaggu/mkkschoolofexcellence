@@ -37,8 +37,7 @@ ini_set('display_errors', 1);
                         <h3 class="widget-title">More Links</h3>
                         <div class="widget-inner">
                             <ul>
-                                <li><a href="history.php">History<span><i class="feather-icon icon-chevron-right"></i></span></a></li>
-                                <li><a href="vision-mission.php">Vision & Mission<span><i class="feather-icon icon-chevron-right"></i></span></a></li>
+                                <li><a href="about-us.php">About us <span><i class="feather-icon icon-chevron-right"></i></span></a></li>
                                 <li><a href="principal-message.php">Message From Principal<span><i class="feather-icon icon-chevron-right"></i></span></a></li>
                                 <li><a href="chairman-message.php">Message From Chairman<span><i class="feather-icon icon-chevron-right"></i></span></a></li>
                             </ul>
