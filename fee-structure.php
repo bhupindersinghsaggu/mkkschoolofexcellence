@@ -28,18 +28,18 @@ ini_set('display_errors', 1);
 <section class="blog-sec bg-shade sec-padding">
     <div class="container">
         <div class="row">
-            <div class="col-sm-6">
+            <div class="col-sm-12">
                 <h5> Registration Fee ₹1000</h5>
                 <p class="line-heigth"><i class="fa-solid fa-circle-arrow-right" style="color: #3a4bff"></i> Admission fee ₹30000 ( waived for initial 100 admissions for 2026 -27 )</p>
-                <p class="line-heigth" ><i class="fa-solid fa-circle-arrow-right" style="color: #3a4bff"></i> Tuition fee ( PreN to Prep ) - ₹6000/-</p>
-               <p class="line-heigth" > <i class="fa-solid fa-circle-arrow-right" style="color: #3a4bff"></i> Classes 1 to 5 - ₹7250/-</p>
-               <p class="line-heigth" > <i class="fa-solid fa-circle-arrow-right" style="color: #3a4bff"></i> Class 6 - ₹7500/-</p>
-               <p class="line-heigth" > <i class="fa-solid fa-circle-arrow-right" style="color: #3a4bff"></i> Class 7 - ₹7500/-</p>
-               <p class="line-heigth" ><i class="fa-solid fa-circle-arrow-right" style="color: #3a4bff"></i> A Sibling discount of 20% on the Tuition fee of the elder sibling.</p>
-               <a href="https://curtina.in/soe/forms/frmstdPayOnline.aspx" class="btn  d-lg-block btn-primary shadow border-0 rounded-2 mt-4 mb-4">Pay Online</a>
+                <p class="line-heigth"><i class="fa-solid fa-circle-arrow-right" style="color: #3a4bff"></i> Tuition fee ( PreN to Prep ) - ₹6000/-</p>
+                <p class="line-heigth"> <i class="fa-solid fa-circle-arrow-right" style="color: #3a4bff"></i> Classes 1 to 5 - ₹7250/-</p>
+                <p class="line-heigth"> <i class="fa-solid fa-circle-arrow-right" style="color: #3a4bff"></i> Class 6 - ₹7500/-</p>
+                <p class="line-heigth"> <i class="fa-solid fa-circle-arrow-right" style="color: #3a4bff"></i> Class 7 - ₹7500/-</p>
+                <p class="line-heigth"><i class="fa-solid fa-circle-arrow-right" style="color: #3a4bff"></i> A Sibling discount of 20% on the Tuition fee of the elder sibling.</p>
+                <a href="https://curtina.in/soe/forms/frmstdPayOnline.aspx" class="btn  d-lg-block btn-primary shadow border-0 rounded-2 mt-4 mb-4">Pay Online</a>
                 <h5> Transport Charges</h5>
-               <p class="line-heigth" ><i class="fa-solid fa-circle-arrow-right" style="color: #3a4bff"></i>  1800/- within 1 KM</p>
-               <p class="line-heigth" > <i class="fa-solid fa-circle-arrow-right" style="color: #3a4bff"></i> 2200/- afterwards</p>
+                <p class="line-heigth"><i class="fa-solid fa-circle-arrow-right" style="color: #3a4bff"></i> 1800/- within 1 KM</p>
+                <p class="line-heigth"> <i class="fa-solid fa-circle-arrow-right" style="color: #3a4bff"></i> 2200/- afterwards</p>
                 <a href="https://mkkschoolofexcellence.com/gps-app.php" class="btn  d-lg-block btn-secondary shadow border-0 rounded-2">Download GPS APP</a>
             </div>
         </div>
