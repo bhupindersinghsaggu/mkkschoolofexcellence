@@ -57,7 +57,7 @@ error_reporting(E_ALL);
    <section class="course-sec-3 bg-blue sec-padding">
       <div class="container">
          <div class="text-center sec-intro">
-            <span class="badge-lg bg-primary rounded-5">Our Facilities</span>
+            <!-- <span class="badge-lg bg-primary rounded-5">Our Facilities</span> -->
             <h2 class="sec-title text-white fw-bold">Facilities & <span class="color">Campus Life</span></h2>
          </div>
          <div class="row g-4">
