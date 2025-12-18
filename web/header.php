@@ -22,7 +22,7 @@
     <meta name="description" content="<?php echo isset($meta_description) ? $meta_description : "Default description"; ?>">
     <meta name="keywords" content="<?php echo isset($meta_keywords) ? $meta_keywords : "default, keywords"; ?>">
     <link rel="apple-touch-icon" href="images/favicon-16x16.png">
-    <link rel="shortcut icon" href="images/favicon-16x16.png">
+    <link rel="shortcut icon" href="images/favicon.ico">
     <link rel="stylesheet" href="css/feather.css">
     <link rel="stylesheet" href="css/nice-select2.css">
     <link href="css/glightbox.min.css" rel="stylesheet">
@@ -43,18 +43,18 @@
     <!-- Header Start -->
     <header class="header header-2">
         <div class="sticky-height"></div>
-        <div class="top-bar bg-secondary py-2" style="background-color: #3a4bfffa;">
+        <div class="top-bar bg-secondary py-2">
             <div class="container-fluid px-lg-5 px-3">
                 <div class="d-flex justify-content-between">
                     <div class="quick-connect d-none d-xl-flex align-items-center">
                         <span class="d-none d-lg-block"><img class="me-2" src="images/icons/phone.png" alt="">Call Us: <a
                                 class="text-reset" href="tel:+919054252500"> 90542-52500</a></span>
-                        <span><img class="me-2" src="images/icons/message.png" alt="Message"><a href="mailto:soepanipat@gmail.com"><span class="__cf_email__" >Soepanipat@gmail.com</span></a></span>
+                        <span><img class="me-2" src="images/icons/message.png" alt="Message"><a href="/cdn-cgi/l/email-protection#bfdcd0d1cbdedccbd6d1d9d0ffd8d2ded6d391dcd0d2"><span class="__cf_email__" data-cfemail="6f0a0b1a1700060109002f08020e0603410c0002">Soepanipat@gmail.com</span></a></span>
                     </div>
                     <div class="topbar-text dropdown d-xl-none"><a class="text-info fw-bold dropdown-toggle" href="#"
                             data-bs-toggle="dropdown" aria-expanded="false">Quick Connect</a>
                         <ul class="dropdown-menu bg-secondary p-2 p-sm-3 border-0 shadow-sm">
-                            <li><span><img class="me-2" src="images/icons/message.png" alt="Message"><a href="mailto:soepanipat@gmail.com"><span class="__cf_email__" >Soepanipat@gmail.com</span></a></span></li>
+                            <li><span><img class="me-2" src="images/icons/message.png" alt="Message"><a href="/cdn-cgi/l/email-protection#4d2e2223392c2e3924232b220d2a202c2421632e2220"><span class="__cf_email__" data-cfemail="d4b1b0a1acbbbdbab2bb94b3b9b5bdb8fab7bbb9">Soepanipat@gmail.com</span></a></span></li>
                             <li><a class="text-info" href="tel:+919054252500"><img class="me-2" src="images/icons/phone.png"
                                         alt="">90542 52500</a></li>
                         </ul>
