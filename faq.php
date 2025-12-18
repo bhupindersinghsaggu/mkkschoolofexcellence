@@ -28,7 +28,7 @@ ini_set('display_errors', 1);
                <div class="accordion-item">
                   <h2 class="accordion-header" id="headingOne">
                      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                        Computer
+                        Computer Basic
                      </button>
                   </h2>
                   <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
@@ -42,7 +42,7 @@ ini_set('display_errors', 1);
                                     </svg>
                                  </span>
                                  <div class="cat-info">
-                                    <h4 class="display-5">Art and Design</h4>
+                                    <h4 class="display-5">Notepad</h4>
                                     <small>23 Total Courses</small>
                                  </div>
                               </a>
@@ -56,7 +56,7 @@ ini_set('display_errors', 1);
                                     </svg>
                                  </span>
                                  <div class="cat-info">
-                                    <h4 class="display-5">Web Development</h4>
+                                    <h4 class="display-5">Ms-Word</h4>
                                     <small>23 Total Courses</small>
                                  </div>
                               </a>
@@ -70,7 +70,7 @@ ini_set('display_errors', 1);
                                     </svg>
                                  </span>
                                  <div class="cat-info">
-                                    <h4 class="display-5">Apps Development</h4>
+                                    <h4 class="display-5">Ms-Excel</h4>
                                     <small>23 Total Courses</small>
                                  </div>
                               </a>
