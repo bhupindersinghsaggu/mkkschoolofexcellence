@@ -21,8 +21,8 @@
     <title><?php echo isset($meta_title) ? $meta_title : "Default Title"; ?></title>
     <meta name="description" content="<?php echo isset($meta_description) ? $meta_description : "Default description"; ?>">
     <meta name="keywords" content="<?php echo isset($meta_keywords) ? $meta_keywords : "default, keywords"; ?>">
-    <link rel="apple-touch-icon" href="images/favicon.png">
-    <link rel="shortcut icon" href="images/favicon.ico">
+    <link rel="apple-touch-icon" href="images/favicon-16x16.png">
+    <link rel="shortcut icon" href="images/favicon-16x16.png">
     <link rel="stylesheet" href="css/feather.css">
     <link rel="stylesheet" href="css/nice-select2.css">
     <link href="css/glightbox.min.css" rel="stylesheet">
