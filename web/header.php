@@ -43,7 +43,7 @@
     <!-- Header Start -->
     <header class="header header-2">
         <div class="sticky-height"></div>
-        <div class="top-bar bg-secondary py-2">
+        <div class="top-bar bg-secondary py-2" style="background-color: #3a4bfffa;">
             <div class="container-fluid px-lg-5 px-3">
                 <div class="d-flex justify-content-between">
                     <div class="quick-connect d-none d-xl-flex align-items-center">
