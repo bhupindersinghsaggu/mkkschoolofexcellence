@@ -31,7 +31,7 @@ error_reporting(E_ALL);
                   <div class="img-meta position-absolute">
                      <img class="img-fluid updown" src="images/icons/shape1.png" alt="">
                   </div>
-                  <h1 class="banner-sec2 h1 hero-heading">
+                  <h1 class="banner-sec2 h1 hero-heading mb-4">
                      A Premier School Focused on <span class="color">Excellence & Values</span>
                   </h1>
                   <p class="lead-sm mt-2">Empowering students through a balanced blend of academics, values, and creativity for all-round development.</p>
