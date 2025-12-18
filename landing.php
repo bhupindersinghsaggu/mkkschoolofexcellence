@@ -36,8 +36,8 @@ error_reporting(E_ALL);
          <div class="row  ">
             <div class="d-flex justify-content-center gap-5  mobile-row align-items-center">
                <div class="about-media-2 position-relative mb-4 mb-xl-0">
-                  <img class="img-fluid" src="images/hero1.png" alt="About" style="    border: 2px solid #6045ff;
-    border-radius: 23px;">
+                  <img class="img-fluid" src="images/hero1.png" alt="About" style="border: 2px solid #6045ff;
+    border-radius: 23px; padding:10px">
                </div>
                <div>
                   <h2 class="sec-title position-relative">
