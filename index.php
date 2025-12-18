@@ -52,7 +52,7 @@ error_reporting(E_ALL);
    </div>
    <!-- Banner Section End -->
 
-   <div class="header-top bg-primary text-info text-uppercase">
+   <div class="header-top  text-info text-uppercase" style="background-color: #3a4bff;">
       <div class="marquee" style="padding: 14px;">
          <marquee scrollamount="5" loop="2">
             <a href="#" data-toggle="modal" data-target="#exampleModal">
