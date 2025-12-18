@@ -294,7 +294,7 @@
                                     <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                                         aria-expanded="false">School Information</a>
                                     <ul class="dropdown-menu">
-                                        <li><a class="dropdown-item" href="book-list.php">Book List</a></li>
+                                        <li><a class="dropdown-item" href="/images/booklist2025.pdf">Book List</a></li>
                                         <li><a class="dropdown-item" href="fee-structure.php">Fee Structure</a></li>
                                         <li><a class="dropdown-item" href="school-uniform.php">School Uniform</a></li>
                                         <li><a class="dropdown-item" href="general-rules.php">General School Rules</a></li>
