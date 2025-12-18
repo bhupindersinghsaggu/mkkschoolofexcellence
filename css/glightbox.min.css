@@ -422,7 +422,7 @@
     position: fixed;
     top: -1px;
     left: 0;
-    background: #000;
+    /* background: #000; */
     will-change: opacity
 }
 
@@ -913,7 +913,7 @@ iframe.wait-autoplay {
     }
 
     .goverlay {
-        background: rgba(0, 0, 0, .92)
+        /* background: rgba(0, 0, 0, .92) */
     }
 
     .glightbox-clean .gslide-media {
