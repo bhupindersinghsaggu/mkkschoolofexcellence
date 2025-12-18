@@ -34,7 +34,7 @@ ini_set('display_errors', 1);
                   <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                      <div class="accordion-body">
                         <div class="row g-4">
-                           <div class="col-lg-4 col-md-6">
+                           <div class="col-lg-6 col-md-6">
                               <a href="courses.html" class="category-entry d-flex bg-info p-3 p-xl-4 align-items-center">
                                  <span class="icon-lg rounded-circle">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32">
@@ -48,7 +48,7 @@ ini_set('display_errors', 1);
                               </a>
                            </div>
                            <!-- Category Entry End -->
-                           <div class="col-lg-4 col-md-6">
+                           <div class="col-lg-6 col-md-6">
                               <a href="courses.html" class="category-entry active d-flex p-3 p-xl-4 align-items-center">
                                  <span class="icon-lg rounded-circle">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="32" height="30">
@@ -62,7 +62,7 @@ ini_set('display_errors', 1);
                               </a>
                            </div>
                            <!-- Category Entry End -->
-                           <div class="col-lg-4 col-md-6">
+                           <div class="col-lg-6 col-md-6">
                               <a href="courses.html" class="category-entry d-flex bg-info p-3 p-xl-4 align-items-center">
                                  <span class="icon-lg rounded-circle">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="32">
@@ -76,7 +76,7 @@ ini_set('display_errors', 1);
                               </a>
                            </div>
                            <!-- Category Entry End -->
-                           <div class="col-lg-4 col-md-6">
+                           <div class="col-lg-6 col-md-6">
                               <a href="courses.html" class="category-entry d-flex bg-info p-3 p-xl-4 align-items-center">
                                  <span class="icon-lg rounded-circle">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="30">
@@ -90,7 +90,7 @@ ini_set('display_errors', 1);
                               </a>
                            </div>
                            <!-- Category Entry End -->
-                           <div class="col-lg-4 col-md-6">
+                           <div class="col-lg-6 col-md-6">
                               <a href="courses.html" class="category-entry d-flex bg-info p-3 p-xl-4 align-items-center">
                                  <span class="icon-lg rounded-circle">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32">
@@ -104,7 +104,7 @@ ini_set('display_errors', 1);
                               </a>
                            </div>
                            <!-- Category Entry End -->
-                           <div class="col-lg-4 col-md-6">
+                           <div class="col-lg-6 col-md-6">
                               <a href="courses.html" class="category-entry d-flex bg-info p-3 p-xl-4 align-items-center">
                                  <span class="icon-lg rounded-circle">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30">
@@ -175,25 +175,5 @@ ini_set('display_errors', 1);
       </div>
    </div>
 </section>
-<section class="single-post sec-padding">
-   <div class="container">
-      <div class="row">
-         <div class="col-lg-4">
-            <div class="choose-media position-relative">
-               <img src="images/principal1.jpg" alt="About" class="img-fluid teacher-entry">
-            </div>
-         </div>
-         <div class="col-lg-8">
-            <h3 class="display-5">Greetings and welcome to the School of Excellence !</h3>
-            <p class="line-heigth"> At the School of Excellence, we are more than just a place of learning—we are a student centered community dedicated to nurturing hearts, shaping minds, and preparing young lives to shine as lights in the world.
-               Rooted in values, our vision is to raise up confident, compassionate, and capable students who live with purpose and integrity. We believe that true excellence begins with a heart aligned to God and is reflected in every area of life—academics, relationships, service, and personal growth.
-               In today’s changing world, we embrace a Hybrid Model of Education that combines the richness of classroom experience with the flexibility and innovation of digital learning. This approach allows us to reach learners wherever they are, while still cultivating a strong sense of community and connection.
-               Our dedicated educators are not only academically qualified, but also ethically grounded, committed to walking alongside each child in their unique journey of learning.
-               As you explore our school, we pray you’ll see a place where your child can grow in wisdom and stature. We invite you to partner with us in this task of education—where learning leads to transformation.</p>
-            <h3 class="display-5"> Dr. Hepesh Shepherd</h3>
-            <p> Principal</p>
-         </div>
-      </div>
-   </div>
-</section>
+
 <?php include('web/footer.php'); ?>
