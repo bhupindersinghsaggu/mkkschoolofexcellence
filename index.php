@@ -16,7 +16,7 @@ error_reporting(E_ALL);
 
 <body>
    <!-- Banner Section Start -->
-   <div class="about-sec sec-padding school-theme-color1">
+   <div class="about-sec sec-padding ">
       <div class="container">
          <div class="row">
             <div class="col-xl-7">
@@ -34,7 +34,7 @@ error_reporting(E_ALL);
                   <h1 class="banner-sec2 h1 hero-heading">
                      A Premier School Focused on <span class="color">Excellence & Values</span>
                   </h1>
-                  <p class="lead-sm">Empowering students through a balanced blend of academics, values, and creativity for all-round development.</p>
+                  <p class="lead-sm mt-2">Empowering students through a balanced blend of academics, values, and creativity for all-round development.</p>
                   <div class="about-cta mt-5 d-flex">
                      <a href="#" class="btn btn-primary shadow rounded-5 me-5" data-toggle="modal" data-target="#exampleModal">Admissions Open </a>
                      <div class="call-us">
