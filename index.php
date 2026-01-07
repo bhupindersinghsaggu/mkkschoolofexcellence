@@ -89,9 +89,9 @@ error_reporting(E_ALL);
                      <a href="about-us.php" class="btn btn-primary shadow">More About us</a>
                      <div class="d-flex ms-sm-5 align-items-center mt-4 mt-sm-0">
                         <span class="icon-sm bg-secondary text-info rounded-circle me-3 shadow-alt"><img src="images/icons/phone.svg" alt=""></span>
-                        <a href="tel:+919054252500" class="text-reset">
+                        <a href="tel:+919034252500" class="text-reset">
                            <h5>Call us Anytime</h5>
-                           90542-52500
+                           90342-52500
                         </a>
                      </div>
                   </div>
