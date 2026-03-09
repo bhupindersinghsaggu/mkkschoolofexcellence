@@ -9,7 +9,8 @@
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title><?php echo isset($meta_title) ? $meta_title : "Default Title"; ?></title>
-    <meta name="description" content="<?php echo isset($meta_description) ? $meta_description : "Default description"; ?>">
+    <meta name="description"
+        content="<?php echo isset($meta_description) ? $meta_description : "Default description"; ?>">
     <meta name="keywords" content="<?php echo isset($meta_keywords) ? $meta_keywords : "default, keywords"; ?>">
     <link rel="apple-touch-icon" href="images/favicon-16x16.png">
     <link rel="shortcut icon" href="images/favicon.ico">
@@ -19,28 +20,45 @@
     <link rel="stylesheet" href="css/swiper-bundle.min.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/custom.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- Facebook Pixel Code -->
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-17979860051"></script>
     <script>
-        ! function(f, b, e, v, n, t, s) {
-            if (f.fbq) return;
-            n = f.fbq = function() {
-                n.callMethod ? n.callMethod.apply(n, arguments) : n.queue.push(arguments)
-            };
-            if (!f._fbq) f._fbq = n;
-            n.push = n;
-            n.loaded = !0;
-            n.version = '2.0';
-            n.queue = [];
-            t = b.createElement(e);
-            t.async = !0;
-            t.src = v;
-            s = b.getElementsByTagName(e)[0];
-            s.parentNode.insertBefore(t, s)
-        }(window, document, 'script', 'https://connect.facebook.net/en_US/fbevents.js');
-        fbq('init', '1538771127379318');
-        fbq('track', 'PageView');
-    </script><noscript> <img height="1" width="1" src="https://www.facebook.com/tr?id=1538771127379318&ev=PageView&noscript=1" /></noscript><!-- End Facebook Pixel Code -->
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+        dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'AW-17979860051');
+    </script>
+
+    <script>
+    ! function(f, b, e, v, n, t, s) {
+        if (f.fbq) return;
+        n = f.fbq = function() {
+            n.callMethod ? n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+        };
+        if (!f._fbq) f._fbq = n;
+        n.push = n;
+        n.loaded = !0;
+        n.version = '2.0';
+        n.queue = [];
+        t = b.createElement(e);
+        t.async = !0;
+        t.src = v;
+        s = b.getElementsByTagName(e)[0];
+        s.parentNode.insertBefore(t, s)
+    }(window, document, 'script', 'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '1538771127379318');
+    fbq('track', 'PageView');
+    </script><noscript> <img height="1" width="1"
+            src="https://www.facebook.com/tr?id=1538771127379318&ev=PageView&noscript=1" /></noscript>
+    <!-- End Facebook Pixel Code -->
 </head>
 
 <body>
@@ -58,28 +76,33 @@
             <div class="container-fluid px-lg-5 px-3">
                 <div class="d-flex justify-content-between">
                     <div class="quick-connect d-none d-xl-flex align-items-center">
-                        <span class="d-none d-lg-block"><img class="me-2" src="images/icons/phone.png" alt="">Call Us: <a
-                                class="text-reset" href="tel:+919054252500"> 90342-52500</a></span>
-                        <span><img class="me-2" src="images/icons/message.png" alt="Message"><a href="mailto:soepanipat@gmail.com">Soepanipat@gmail.com</span></a></span>
+                        <span class="d-none d-lg-block"><img class="me-2" src="images/icons/phone.png" alt="">Call Us:
+                            <a class="text-reset" href="tel:+919054252500"> 90342-52500</a></span>
+                        <span><img class="me-2" src="images/icons/message.png" alt="Message"><a
+                                href="mailto:soepanipat@gmail.com">Soepanipat@gmail.com</span></a></span>
                     </div>
                     <div class="topbar-text dropdown d-xl-none"><a class="text-info fw-bold dropdown-toggle" href="#"
                             data-bs-toggle="dropdown" aria-expanded="false">Quick Connect</a>
                         <ul class="dropdown-menu bg-secondary p-2 p-sm-3 border-0 shadow-sm">
-                            <li><span><img class="me-2" src="images/icons/message.png" alt="Message"><a href="mailto:soepanipat@gmail.com">Soepanipat@gmail.com</span></a></span></li>
-                            <li><a class="text-info" href="tel:+919054252500"><img class="me-2" src="images/icons/phone.png"
-                                        alt="">90542 52500</a></li>
+                            <li><span><img class="me-2" src="images/icons/message.png" alt="Message"><a
+                                        href="mailto:soepanipat@gmail.com">Soepanipat@gmail.com</span></a></span></li>
+                            <li><a class="text-info" href="tel:+919054252500"><img class="me-2"
+                                        src="images/icons/phone.png" alt="">90542 52500</a></li>
                         </ul>
                     </div>
                     <span class="announce-offer d-none d-md-block"><img class="me-2" width="25"
                             src="images/icons/motivation.png" alt="Offer">Admission Open 2026-27</span>
                     <div class="d-flex align-items-center info-right justify-content-end">
-                        <span class="d-none d-lg-block"><img class="me-2" src="images/icons/location.png" alt="location">Sector-18, Huda, Panipat</span>
+                        <span class="d-none d-lg-block"><img class="me-2" src="images/icons/location.png"
+                                alt="location">Sector-18, Huda, Panipat</span>
                         <div class="social-share-alt d-flex align-items-center justify-content-end">
                             <span class="d-none d-sm-block">Follow Us:</span>
-                            <span><a href="https://www.facebook.com/schoolofexcellencepanipat"><img src="images/icons/fb-w.png" alt="Facebook"></a></span>
+                            <span><a href="https://www.facebook.com/schoolofexcellencepanipat"><img
+                                        src="images/icons/fb-w.png" alt="Facebook"></a></span>
                             <!-- <span><a href="#"><img src="images/icons/tw-w.png" alt="twitter"></a></span>
                             <span><a href="#"><img src="images/icons/linkedin-w.png" alt="Linkedin"></a></span> -->
-                            <span><a href="https://www.instagram.com/schoolofexcellencepanipat2025/"><img src="images/icons/ins-w.png" alt="Instagram"></a></span>
+                            <span><a href="https://www.instagram.com/schoolofexcellencepanipat2025/"><img
+                                        src="images/icons/ins-w.png" alt="Instagram"></a></span>
                         </div>
                     </div>
                 </div>
@@ -204,7 +227,8 @@
                         </a> -->
                         <div class="admin-menu pt-3 bg-white collapse" id="collapseAdminMenu">
                             <div class="d-flex avatar border-bottom pb-3">
-                                <img class="img-fluid border rounded-circle" src="images/ava-sm1.jpg" width="50" alt="avatar">
+                                <img class="img-fluid border rounded-circle" src="images/ava-sm1.jpg" width="50"
+                                    alt="avatar">
                                 <div class="grettings ps-3">
                                     <h6 class="mb-0">Jack Carey</h6>
                                     <small>Founder</small>
@@ -241,7 +265,8 @@
                                                 class="feather-icon icon-book"></i><span>My
                                                 Courses</span></a></li>
                                     <li><a class="nav-link" href="instructor-assignments.html"><i
-                                                class="feather-icon icon-briefcase"></i><span>Assignments</span></a></li>
+                                                class="feather-icon icon-briefcase"></i><span>Assignments</span></a>
+                                    </li>
                                     <li><a class="nav-link" href="instructor-quiz-attemps.html"><i
                                                 class="feather-icon icon-cpu"></i><span>Quiz
                                                 Attempts</span></a>
@@ -259,7 +284,8 @@
                                 </ul>
                             </nav>
                         </div>
-                        <a href="http://curtina.in/soe" class="btn d-none d-lg-block btn-primary shadow border-0 rounded-2">ERP Login</a>
+                        <a href="http://curtina.in/soe"
+                            class="btn d-none d-lg-block btn-primary shadow border-0 rounded-2">ERP Login</a>
                     </div>
                     <button class="navbar-toggler offcanvas-nav-btn" type="button">
                         <span class="feather-icon icon-menu"></span>
@@ -282,7 +308,8 @@
                                     <ul class="dropdown-menu">
 
                                         <li><a class="dropdown-item" href="about-us.php">About us</a></li>
-                                        <li><a class="dropdown-item" href="principal-message.php">Message From Principal</a></li>
+                                        <li><a class="dropdown-item" href="principal-message.php">Message From
+                                                Principal</a></li>
                                         <!-- <li><a class="dropdown-item" href="chairman-message.php">Message From Chairman</a></li> -->
                                     </ul>
                                 </li>
@@ -294,7 +321,8 @@
 
                                         </li>
                                         <li><a class="dropdown-item" href="campus.php">Campus</a></li>
-                                        <li><a class="dropdown-item" href="indoor-outdoor-games.php">Sports & Games</a></li>
+                                        <li><a class="dropdown-item" href="indoor-outdoor-games.php">Sports & Games</a>
+                                        </li>
                                         <li><a class="dropdown-item" href="library.php">Library</a></li>
                                         <li><a class="dropdown-item" href="art-craft.php">Art And Craft</a></li>
                                         <li><a class="dropdown-item" href="music-dance.php">Music and Dance</a>
@@ -308,7 +336,8 @@
                                         <li><a class="dropdown-item" href="/images/booklist2025.pdf">Book List</a></li>
                                         <li><a class="dropdown-item" href="fee-structure.php">Fee Structure</a></li>
                                         <li><a class="dropdown-item" href="school-uniform.php">School Uniform</a></li>
-                                        <li><a class="dropdown-item" href="general-rules.php">General School Rules</a></li>
+                                        <li><a class="dropdown-item" href="general-rules.php">General School Rules</a>
+                                        </li>
                                         <li><a class="dropdown-item" href="rules.php">Rules and Regulations</a></li>
                                         <li><a class="dropdown-item" href="holidays.php">List
                                                 of Holidays </a></li>
