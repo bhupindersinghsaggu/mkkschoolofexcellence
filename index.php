@@ -6,7 +6,7 @@ $meta_keywords = "School of Excellence, Best CBSE School Panipat, Top School in 
 ?>
 
 
-<?php include('web/header.php'); ?>
+<!-- <?php include('web/header.php'); ?> -->
 <?php
 ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
