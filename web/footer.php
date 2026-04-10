@@ -322,9 +322,9 @@
      <a href="https://curtina.in/soe/forms/frmstdPayOnline.aspx" target="_blank"><img onclick="topFunction()" id="btnGoToTop" src="images/ss.png" alt=""></a>
  </div>
 
- <div class="whatsapp">
+ <!-- <div class="whatsapp">
      <a href="#" data-toggle="modal" data-target="#exampleModalLabelwhatsapp""><img onclick=" topFunction()" id="btnGoToTop" src="/images/whats.png" alt=""></a>
- </div>
+ </div> -->
  <script>
      // Simple animation for icons when page loads
      document.addEventListener('DOMContentLoaded', function() {
