@@ -45,6 +45,15 @@ $meta_keywords = "School of Excellence, Best CBSE School Panipat, Top School in 
         fbq('init', '1538771127379318');
         fbq('track', 'PageView');
     </script><noscript> <img height="1" width="1" src="https://www.facebook.com/tr?id=1538771127379318&ev=PageView&noscript=1" /></noscript><!-- End Facebook Pixel Code -->
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-17979860051"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'AW-17979860051');
+</script>
 </head>
 
 <body>
