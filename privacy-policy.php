@@ -50,7 +50,7 @@ ini_set('display_errors', 1);
                 <div class="privacy-policy">
 
                     <h1>Privacy Policy</h1>
-                    <p><em>Last Updated: [Add Date]</em></p>
+                    <p><em>Last Updated: [04/28/2026]</em></p>
 
                     <p>
                         At MKK School of Excellence (accessible from
