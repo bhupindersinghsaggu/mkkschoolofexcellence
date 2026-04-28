@@ -2,7 +2,7 @@
 <html lang="zxx">
 
 <head>
-    <!-- Google tag (gtag.js) -->
+    
 
     <!-- Responsive -->
     <meta http-equiv="x-ua-compatible" content="ie=edge">
