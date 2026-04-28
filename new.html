@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>MKK School Admissions</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            background: #0b1220;
+            color: #fff;
+        }
+
+        /* 🔥 GLASS NAVBAR */
+        .nav {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            padding: 15px 8%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: rgba(255, 255, 255, 0.05);
+            backdrop-filter: blur(10px);
+            z-index: 999;
+        }
+
+        .nav a {
+            color: #fff;
+            text-decoration: none;
+            margin-left: 15px;
+            font-weight: 500;
+        }
+
+        /* HERO */
+        .hero {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: space-around;
+            padding: 120px 8% 80px;
+          
+            background: radial-gradient(circle at top, #1e3a8a, #020617);
+        }
+
+        .hero-text {
+            max-width: 550px;
+        }
+
+        .hero h1 {
+            font-size: 48px;
+            font-weight: 700;
+            margin-bottom: 15px;
+        }
+
+        .hero p {
+            opacity: 0.8;
+            margin-bottom: 15px;
+        }
+
+        .highlight {
+            color: #22c55e;
+        }
+
+        .trust {
+            font-size: 14px;
+            opacity: 0.7;
+            margin-bottom: 20px;
+        }
+
+        /* BUTTON */
+        .btn {
+            display: inline-block;
+            padding: 14px 26px;
+            border-radius: 8px;
+            font-weight: 600;
+            text-decoration: none;
+            margin: 5px;
+            transition: 0.3s;
+        }
+
+        .btn-primary {
+            background: #22c55e;
+            color: #000;
+        }
+
+        .btn-primary:hover {
+            transform: translateY(-2px);
+        }
+
+        .btn-outline {
+            border: 1px solid #fff;
+            color: #fff;
+        }
+
+        /* FORM GLASS */
+        .form-box {
+            background: rgba(255, 255, 255, 0.05);
+            padding: 25px;
+            border-radius: 15px;
+            backdrop-filter: blur(15px);
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.5);
+            width: 350px;
+        }
+
+        .form-box input,
+        .form-box select {
+            width: 100%;
+            padding: 12px;
+            margin-bottom: 12px;
+            border-radius: 8px;
+            border: none;
+            outline: none;
+        }
+
+        .form-box button {
+            width: 100%;
+            padding: 12px;
+            background: #22c55e;
+            border: none;
+            border-radius: 8px;
+            font-weight: 600;
+            cursor: pointer;
+        }
+
+        /* URGENCY */
+        .urgency {
+            background: linear-gradient(90deg, #ef4444, #dc2626);
+            padding: 12px;
+            text-align: center;
+            font-weight: 600;
+        }
+
+        /* FEATURES */
+        .features {
+            padding: 80px 8%;
+            display: flex;
+            gap: 25px;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .feature {
+            background: rgba(255, 255, 255, 0.05);
+            padding: 25px;
+            border-radius: 12px;
+            width: 220px;
+            text-align: center;
+            transition: 0.3s;
+        }
+
+        .feature:hover {
+            transform: translateY(-5px);
+        }
+
+        /* GALLERY */
+        .gallery {
+            padding: 60px 8%;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 15px;
+        }
+
+        .gallery img {
+            width: 100%;
+            border-radius: 10px;
+        }
+
+        /* TESTIMONIAL */
+        .testimonial {
+            padding: 80px 8%;
+            text-align: center;
+        }
+
+        .testimonial-box {
+            max-width: 600px;
+            margin: auto;
+            background: rgba(255, 255, 255, 0.05);
+            padding: 25px;
+            border-radius: 12px;
+        }
+
+        /* STEPS */
+        .steps {
+            padding: 80px 8%;
+            text-align: center;
+        }
+
+        .step {
+            margin: 10px 0;
+            opacity: 0.8;
+        }
+
+        /* CTA */
+        .cta {
+            text-align: center;
+            padding: 50px;
+        }
+
+        /* WHATSAPP */
+        .whatsapp {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background: #25D366;
+            padding: 14px 18px;
+            border-radius: 50px;
+            color: #fff;
+            text-decoration: none;
+        }
+
+        /* MOBILE */
+        @media(max-width:900px) {
+            .hero {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            .form-box {
+                margin-top: 30px;
+            }
+
+            .hero h1 {
+                font-size: 32px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- NAV -->
+    <div class="nav">
+        <div><strong>MKK School</strong></div>
+        <div>
+            <a href="#form">Apply</a>
+            <a href="#">Visit</a>
+        </div>
+    </div>
+
+    <!-- HERO -->
+    <section class="hero">
+
+        <div class="hero-text">
+            <h1>Admissions Open <span class="highlight">2026–27</span></h1>
+
+            <p>Limited Seats | Nursery to Class XII</p>
+
+            <div class="trust">
+                CBSE Affiliated • Safe Campus • Experienced Faculty
+            </div>
+
+            <a href="#form" class="btn btn-primary">Apply Now</a>
+            <a href="#" class="btn btn-outline">Book Visit</a>
+        </div>
+
+        <div class="form-box" id="form">
+
+            <h3>Apply for Admission</h3>
+
+            <form onsubmit="sendLead(event)">
+                <input type="text" id="name" placeholder="Student Name" required>
+                <input type="tel" id="phone" placeholder="Phone Number" required>
+
+                <select id="class">
+                    <option>Select Class</option>
+                    <option>Nursery</option>
+                    <option>LKG</option>
+                    <option>UKG</option>
+                    <option>Class 1–12</option>
+                </select>
+
+                <button>Apply Now</button>
+
+            </form>
+
+        </div>
+
+    </section>
+
+    <!-- URGENCY -->
+    <div class="urgency">
+        ⚡ Admissions Closing Soon — Limited Seats Available
+    </div>
+
+    <!-- FEATURES -->
+    <section class="features">
+        <div class="feature">✔ CBSE Affiliated</div>
+        <div class="feature">✔ Safe Campus</div>
+        <div class="feature">✔ Smart Classes</div>
+        <div class="feature">✔ Transport Facility</div>
+    </section>
+
+    <!-- GALLERY -->
+    <section class="gallery">
+        <img src="school1.jpg">
+        <img src="school2.jpg">
+        <img src="school3.jpg">
+    </section>
+
+    <!-- TESTIMONIAL -->
+    <section class="testimonial">
+        <h2>What Parents Say</h2>
+
+        <div class="testimonial-box">
+            <p>"Best school in Panipat with excellent teachers and safe environment."</p>
+        </div>
+
+    </section>
+    <section class="final-cta">
+        <h2>Admissions Closing Soon 🚨</h2>
+        <p>Secure your child’s future today</p>
+
+        <a href="#form" class="btn btn-primary">Apply Now</a>
+        <a href="https://wa.me/919876543210" class="btn btn-outline">Chat on WhatsApp</a>
+    </section>
+
+    <style>
+        .final-cta {
+            padding: 80px 8%;
+            text-align: center;
+            background: linear-gradient(135deg, #1e3a8a, #020617);
+        }
+    </style>
+    <!-- STEPS -->
+    <section class="steps">
+        <h2>What Happens Next?</h2>
+        <div class="step">1. Fill the form</div>
+        <div class="step">2. Get call within 10 minutes</div>
+        <div class="step">3. Visit the school</div>
+    </section>
+
+    <!-- CTA -->
+    <div class="cta">
+        <a href="#form" class="btn btn-primary">Apply Now</a>
+    </div>
+
+    <!-- WHATSAPP -->
+    <a href="https://wa.me/919876543210" class="whatsapp">
+        💬 Chat for Admission
+    </a>
+
+    <script>
+        function sendLead(e) {
+            e.preventDefault();
+            let name = document.getElementById("name").value;
+            let phone = document.getElementById("phone").value;
+            let cls = document.getElementById("class").value;
+            let msg = `New Admission Lead:%0AName: ${name}%0APhone: ${phone}%0AClass: ${cls}`;
+            window.open(`https://wa.me/919876543210?text=${msg}`, "_blank");
+        }
+    </script>
+
+</body>
+
+</html>
