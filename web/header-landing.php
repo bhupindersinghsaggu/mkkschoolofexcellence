@@ -315,3 +315,18 @@ $meta_keywords = "School of Excellence, Best CBSE School Panipat, Top School in 
         <div class="load-more-wrapper"> <button class="load-more-btn"> Load More <i class="fa-solid fa-arrows-rotate"></i> </button> </div>
         <div class="no-more-message" style="display:none;"> No More Designs </div>
     </section>
+
+    <section class=\"design-section\">\n <div class=\"most-grid\"> {% for product in collections['business-visiting-card'].products limit:30 %} <div class=\"most-card\" data-handle=\"{{ product.handle }}\" data-url=\"{{ product.url }}\">\n <div class=\"card-image-wrapper\"> <!-- FULL CARD LINK --> <a href=\"{{ product.url }}\" class=\"card-link\"></a> <img src=\"{{ product.featured_image | image_url: width:600 }}\" alt=\"{{ product.title }}\"> {% assign badge = product.metafields.custom.badge | downcase %} {% if badge == 'premium' %} <div class=\"badge-label badge-premium\"> <i class=\"fa-solid fa-gem\"></i> Premium </div> {% elsif badge == 'free' %} <div class=\"badge-label badge-free\"> Free </div>\n <div class=\"similar-btn \"> <a href=\"{{ product.collections.first.url }} \"> <i class=\"fa-solid fa-layer-group\"></i> </a> </div> {% endif %} <a href=\"{{ product.url }}\" class=\"card-download-btn\"> <i class=\"fa-solid fa-download\"></i> </a>\n </div>\n <div class=\"card-meta\">\n <div class=\"download-text\"> 🔥 <span class=\"download-count\">0</span> Downloads </div>\n <p class=\"file-type\"> {{ product.metafields.custom.file_type }} </p>\n </div>\n </div> {% endfor %} </div>\n <div class=\"load-more-wrapper\"> <button class=\"load-more-btn\"> Load More <i class=\"fa-solid fa-arrows-rotate\"></i> </button> </div>\n <div class=\"no-more-message\" style=\"display:none;\"> No More Designs </div>\n </section>",
+    <section class="design-section">
+        <div class="most-grid"> {% for product in collections['business-visiting-card'].products limit:30 %} <div class="most-card" data-handle="{{ product.handle }}" data-url="{{ product.url }}">
+                <div class="card-image-wrapper"> <!-- FULL CARD LINK --> <a href="{{ product.url }}" class="card-link"></a> <img src="{{ product.featured_image | image_url: width:600 }}" alt="{{ product.title }}"> {% assign badge = product.metafields.custom.badge | downcase %} {% if badge == 'premium' %} <div class="badge-label badge-premium"> <i class="fa-solid fa-gem"></i> Premium </div> {% elsif badge == 'free' %} <div class="badge-label badge-free"> Free </div>
+                    <div class="similar-btn "> <a href="{{ product.collections.first.url }} "> <i class="fa-solid fa-layer-group"></i> </a> </div> {% endif %} <a href="{{ product.url }}" class="card-download-btn"> <i class="fa-solid fa-download"></i> </a>
+                </div>
+                <!-- <div class="card-meta">
+                    <div class="download-text"> 🔥 <span class="download-count">0</span> Downloads </div>
+                    <p class="file-type"> {{ product.metafields.custom.file_type }} </p>
+                </div> -->
+            </div> {% endfor %} </div>
+        <div class="load-more-wrapper"> <button class="load-more-btn"> Load More <i class="fa-solid fa-arrows-rotate"></i> </button> </div>
+        <div class="no-more-message" style="display:none;"> No More Designs </div>
+    </section>
