@@ -66,14 +66,14 @@ $meta_keywords = "School of Excellence, Best CBSE School Panipat, Top School in 
                 <marquee scrollamount="5" loop="2">
                     <a href="#" data-toggle="modal" data-target="#exampleModal">
                         <span class="adm-text">Admissions Open for the Session 2026-27 <i class="fa-solid fa-star star-icon"></i> </span>
+                        <span class="adm-text">Admissions Osdfsdfsdpen for the Session 2026-27 <i class="fa-solid fa-star star-icon"></i> </span>
+                        <span class="adm-text">Admissions Open for the Session 2026-27 <i class="fa-solid fa-star star-icon"></i> </span>
+                        <span class="adm-text">Admissionfsdfsdfss Open for the Session 2026-27 <i class="fa-solid fa-star star-icon"></i> </span>
                         <span class="adm-text">Admissions Open for the Session 2026-27 <i class="fa-solid fa-star star-icon"></i> </span>
                         <span class="adm-text">Admissions Open for the Session 2026-27 <i class="fa-solid fa-star star-icon"></i> </span>
-                        <span class="adm-text">Admissions Open for the Session 2026-27 <i class="fa-solid fa-star star-icon"></i> </span>
-                        <span class="adm-text">Admissions Open for the Session 2026-27 <i class="fa-solid fa-star star-icon"></i> </span>
-                        <span class="adm-text">Admissions Open for the Session 2026-27 <i class="fa-solid fa-star star-icon"></i> </span>
-                        <span class="adm-text">Admissions Open for the Session 2026-27 <i class="fa-solid fa-star star-icon"></i> </span>
+                        <span class="adm-text">Admissions Ofsdfdspen for the Session 2026-27 <i class="fa-solid fa-star star-icon"></i> </span>
                         <span class="adm-text">Admissions Open for the Session 2026-27 <i class="fa-solid fa-star star-icon"></i> </span><span class="adm-text">Admissions Open for the Session 2026-27 <i class="fa-solid fa-star star-icon"></i> </span>
-                        <span class="adm-text">Admissions Open for the Session 2026-27 <i class="fa-solid fa-star star-icon"></i> </span><span class="adm-text">Admissions Open for the Session 2026-27 <i class="fa-solid fa-star star-icon"></i> </span>
+                        <span class="adm-text">Admissioaasns Open for the Session 2026-27 <i class="fa-solid fa-star star-icon"></i> </span><span class="adm-text">Admissions Open for the Session 2026-27 <i class="fa-solid fa-star star-icon"></i> </span>
                         <span class="adm-text">Admissions Open for the Session 2026-27 <i class="fa-solid fa-star star-icon"></i> </span>
                     </a>
                 </marquee>
