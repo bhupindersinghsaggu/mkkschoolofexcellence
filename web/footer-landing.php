@@ -65,7 +65,7 @@
          </div>
          <div class="row footer-bottom">
              <div class="col-lg-6 col-sm-6 order-2 order-sm-1">
-                 <p class="m-0 text-mute">© 2025 ssssssssDesign by <a class="text-secondary" href="tel:918950366489">IT Department</a>. All Rights Reserved.</p>
+                 <p class="m-0 text-mute">© 2025 Design by <a class="text-secondary" href="tel:918950366489">IT Department</a>. All Rights Reserved.</p>
              </div>
              <div class="col-lg-6 col-sm-6 order-1 order-sm-2">
                  <div class="social-share-alt text-lg-end text-mute">
