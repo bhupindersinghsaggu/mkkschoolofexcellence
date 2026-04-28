@@ -145,8 +145,8 @@ ini_set('display_errors', 1);
                         <a href="https://mkkschoolofexcellence.com/" target="_blank">
                             https://mkkschoolofexcellence.com/
                         </a><br>
-                        Email: [soepanipat@gmail.com]<br>
-                        Phone: [90342 52500]
+                        Email: soepanipat@gmail.com<br>
+                        Phone: 90342 52500
                     </p>
 
                 </div>
