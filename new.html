@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>MKK School Admissions</title>
-
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
 
     <style>
@@ -44,29 +44,58 @@
         }
 
         /* HERO */
-        .hero {
-            display: flex;
-            flex-wrap: wrap;
-            align-items: center;
-            justify-content: space-around;
-            padding: 120px 8% 80px;
+        /* MOBILE HERO FIX */
+        @media (max-width: 768px) {
 
-            background: radial-gradient(circle at top, #1e3a8a, #020617);
-        }
+            .hero {
+                flex-direction: column;
+                padding: 100px 20px 40px;
+                text-align: center;
+                gap: 25px;
+            }
 
-        .hero-text {
-            max-width: 550px;
-        }
+            .hero-text {
+                max-width: 100%;
+            }
 
-        .hero h1 {
-            font-size: 48px;
-            font-weight: 700;
-            margin-bottom: 15px;
-        }
+            .hero h1 {
+                font-size: 28px;
+                line-height: 1.3;
+            }
 
-        .hero p {
-            opacity: 0.8;
-            margin-bottom: 15px;
+            .hero-text p {
+                font-size: 15px;
+                margin-bottom: 10px;
+            }
+
+            .trust {
+                font-size: 14px;
+                line-height: 1.5;
+            }
+
+            /* BUTTON STACK */
+            .btn {
+                display: block;
+                width: 100%;
+                margin: 8px 0;
+            }
+
+            /* FORM FIX */
+            .form-box {
+                width: 100%;
+                max-width: 100%;
+                padding: 20px;
+            }
+
+            .form-box input,
+            .form-box select {
+                margin-bottom: 12px;
+            }
+
+            .apply {
+                font-size: 22px;
+            }
+
         }
 
         .highlight {
@@ -333,7 +362,7 @@
         .apply {
             padding-top: 30px;
             padding-bottom: 30px;
-                font-size: 32px;
+            font-size: 32px;
         }
 
         .testimonial {
@@ -388,6 +417,54 @@
                 grid-template-columns: 1fr;
             }
         }
+
+        .bg-dark {
+            --bs-bg-opacity: 0;
+            background-color: rgb(255 255 255) !important;
+        }
+
+        /* BADGE STYLE */
+        .badge-custom {
+            display: inline-block;
+            background: linear-gradient(90deg, #3b82f6, #2563eb);
+            color: #fff;
+            font-size: 16px;
+            padding: 6px 14px;
+            border-radius: 50px;
+            font-weight: 500;
+            margin-top: 8px;
+            margin-bottom: 8px;
+        }
+
+        /* SMOOTH BOUNCE */
+        @keyframes bounce {
+
+            0%,
+            100% {
+                transform: translateY(0);
+            }
+
+            50% {
+                transform: translateY(-6px);
+            }
+        }
+
+        /* APPLY ANIMATION */
+        .bounce {
+            animation: bounce 1.5s infinite ease-in-out;
+        }
+
+        @media (min-width: 1200px) {
+
+            .h1,
+            h1 {
+                font-size: 3.5rem;
+            }
+        }
+
+        .landind-logo {
+            max-width: 100px;
+        }
     </style>
 </head>
 
@@ -395,7 +472,7 @@
 
     <!-- NAV -->
     <!-- <div class="nav">
-        <div><strong>MKK School</strong></div>
+        <div><strong><img src="/images/logo.png"></strong></div>
         <div>
             <a href="#form">Apply</a>
             <a href="#">Visit</a>
@@ -403,42 +480,68 @@
     </div> -->
 
     <!-- HERO -->
-    <section class="hero">
-
-        <div class="hero-text">
-            <h1>Admissions Open <span class="highlight">2026–27 </span>in Panipat</h1>
-
-            <p>Limited Seats | Nursery to Class VII</p>
-
-            <div class="trust">
-                CBSE Curriculum • Safe Campus • Experienced Faculty
+    <div class="about-sec landing-header">
+        <div class="container">
+            <div class="row">
+                <div
+                    class="d-flex flex-column flex-md-row justify-content-center align-items-center gap-3 text-center mb-3 mt-3">
+                    <a href="landing.php">
+                        <img src="images/logo-landing.png" class="landind-logo" alt="Logo">
+                    </a>
+                    <h1 class="banner-sec2 hero-heading mb-0 fw-bold">
+                        School of <span class="color">Excellence</span>
+                    </h1>
+                </div>
             </div>
-
-            <a href="#form" class="btn btn-primary">Apply Now</a>
-            <a href="https://wa.me/919034252500" class="btn btn-outline">
-                💬 Chat for Admission
-            </a>
         </div>
+    </div>
+    <section class="hero py-5">
 
-        <div class="form-box" id="form">
-            <h3 class="apply">Apply for Admission</h3>
+        <div class="container">
+            <div class="row align-items-center g-4">
 
-            <input type="text" placeholder="Student Name" required>
-            <input type="tel" placeholder="Phone Number" required>
+                <!-- LEFT TEXT -->
+                <div class="col-lg-6 text-center text-lg-start">
 
-            <select>
-                <option>Select Class</option>
-                <option>Nursery</option>
-                <option>LKG</option>
-                <option>UKG</option>
-                <option>Class 1–12</option>
-            </select>
+                    <h1 class="fw-bold">
+                        Admissions Open <br><span class="text-success">2026–27</span> in Panipat
+                    </h1>
 
-            <button>Apply Now</button>
+                    <h3 class="mt-3 mb-3">
+                        Limited Seats | Pre Nursery to Class VII
+                    </h3>
 
-            <p style="font-size:12px;">
-                Our counselor will call you within 10 minutes
-            </p>
+                    <div class="mb-3 h5 mt-3">
+                        CBSE Curriculum • Safe Campus • Experienced Faculty
+                    </div>
+
+
+                    <a href=" #" class="btn btn-success me-2" data-bs-toggle="modal" data-bs-target="#applyModal">
+                        Apply Now
+                    </a>
+                    <a href=" https://wa.me/919034252500" class="btn btn-outline-light">
+                        💬 Chat for Admission
+                    </a>
+
+                </div>
+
+                <!-- RIGHT FORM -->
+                <div class="col-lg-5 offset-lg-1">
+                    <h3 class="mb-3">Apply for Admission</h3>
+                    <span class="badge-custom bounce">
+                        ✨ No Admission Fee
+                    </span>
+                    <div class="p-4 rounded-4 bg-dark bg-opacity-50 shadow" id="form">
+                        <iframe style="height:450px;" width="100%"
+                            src="https://curtina.in/_EazySchool/FormsWeb/frmEnquiry_Mkk.aspx?AppId=SOE">
+                        </iframe>
+                        <p class="text-center mt-3 ">
+                            Our counselor will call you within 10 minutes
+                        </p>
+                    </div>
+                </div>
+
+            </div>
         </div>
 
     </section>
@@ -523,7 +626,7 @@
         <p>Secure your child’s future today</p>
 
         <a href="#form" class="btn btn-primary">Apply Now</a>
-        <a href="https://wa.me/919876543210" class="btn btn-outline">Chat on WhatsApp</a>
+        <a href="https://wa.me/919034252500" class="btn btn-outline">Chat on WhatsApp</a>
     </section>
 
     <style>
@@ -558,10 +661,31 @@
             let phone = document.getElementById("phone").value;
             let cls = document.getElementById("class").value;
             let msg = `New Admission Lead:%0AName: ${name}%0APhone: ${phone}%0AClass: ${cls}`;
-            window.open(`https://wa.me/919876543210?text=${msg}`, "_blank");
+            window.open(`https://wa.me/919034252500?text=${msg}`, "_blank");
         }
     </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- MODAL -->
+    <div class="modal fade" id="applyModal" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content">
 
+                <!-- HEADER -->
+                <div class="modal-header">
+                    <h5 class="modal-title">Apply for Admission</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+
+                <!-- BODY -->
+                <div class="modal-body p-0">
+                    <iframe src="https://curtina.in/_EazySchool/FormsWeb/frmEnquiry_Mkk.aspx?AppId=SOE" width="100%"
+                        height="500" style="border:0;">
+                    </iframe>
+                </div>
+
+            </div>
+        </div>
+    </div>
 </body>
 
 </html>
