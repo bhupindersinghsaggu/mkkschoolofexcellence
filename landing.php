@@ -616,7 +616,7 @@ $meta_keywords = "School of Excellence, Best CBSE School Panipat, Top School in 
         /* MOBILE */
         @media (max-width: 768px) {
             .badge-custom2 {
-                font-size: 11px;
+                font-size: 16px;
                 /* 👈 text chhota */
                 padding: 6px 10px;
                 /* 👈 compact spacing */
