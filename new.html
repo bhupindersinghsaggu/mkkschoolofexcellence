@@ -50,7 +50,7 @@
             align-items: center;
             justify-content: space-around;
             padding: 120px 8% 80px;
-          
+
             background: radial-gradient(circle at top, #1e3a8a, #020617);
         }
 
@@ -74,8 +74,8 @@
         }
 
         .trust {
-            font-size: 14px;
-            opacity: 0.7;
+            font-size: 20px;
+            /* opacity: 0.7; */
             margin-bottom: 20px;
         }
 
@@ -111,14 +111,14 @@
             border-radius: 15px;
             backdrop-filter: blur(15px);
             box-shadow: 0 20px 60px rgba(0, 0, 0, 0.5);
-            width: 350px;
+            width: 550px;
         }
 
         .form-box input,
         .form-box select {
             width: 100%;
             padding: 12px;
-            margin-bottom: 12px;
+            margin-bottom: 24px;
             border-radius: 8px;
             border: none;
             outline: none;
@@ -137,14 +137,31 @@
         /* URGENCY */
         .urgency {
             background: linear-gradient(90deg, #ef4444, #dc2626);
-            padding: 12px;
+            font-size: 14px;
+            padding: 10px;
             text-align: center;
             font-weight: 600;
         }
 
+        /* Tablet */
+        @media (min-width: 768px) {
+            .urgency {
+                font-size: 16px;
+            }
+        }
+
+        /* Desktop */
+        @media (min-width: 1200px) {
+            .urgency {
+                font-size: 20px;
+                /* 🔥 bada text */
+                padding: 14px;
+            }
+        }
+
         /* FEATURES */
         .features {
-            padding: 80px 8%;
+            padding: 30px 8%;
             display: flex;
             gap: 25px;
             justify-content: center;
@@ -235,56 +252,193 @@
                 font-size: 32px;
             }
         }
+
+
+
+        /* TITLE */
+        .section-title {
+            font-size: 32px;
+            margin-bottom: 40px;
+        }
+
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 25px;
+            padding: 10px 50px 10px 50px;
+        }
+
+        /* CARD */
+        .gallery-item {
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 15px;
+            overflow: hidden;
+            transition: 0.3s;
+        }
+
+        /* HOVER */
+        .gallery-item:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+        }
+
+        /* IMAGE */
+        .gallery-item img {
+            width: 100%;
+            /* height: 200px;
+  object-fit: cover; */
+        }
+
+        /* CONTENT */
+        .content {
+            padding: 20px;
+            text-align: center;
+        }
+
+        /* ICON */
+        .content .icon {
+            font-size: 30px;
+            margin-bottom: 10px;
+        }
+
+        /* HEADING */
+        .content h3 {
+            font-size: 20px;
+            font-weight: 600;
+            margin-bottom: 8px;
+        }
+
+        /* TEXT */
+        .content p {
+            font-size: 14px;
+            opacity: 0.8;
+        }
+
+        /* Default (mobile) */
+        .hero-text p {
+            font-size: 24px;
+            opacity: 0.9;
+        }
+
+        /* Desktop */
+        @media (min-width: 1024px) {
+            .hero-text p {
+                font-size: 24px;
+                /* 👈 thoda chhota */
+                opacity: 0.7;
+                /* 👈 halka daba hua feel */
+            }
+        }
+
+        .apply {
+            padding-top: 30px;
+            padding-bottom: 30px;
+                font-size: 32px;
+        }
+
+        .testimonial {
+            padding: 80px 8%;
+            text-align: center;
+        }
+
+        /* GRID */
+        .testimonial-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 25px;
+            margin-top: 40px;
+        }
+
+        /* CARD */
+        .testimonial-box {
+            background: rgba(255, 255, 255, 0.05);
+            padding: 25px;
+            border-radius: 12px;
+            transition: 0.3s;
+        }
+
+        /* HOVER */
+        .testimonial-box:hover {
+            transform: translateY(-6px);
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+        }
+
+        /* TEXT */
+        .testimonial-box p {
+            font-size: 22px;
+            margin-bottom: 10px;
+            opacity: 0.85;
+        }
+
+        /* NAME */
+        .testimonial-box h4 {
+            font-size: 16px;
+            /* opacity: 0.6; */
+        }
+
+        /* RESPONSIVE */
+        @media (max-width: 992px) {
+            .testimonial-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+
+        @media (max-width: 600px) {
+            .testimonial-grid {
+                grid-template-columns: 1fr;
+            }
+        }
     </style>
 </head>
 
 <body>
 
     <!-- NAV -->
-    <div class="nav">
+    <!-- <div class="nav">
         <div><strong>MKK School</strong></div>
         <div>
             <a href="#form">Apply</a>
             <a href="#">Visit</a>
         </div>
-    </div>
+    </div> -->
 
     <!-- HERO -->
     <section class="hero">
 
         <div class="hero-text">
-            <h1>Admissions Open <span class="highlight">2026–27</span></h1>
+            <h1>Admissions Open <span class="highlight">2026–27 </span>in Panipat</h1>
 
-            <p>Limited Seats | Nursery to Class XII</p>
+            <p>Limited Seats | Nursery to Class VII</p>
 
             <div class="trust">
-                CBSE Affiliated • Safe Campus • Experienced Faculty
+                CBSE Curriculum • Safe Campus • Experienced Faculty
             </div>
 
             <a href="#form" class="btn btn-primary">Apply Now</a>
-            <a href="#" class="btn btn-outline">Book Visit</a>
+            <a href="https://wa.me/919034252500" class="btn btn-outline">
+                💬 Chat for Admission
+            </a>
         </div>
 
         <div class="form-box" id="form">
+            <h3 class="apply">Apply for Admission</h3>
 
-            <h3>Apply for Admission</h3>
+            <input type="text" placeholder="Student Name" required>
+            <input type="tel" placeholder="Phone Number" required>
 
-            <form onsubmit="sendLead(event)">
-                <input type="text" id="name" placeholder="Student Name" required>
-                <input type="tel" id="phone" placeholder="Phone Number" required>
+            <select>
+                <option>Select Class</option>
+                <option>Nursery</option>
+                <option>LKG</option>
+                <option>UKG</option>
+                <option>Class 1–12</option>
+            </select>
 
-                <select id="class">
-                    <option>Select Class</option>
-                    <option>Nursery</option>
-                    <option>LKG</option>
-                    <option>UKG</option>
-                    <option>Class 1–12</option>
-                </select>
+            <button>Apply Now</button>
 
-                <button>Apply Now</button>
-
-            </form>
-
+            <p style="font-size:12px;">
+                Our counselor will call you within 10 minutes
+            </p>
         </div>
 
     </section>
@@ -296,25 +450,71 @@
 
     <!-- FEATURES -->
     <section class="features">
-        <div class="feature">✔ CBSE Affiliated</div>
-        <div class="feature">✔ Safe Campus</div>
-        <div class="feature">✔ Smart Classes</div>
-        <div class="feature">✔ Transport Facility</div>
+        <h2 class="section-title">Why Choose School of Excellence</h2>
     </section>
-
     <!-- GALLERY -->
     <section class="gallery">
-        <img src="school1.jpg">
-        <img src="school2.jpg">
-        <img src="school3.jpg">
+
+        <div class="gallery-item">
+            <img src="/images/landing/3.webp">
+            <div class="content">
+                <div class="icon">🛡️</div>
+                <h3>Safe Campus</h3>
+                <p>Secure environment with CCTV & supervision</p>
+            </div>
+        </div>
+
+        <div class="gallery-item">
+            <img src="/images/landing/2.webp">
+            <div class="content">
+                <div class="icon">💻</div>
+                <h3>Smart Classes</h3>
+                <p>Modern digital classrooms for better learning</p>
+            </div>
+        </div>
+
+        <div class="gallery-item">
+            <img src="/images/landing/3.webp">
+            <div class="content">
+                <div class="icon">🎓</div>
+                <h3>CBSE Curriculum</h3>
+                <p>Quality education with structured curriculum</p>
+            </div>
+        </div>
+
+        <div class="gallery-item">
+            <img src="/images/landing/1.webp">
+            <div class="content">
+                <div class="icon">🚌</div>
+                <h3>Transport Facility</h3>
+                <p>Safe & reliable transport across the city</p>
+            </div>
+        </div>
+
     </section>
 
     <!-- TESTIMONIAL -->
     <section class="testimonial">
+
         <h2>What Parents Say</h2>
 
-        <div class="testimonial-box">
-            <p>"Best school in Panipat with excellent teachers and safe environment."</p>
+        <div class="testimonial-grid">
+
+            <div class="testimonial-box">
+                <p>"Best school in Panipat with excellent teachers and safe environment."</p>
+                <h4>- Parent</h4>
+            </div>
+
+            <div class="testimonial-box">
+                <p>"Teachers are very supportive and my child has improved a lot."</p>
+                <h4>- Parent</h4>
+            </div>
+
+            <div class="testimonial-box">
+                <p>"Safe campus and great learning environment. Highly recommended."</p>
+                <h4>- Parent</h4>
+            </div>
+
         </div>
 
     </section>
