@@ -99,7 +99,7 @@
         }
 
         .highlight {
-            color: #22c55e;
+            color: #ffc107;
         }
 
         .trust {
@@ -120,7 +120,7 @@
         }
 
         .btn-primary {
-            background: #22c55e;
+            background: #ffc107;
             color: #000;
         }
 
@@ -156,7 +156,7 @@
         .form-box button {
             width: 100%;
             padding: 12px;
-            background: #22c55e;
+            background: #ffc107;
             border: none;
             border-radius: 8px;
             font-weight: 600;
@@ -798,22 +798,13 @@
         💬 Chat for Admission
     </a>
 
-    <script>
-        function sendLead(e) {
-            e.preventDefault();
-            let name = document.getElementById("name").value;
-            let phone = document.getElementById("phone").value;
-            let cls = document.getElementById("class").value;
-            let msg = `New Admission Lead:%0AName: ${name}%0APhone: ${phone}%0AClass: ${cls}`;
-            window.open(`https://wa.me/919034252500?text=${msg}`, "_blank");
-        }
-    </script>
+   
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
     <!-- MODAL -->
     <div class="modal fade" id="applyModal" tabindex="-1">
         <div class="modal-dialog modal-dialog-centered modal-lg">
-            <div class="modal-content px-5 py-5">
-                <div class="px-5 text-center mt-3">
+            <div class="modal-content px-2 py-2">
+                <div class="px-2 text-center mt-3">
                     <h2 class="mb-3 highlight fw-bold ">Apply for Admission</h2>
                     <span class="badge-custom bounce">
                         ✨ No Admission Fee
