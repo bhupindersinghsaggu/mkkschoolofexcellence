@@ -85,7 +85,7 @@
                 <div class="d-flex justify-content-between">
                     <div class="quick-connect d-none d-xl-flex align-items-center">
                         <span class="d-none d-lg-block"><img class="me-2" src="images/icons/phone.png" alt="">Call Us:
-                            <a class="text-reset" href="tel:+919054252500"> 90342-525050</a></span>
+                            <a class="text-reset" href="tel:+919054252500"> 90342-52500</a></span>
                         <span><img class="me-2" src="images/icons/message.png" alt="Message"><a
                                 href="mailto:soepanipat@gmail.com">Soepanipat@gmail.com</span></a></span>
                     </div>
